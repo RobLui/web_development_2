@@ -4,4 +4,10 @@
 .top-bar li a {
   color: #036; }
 
+.top-bar-right {
+  padding: 0.7rem 1rem; }
+
+.input-group {
+  margin-bottom: 0px !important; }
+
 /*# sourceMappingURL=custom.css.map */

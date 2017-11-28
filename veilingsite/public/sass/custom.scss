@@ -8,8 +8,16 @@ $m: 100%;
     position: absolute;
   }
 
-  li a{
+  li a {
     color: $midnight-blue;
   }
+}
 
+
+.top-bar-right {
+  padding: 0.7rem 1rem
+}
+
+.input-group {
+  margin-bottom: 0px !important;
 }

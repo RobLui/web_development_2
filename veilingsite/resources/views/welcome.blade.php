@@ -10,10 +10,13 @@
         <!-- Fonts -->
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,600" >
         <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
-        
+        <link rel="stylesheet" type="text/css" href="{{ asset('css-foundation/app.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css-foundation/foundation.min.css') }}">
+
     </head>
     <body>
         <div class="flex-center position-ref full-height">
+
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth

@@ -7,3 +7,12 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Settings
+@import "settings";
+
+// Foundation
+@import "/node_modules/foundation-sites/scss/foundation";
+
+// Include Everything (True) for the Flex Grid :);
+@include foundation-everything(true);

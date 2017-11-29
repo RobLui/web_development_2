@@ -4,6 +4,6 @@
 
     @include('partials.nav-top')
     @include('partials.nav-bottom')
-
+    @include('partials.carousel')
 @endsection
 

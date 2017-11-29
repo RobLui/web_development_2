@@ -1,6 +1,11 @@
 $midnight-blue: #036;
-$m: 100%;
-$black: black;
+$black: #000;
+$active-bold: 700;
+$bold: 500;
+
+.midnight-blue {
+  color: $midnight-blue;
+}
 
 .top-nav {
   margin-top: 1em;
@@ -13,13 +18,27 @@ $black: black;
 .container{
 
   img {
-    height: 7em;
+    top: 0;
+    height: 10em;
     position: absolute;
+    margin-left: 4em;
+    z-index:1;
   }
 
-  li a {
-    color: $midnight-blue;
+  li {
+
+    a {
+      color: $midnight-blue;
+    }
+
+    p {
+      margin-top: 0.5em;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+
   }
+
 }
 
 .top-bar-right {
@@ -31,19 +50,35 @@ $black: black;
 }
 
 .black {
-  li a {
-    color: $black;
-    margin-right:2em;
-    font-weight: 500;
+
+  li {
+
+    a {
+      color: $black;
+      margin-right: 1em;
+      font-weight: $bold;
+    }
+
   }
+
 }
 .input-group {
 
   .form-control:first-child {
-    border-radius:5px;
+    border-radius: 5px;
   }
 
   input {
-    height:1.6rem;
+    height: 2rem;
+    width:2em;
   }
+
+}
+.menu {
+  float: left;
+  right: 0;
+}
+
+.active-bold {
+  font-weight: $active-bold;
 }

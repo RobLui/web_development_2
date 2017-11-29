@@ -12,6 +12,7 @@
     <title>{{ config('app.name', 'Veilingsite') }}</title>
 
     <!-- Styles -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <!-- Fonts -->
@@ -25,6 +26,9 @@
     {{-- Foundation --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('css-foundation/app.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css-foundation/foundation.min.css') }}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
     {{-- Font awesome --}}
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

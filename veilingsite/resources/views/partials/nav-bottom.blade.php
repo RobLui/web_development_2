@@ -3,6 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="col-md-10 col-md-offset-2">
+
                     <ul class="dropdown menu black" data-dropdown-menu>
                         <li><a href="{{ route('home') }}">HOME</a></li>
                         <li><a href="{{ route('art') }}">ART</a></li>
@@ -11,6 +12,13 @@
                         <li><a href="{{ route('mybids') }}">MYBIDS</a></li>
                         <li><a href="{{ route('contact') }}">CONTACT</a></li>
                     </ul>
+
+                    <ul class="menu pull-right">
+                        <li><a href="#">NL</a></li>
+                        <li><a href="#">FR</a></li>
+                        <li><a class="active-bold" href="#">EN</a></li>
+                    </ul>
+
                 </div>
             </div>
         </div>

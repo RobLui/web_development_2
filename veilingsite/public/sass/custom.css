@@ -1,5 +1,13 @@
+.background-none {
+  background: none; }
+  .background-none li + li::before {
+    content: ""; }
+
 .midnight-blue {
   color: #036; }
+
+.midnight-light-blue {
+  color: #66cccc; }
 
 .light-grey {
   color: #e6e6e6 !important; }

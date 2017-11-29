@@ -11,7 +11,7 @@
                         <p><img src="{{ asset('images/mockups/geld.png') }}" alt="Money"></p>
                         <p><img src="{{ asset('images/mockups/vrouw.png') }}" alt="Womans"></p>
                     </div>
-                    <div class="col-md-8 col-sm-8">
+                    <div class="col-md-8 col-sm-8 margin-bottom-2">
                         <p><img src="{{ asset('images/mockups/parfum.png') }}" alt="Perfume"></p>
                     </div>
                 </div>

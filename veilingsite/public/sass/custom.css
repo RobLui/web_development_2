@@ -2,13 +2,13 @@
   color: #036; }
 
 .light-grey {
-  color: #d1d1d1 !important; }
+  color: #e6e6e6 !important; }
 
 .light-dark-grey {
   color: grey !important; }
 
 .background-light-grey {
-  background-color: #d1d1d1; }
+  background-color: #e6e6e6; }
 
 .top-nav {
   margin-top: 1em; }
@@ -94,5 +94,9 @@
 
 .bottom {
   bottom: 0; }
+
+.rotate-90 {
+  transform: rotate(180deg);
+  max-height: 1em; }
 
 /*# sourceMappingURL=custom.css.map */

@@ -3,7 +3,7 @@
 $midnight-blue: #036;
 $midnight-light-blue: #66cccc;
 
-$light-grey: #d1d1d1;
+$light-grey: #e6e6e6;
 $light-dark-grey: grey;
 
 $black: #000;
@@ -164,4 +164,10 @@ $vet: 300;
 
 .bottom {
   bottom:0;
+}
+
+
+.rotate-90 {
+  transform: rotate(180deg);
+  max-height:1em;
 }

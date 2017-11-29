@@ -2,19 +2,27 @@
 $midnight-blue: #036;
 $midnight-light-blue: #66cccc;
 $light-grey: #d3d3d3;
+$light-dark-grey: grey;
 $black: #000;
+$full-width: 100%;
 
 //WEIGHTS
 $active-bold: 700;
 $bold: 500;
+$vet: 300;
 
 .midnight-blue {
   color: $midnight-blue;
 }
 
 .light-grey {
-  color: $light-grey;
+  color: $light-grey !important;
 }
+
+.light-dark-grey {
+  color: $light-dark-grey !important;
+}
+
 .background-light-grey {
   background-color: $light-grey;
 }
@@ -39,6 +47,10 @@ $bold: 500;
   margin-bottom: 2em;
 }
 
+.margin-top-1 {
+  margin-top: 1em;
+}
+
 .margin-top-2 {
   margin-top: 2em;
 }
@@ -49,6 +61,11 @@ $bold: 500;
 
 .margin-top-6 {
   margin-top: 6em;
+}
+
+.full-width {
+  width: $full-width;
+  display: block;
 }
 
 .container{
@@ -85,6 +102,7 @@ $bold: 500;
   .list-unstyled {
     a {
       color: $midnight-light-blue;
+      font-weight: $active-bold;
     }
   }
 }
@@ -136,4 +154,8 @@ $bold: 500;
 
 .active-bold {
   font-weight: $active-bold;
+}
+
+.bottom {
+  bottom:0;
 }

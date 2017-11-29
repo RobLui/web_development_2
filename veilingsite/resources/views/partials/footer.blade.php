@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row footer-container margin-top-6">
 
-           <div class="col-md-9">
+           <div class="col-md-8">
                 <div class="col-md-4">
 
                     <ul class="list-group">
@@ -88,7 +88,7 @@
 
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-4">
                     {{--START SEARCH--}}
                     {{--END SEARCH--}}
                     <ul class="list-group">
@@ -96,27 +96,25 @@
 
                         <li class="menu">
                             {!! Form::open(array('route' => 'home', 'class' => 'form-horizontal')) !!}
-                            <div class="input-group">
+                            <div class="input-group margin-top-1">
                                 <input type="text" class="form-control" name="searchtext" placeholder="Search">
                                 <button class="margin-left-half" type="submit"><span class="fa fa-search fa-2x midnight-blue"></span></button>
                             </div>
                             {{ Form::close() }}
                         </li>
 
-                        <li class="list-unstyled margin-top-3">
-                            <a href="#">CONTACT</a>
-                            <p>
-                                <span>Landoretti ART</span>
-                                <br>
-                                <span>Straatnaam xxx</span>
-                                <br>
-                                <span>xxxx, Oostende</span>
-                            </p>
+                        <li class="list-unstyled margin-top-6">
+                            <a class="black full-width" href="#">CONTACT</a>
+                            <span class="light-dark-grey">Landoretti ART</span>
+                            <br>
+                            <span class="light-dark-grey">Straatnaam xxx</span>
+                            <br>
+                            <span class="light-dark-grey">xxxx, Oostende</span>
                         </li>
 
-                        <li class="list-unstyled">
+                        <li class="list-unstyled margin-top-2">
                             <i class="fa fa-phone" aria-hidden="true"></i>
-                            <a href="tel:+xx (0)x xxx xx xx">+xx (0)x xxx xx xx</a>
+                            <a class="light-dark-grey" href="tel:+xx (0)x xxx xx xx">+xx (0)x xxx xx xx</a>
                         </li>
 
                         <li class="list-unstyled">
@@ -133,7 +131,9 @@
                             <a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
                         </li>
                     </ul>
+                    <div class="bottom">
+                        <p>&copy; 2013 Studio6, Inc. All rights reserved.</p>
+                    </div>
             </div>
-
        </div>
 </div>

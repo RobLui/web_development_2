@@ -1,8 +1,11 @@
 //COLORS
+
 $midnight-blue: #036;
 $midnight-light-blue: #66cccc;
-$light-grey: #d3d3d3;
+
+$light-grey: #d1d1d1;
 $light-dark-grey: grey;
+
 $black: #000;
 $full-width: 100%;
 
@@ -63,6 +66,9 @@ $vet: 300;
   margin-top: 6em;
 }
 
+.margin-top-12 {
+  margin-top: 12em;
+}
 .full-width {
   width: $full-width;
   display: block;

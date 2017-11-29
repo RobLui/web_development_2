@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row footer-container margin-top-6">
 
-           <div class="col-md-8">
-                <div class="col-md-4">
+           <div class="col-md-8 col-sm-8">
+                <div class="col-md-4 col-sm-4">
 
                     <ul class="list-group">
                         <li class="list-unstyled"><a class="black" href="#">HELP</a></li>
@@ -27,7 +27,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-4">
 
                     <ul class="list-group">
                         <li class="list-unstyled"><a class="black" href="#">STYLE</a></li>
@@ -57,7 +57,7 @@
 
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4">
 
                     <ul class="list-group">
                         <li class="list-unstyled"><a class="black" href="#">PRICE</a></li>
@@ -88,7 +88,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
                     {{--START SEARCH--}}
                     {{--END SEARCH--}}
                     <ul class="list-group">
@@ -131,9 +131,13 @@
                             <a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
                         </li>
                     </ul>
-                    <div class="bottom">
-                        <p>&copy; 2013 Studio6, Inc. All rights reserved.</p>
-                    </div>
+                    <ul class="list-group">
+                        <li class="list-unstyled">
+                            <div class="bottom light-dark-grey margin-top-12">
+                                &copy; 2013 Studio6, Inc. All rights reserved.
+                            </div>
+                        </li>
+                    </ul>
             </div>
        </div>
 </div>

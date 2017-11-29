@@ -2,13 +2,13 @@
   color: #036; }
 
 .light-grey {
-  color: #d3d3d3 !important; }
+  color: #d1d1d1 !important; }
 
 .light-dark-grey {
   color: grey !important; }
 
 .background-light-grey {
-  background-color: #d3d3d3; }
+  background-color: #d1d1d1; }
 
 .top-nav {
   margin-top: 1em; }
@@ -36,6 +36,9 @@
 
 .margin-top-6 {
   margin-top: 6em; }
+
+.margin-top-12 {
+  margin-top: 12em; }
 
 .full-width {
   width: 100%;

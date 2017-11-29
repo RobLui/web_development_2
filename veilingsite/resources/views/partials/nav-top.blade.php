@@ -10,8 +10,25 @@
                         <li><p class="midnight-blue">|</p></li>
                         <li><a href="#"> <i class="fa fa-user"></i> PROFILE </a></li>
                         <li><p class="midnight-blue">|</p></li>
-                        <li><a href="#">LOGOUT</a></li>
-                    </ul>
+                        @guest
+                        <li><a href="{{ route('login') }}">LOGIN</a></li>
+                        <li><p class="midnight-blue">|</p></li>
+
+                        <li><a href="{{ route('register') }}">REGISTER</a></li>
+                        @else
+                          <li>
+                            <a href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                         document.getElementById('logout-form').submit();">
+                                LOGOUT
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                {{ csrf_field() }}
+                            </form>
+                          </li>
+                            @endguest
+                      </ul>
 
                     <ul class="menu pull-right">
                         <li>

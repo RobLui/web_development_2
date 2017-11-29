@@ -8,4 +8,6 @@
 
     @include('partials.carousel')
 
+    @include('partials.nav-bottom')
+
 @endsection

@@ -1,7 +1,7 @@
 <div class="top-nav">
     <div class="container">
         <div class="row">
-            <a href="{{ route('home') }}"><img src="{{ asset('images/logo.jpg') }}" alt="logo"></a>
+            <a class="logo" href="{{ route('home') }}"><img src="{{ asset('images/logo.jpg') }}" alt="logo"></a>
             <div class="col-md-12">
                 <div class="col-md-10 col-md-offset-2">
 

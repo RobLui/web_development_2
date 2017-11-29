@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class myAuctionsController extends Controller
 {
     public function index() {
-        return;
+        return view('myauctions');
     }
 }

@@ -3,10 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use function view;
 
-class IsearchController extends Controller
+class DetailController extends Controller
 {
+
     public function index() {
-        return view('isearch');
+        return view('detail');
     }
+
 }

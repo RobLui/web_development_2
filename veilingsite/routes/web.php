@@ -29,3 +29,7 @@ Route::get('/mybids', 'myBidsController@index')
 Route::get('/contact', 'ContactController@index')
     ->name('contact')
 ;
+
+Route::get('/detail', 'DetailController@index')
+    ->name('detail')
+;

@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row footer-container">
+    <div class="row footer-container margin-top-6">
 
            <div class="col-md-9">
                 <div class="col-md-4">
@@ -89,19 +89,50 @@
             </div>
 
             <div class="col-md-3">
-                <div class="col-md-12 col-sm-12">
                     {{--START SEARCH--}}
-                    <h6 class="col-md-12"><a class="black" href="#">FIND WHAT YOU NEED</a></h6>
                     {{--END SEARCH--}}
-                    <ul>
-                        <a class="col-md-12" href="#">CONTACT</a>
-                        <p>Landoretti Art</p>
-                        <p>Straatnaam xxx</p>
-                        <p>xxxx, Oostende</p>
+                    <ul class="list-group">
+                        <li class="list-unstyled"><a class="black" href="#">FIND WHAT YOU NEED</a></li>
+
+                        <li class="menu">
+                            {!! Form::open(array('route' => 'home', 'class' => 'form-horizontal')) !!}
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="searchtext" placeholder="Search">
+                                <button class="margin-left-half" type="submit"><span class="fa fa-search fa-2x midnight-blue"></span></button>
+                            </div>
+                            {{ Form::close() }}
+                        </li>
+
+                        <li class="list-unstyled margin-top-3">
+                            <a href="#">CONTACT</a>
+                            <p>
+                                <span>Landoretti ART</span>
+                                <br>
+                                <span>Straatnaam xxx</span>
+                                <br>
+                                <span>xxxx, Oostende</span>
+                            </p>
+                        </li>
+
+                        <li class="list-unstyled">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="tel:+xx (0)x xxx xx xx">+xx (0)x xxx xx xx</a>
+                        </li>
+
+                        <li class="list-unstyled">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:info@landorettiart.com">info@landorettiart.com</a>
+                        </li>
+
                     </ul>
-                    <a class="col-md-12" href="#">Purchase Now</a>
-                    <a class="col-md-12" href="#">1990s-Present</a>
-                </div>
+                    <ul class="list-group">
+                        <li class="list-unstyled">
+                            <a href="#"><i class="fa fa-facebook fa-2x margin-right-1" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-2x margin-right-1" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-youtube fa-2x margin-right-1" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
             </div>
 
        </div>

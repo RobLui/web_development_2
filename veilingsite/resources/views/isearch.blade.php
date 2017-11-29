@@ -2,6 +2,8 @@
 
 @section('content')
 
+    <div class="line"></div>
+
     @include('partials.nav-top')
 
     @include('partials.nav-bottom')
@@ -29,13 +31,8 @@
                     <li class="list-unstyled">
                         <h4 class="light-dark-grey">Add a request</h4>
                     </li>
-
-
-
-
                 </ul>
             </div>
-
     </div>
 
 
@@ -112,5 +109,7 @@
     </div>
 
     @include('partials.nav-bottom')
+
+    <div class="line"></div>
 
 @endsection

@@ -3,6 +3,9 @@
   .background-none li + li::before {
     content: ""; }
 
+.line {
+  border: 3px solid #66cccc; }
+
 .midnight-blue {
   color: #036; }
 

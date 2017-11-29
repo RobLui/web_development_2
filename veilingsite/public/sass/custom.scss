@@ -1,10 +1,22 @@
+//COLORS
 $midnight-blue: #036;
+$midnight-light-blue: #66cccc;
+$light-grey: #d3d3d3;
 $black: #000;
+
+//WEIGHTS
 $active-bold: 700;
 $bold: 500;
 
 .midnight-blue {
   color: $midnight-blue;
+}
+
+.light-grey {
+  color: $light-grey;
+}
+.background-light-grey {
+  background-color: $light-grey;
 }
 
 .top-nav {
@@ -15,16 +27,16 @@ $bold: 500;
   margin-left: 0.5em;
 }
 
-.margin-top-2 {
-  margin-top: 2em;
+.margin-bottom-1 {
+  margin-bottom: 1em;
 }
 
 .margin-bottom-2 {
   margin-bottom: 2em;
 }
 
-.margin-bottom-1 {
-  margin-bottom: 1em;
+.margin-top-2 {
+  margin-top: 2em;
 }
 
 .container{
@@ -57,6 +69,14 @@ $bold: 500;
 
 }
 
+.footer-container {
+  .list-unstyled {
+    a {
+      color: $midnight-light-blue;
+    }
+  }
+}
+
 .top-bar-right {
   padding: 0.7rem 1rem
 }
@@ -66,6 +86,7 @@ $bold: 500;
 }
 
 .black {
+  color: $black !important;
 
   li {
 
@@ -74,6 +95,7 @@ $bold: 500;
       margin-right: 1em;
       font-weight: $bold;
     }
+
     a:hover {
       color: $midnight-blue;
     }

@@ -1,7 +1,16 @@
 $midnight-blue: #036;
 $m: 100%;
+$black: black;
 
-.top-bar {
+.top-nav {
+  margin-top: 1em;
+}
+
+.margin-left-half {
+  margin-left: 0.5em;
+}
+
+.container{
 
   img {
     height: 7em;
@@ -13,11 +22,28 @@ $m: 100%;
   }
 }
 
-
 .top-bar-right {
   padding: 0.7rem 1rem
 }
 
 .input-group {
   margin-bottom: 0px !important;
+}
+
+.black {
+  li a {
+    color: $black;
+    margin-right:2em;
+    font-weight: 500;
+  }
+}
+.input-group {
+
+  .form-control:first-child {
+    border-radius:5px;
+  }
+
+  input {
+    height:1.6rem;
+  }
 }

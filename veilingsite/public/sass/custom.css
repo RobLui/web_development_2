@@ -1,7 +1,13 @@
-.top-bar img {
+.top-nav {
+  margin-top: 1em; }
+
+.margin-left-half {
+  margin-left: 0.5em; }
+
+.container img {
   height: 7em;
   position: absolute; }
-.top-bar li a {
+.container li a {
   color: #036; }
 
 .top-bar-right {
@@ -9,5 +15,15 @@
 
 .input-group {
   margin-bottom: 0px !important; }
+
+.black li a {
+  color: black;
+  margin-right: 2em;
+  font-weight: 500; }
+
+.input-group .form-control:first-child {
+  border-radius: 5px; }
+.input-group input {
+  height: 1.6rem; }
 
 /*# sourceMappingURL=custom.css.map */

@@ -2,7 +2,8 @@
 
 @section('content')
 
-    @include('partials.nav')
+    @include('partials.nav-top')
+    @include('partials.nav-bottom')
 
 @endsection
 

@@ -245,7 +245,7 @@
                     <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
                 </td>
             </tr>
-        
+
 
         </tbody>
     </table>

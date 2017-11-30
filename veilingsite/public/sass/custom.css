@@ -1,3 +1,6 @@
+* {
+  font-family: Arial, Helvetica, sans-serif; }
+
 .background-none {
   background: none; }
   .background-none li + li::before {

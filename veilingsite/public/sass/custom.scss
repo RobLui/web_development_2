@@ -1,5 +1,4 @@
-//COLORS
-
+// COLORS
 $midnight-blue: #036;
 $midnight-light-blue: #66cccc;
 
@@ -9,7 +8,7 @@ $light-dark-grey: grey;
 $black: #000;
 $full-width: 100%;
 
-//WEIGHTS
+// WEIGHTS
 $active-bold: 700;
 $bold: 500;
 $vet: 300;
@@ -21,12 +20,9 @@ $vet: 300;
   }
 }
 
+// COLORS IMPLEMENTED
 .line {
   border: 3px solid $midnight-light-blue;
-}
-
-.nav {
-
 }
 
 .midnight-blue {
@@ -49,10 +45,7 @@ $vet: 300;
   background-color: $light-grey;
 }
 
-.top-nav {
-  margin-top: 1em;
-}
-
+// MARGINS
 .margin-left-half {
   margin-left: 0.5em;
 }
@@ -70,6 +63,10 @@ $vet: 300;
 }
 
 .margin-bottom-2 {
+  margin-bottom: 2em;
+}
+
+.margin-bottom-3 {
   margin-bottom: 2em;
 }
 
@@ -92,9 +89,14 @@ $vet: 300;
 .margin-top-12 {
   margin-top: 12em;
 }
+
 .full-width {
   width: $full-width;
   display: block;
+}
+
+.top-nav {
+  margin-top: 1em;
 }
 
 .container{
@@ -104,7 +106,7 @@ $vet: 300;
     height: 10em;
     position: absolute;
     margin-left: 4em;
-    z-index:1;
+    z-index: 1;
   }
 
   li {
@@ -140,14 +142,9 @@ $vet: 300;
   padding: 0.7rem 1rem
 }
 
-.input-group {
-  margin-bottom: 0px !important;
-}
-
 .black {
   color: $black !important;
   font-weight: $bold;
-
 
   li {
 
@@ -164,6 +161,11 @@ $vet: 300;
   }
 
 }
+
+.input-group {
+  margin-bottom: 0px !important;
+}
+
 .input-group {
 
   .form-control:first-child {
@@ -172,10 +174,11 @@ $vet: 300;
 
   input {
     height: 2rem;
-    width:2em;
+    width: 2em;
   }
 
 }
+
 .menu {
   float: left;
   right: 0;
@@ -186,11 +189,10 @@ $vet: 300;
 }
 
 .bottom {
-  bottom:0;
+  bottom: 0;
 }
-
 
 .rotate-90 {
   transform: rotate(180deg);
-  max-height:1em;
+  max-height: 1em;
 }

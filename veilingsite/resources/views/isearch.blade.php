@@ -10,103 +10,56 @@
 
     @include('partials.carousel')
 
-    <div class="col-md-12">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="col-md-12 col-sm-12">
-                <ul class="list-group margin-top-1">
-                    <li class="list-unstyled float-left"><a class="midnight-light-blue float-left" href="{{ route('home') }}">Home > </a></li>
-                    <li class="list-unstyled float-left margin-left-1">
-                        <span class="show-for-sr midnight-blue"></span><p class="midnight-light-blue">I Search </p>
-                    </li>
-                </ul>
-            </div>
+    <div class="col-md-12 col-sm-12">
+
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
 
             <div class="col-md-12 col-sm-12">
-                <ul class="list-group margin-top-1">
 
-                    <li class="list-unstyled">
-                        <h2>I Search</h2>
-                    </li>
+                <div class="margin-top-1 margin-left-1">
+                    <a class="midnight-light-blue float-left margin-right-1" href="{{ route('home') }}">Home > </a></li>
+                    <span class="show-for-sr midnight-blue float-left">
+                    </span><p class="midnight-light-blue">I Search </p>
+                </div>
 
-                    <li class="list-unstyled">
-                        <h4 class="light-dark-grey">Add a request</h4>
-                    </li>
-                </ul>
-            </div>
-    </div>
-
-
-        <div class="col-md-10 col-md-offset">
-
-        <form>
-            <div class="row">
-                <div class="col-md-12">
-                    <label>Input Label
-                        <input type="text" placeholder="large-12.columns" />
-                    </label>
+                <div class="margin-top-1 margin-left-1">
+                    <h2 class="margin-bottom-1">I search</h2>
+                    <h5 class="light-dark-grey">Add a request</h5>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <label>Input Label
-                        <input type="text" placeholder="large-4.columns" />
-                    </label>
-                </div>
-                <div class="col-md-4">
-                    <label>Input Label
-                        <input type="text" placeholder="large-4.columns" />
-                    </label>
-                </div>
-                <div class="col-md-4">
-                    <div class="row collapse">
-                        <label>Input Label</label>
-                        <div class="small-9 columns">
-                            <input type="text" placeholder="small-9.columns" />
-                        </div>
-                        <div class="small-3 columns">
-                            <span class="postfix">.com</span>
-                        </div>
+
+            <form>
+                <div class="col-md-12 col-sm-12">
+
+                    <div class="col-md-6 col-sm-6">
+                        <label class="midnight-blue">What are you looking for?
+                            <input type="text" placeholder="input something here" />
+                        </label>
                     </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <label>Select Box
-                        <select>
-                            <option value="husker">Husker</option>
-                            <option value="starbuck">Starbuck</option>
-                            <option value="hotdog">Hot Dog</option>
-                            <option value="apollo">Apollo</option>
-                        </select>
-                    </label>
-                </div>
-            </div>
+                    <div class="col-md-6 col-sm-6">
+                        <label class="midnight-blue">Artist
+                            <input type="text" placeholder="enter a name" />
+                        </label>
+                    </div>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <label>Choose Your Favorite</label>
-                    <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
-                    <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
-                </div>
-                <div class="col-md-6">
-                    <label>Check these out</label>
-                    <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-                    <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-                </div>
-            </div>
+                    <div class="col-md-8 col-sm-8">
+                        <label>Information about the artwork
+                            <textarea placeholder="enter more info"></textarea>
+                        </label>
+                    </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <label>Textarea Label
-                        <textarea placeholder="small-12.columns"></textarea>
-                    </label>
+                    <div class="col-md-4 col-sm-4">
+                        <br>
+                        <button class="button" >default button</button>
+                    </div>
+
                 </div>
-            </div>
-        </form>
+            </form>
         </div>
+
     </div>
-    </div>
+</div>
 
     @include('partials.nav-bottom')
 

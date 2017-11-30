@@ -1,5 +1,5 @@
 <div class="top-nav">
-    <div class="container">
+    <div class="container negative">
         <div class="row">
             <a class="logo" href="{{ route('home') }}"><img src="{{ asset('images/logo.jpg') }}" alt="logo"></a>
             <div class="col-md-12">

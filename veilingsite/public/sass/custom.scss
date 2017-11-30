@@ -20,9 +20,13 @@ $vet: 300;
   }
 }
 
+.negative {
+  margin-top: -0.5em;
+}
+
 // COLORS IMPLEMENTED
 .line {
-  border: 3px solid $midnight-light-blue;
+  border: 2px solid $midnight-light-blue;
 }
 
 .midnight-blue {
@@ -46,8 +50,21 @@ $vet: 300;
 }
 
 // MARGINS
+
 .margin-left-half {
   margin-left: 0.5em;
+}
+
+.margin-right-half {
+  margin-right: 0.5em;
+}
+
+.margin-bottom-half {
+  margin-bottom: 0.5em;
+}
+
+.margin-top-half {
+  margin-top: 0.5em;
 }
 
 .margin-right-1 {
@@ -195,4 +212,10 @@ $vet: 300;
 .rotate-90 {
   transform: rotate(180deg);
   max-height: 1em;
+}
+
+.isearch {
+    :focus {
+      background: $light-grey;
+    }
 }

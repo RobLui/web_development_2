@@ -8,7 +8,11 @@
                     <ul class="dropdown menu" data-dropdown-menu>
                         <li><a href="#"> <i class="fa fa-bars margin-right-half"></i> WATCHLIST </a></li>
                         <li><p class="midnight-blue">|</p></li>
-                        <li><a href="#"> <i class="fa fa-user margin-right-half"></i> PROFILE </a></li>
+                            <li><a href="#">
+                                {{--<i class="fa fa-user margin-right-half"></i>--}}
+                                <img class="margin-right-half" src="{{ asset('images/elements/user.png') }}" alt="user">
+                                PROFILE
+                            </a></li>
                         <li><p class="midnight-blue">|</p></li>
                         @guest
                         <li><a href="{{ route('login') }}">LOGIN</a></li>

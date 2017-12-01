@@ -12,26 +12,26 @@
 
     <div class="col-md-12 col-sm-12">
 
-        <div class="col-md-9 col-md-offset-1 col-sm-9 col-sm-offset-1">
+        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
 
-            <div class="col-md-12 col-sm-12">
-
-                <div class="margin-top-2 margin-left-1">
-                    <span class="float-right light-dark-grey active-bold">
-                        Lot ID: 84611
-                    </span>
-                    <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Home > </a></li>
-                    <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Auctions > </a></li>
-                    <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Salvador Dali > </a></li>
-                    <span class="show-for-sr midnight-blue float-left"></span>
-                    <p class="midnight-light-blue active-bold">Dance of Time III </p>
-                </div>
-
-                <div class="margin-top-1 margin-left-1">
+                <div class="margin-left-1 margin-top-2">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="col-md-9">
+                            <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Home > </a></li>
+                            <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Auctions > </a></li>
+                            <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Salvador Dali > </a></li>
+                            <span class="show-for-sr midnight-blue float-left"></span>
+                            <p class="midnight-light-blue active-bold">Dance of Time III </p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-md-12">
+                                <p class="light-dark-grey active-bold margin-left-6"> Lot ID: 84611</p>
+                            </div>
+                        </div>
+                <div class="margin-left-1">
                     <h2 class="margin-bottom-half light-dark-grey">Dance of Time III</h2>
                     <p><span class="light-dark-grey">25d 14u 44m</span><span class="midnight-blue margin-left-half"> (7 bids)<i class="fa fa-bars margin-left-half"></i> </span></p>
                 </div>
-
             </div>
 
             <div class="col-md-8 col-sm-8 margin-bottom-2">
@@ -50,8 +50,7 @@
             </div>
 
             <div class="col-md-4 col-sm-4">
-
-                <div class="col-md-12 col-sm-12 top-part">
+                <div class="col-md-9 col-sm-9 top-part">
                     <h4 class="pull-right">Dance of Time III</h4>
                     <p class="midnight-blue pull-right">1979, Salvador Dali</p>
                     <hr>
@@ -62,15 +61,26 @@
                     <a class="black active-bold underlined pull-right" href="#">more</a>
                 </div>
 
-                <div class="col-md-12 col-sm-12 bottom-part margin-top-2 bordered">
+                <div class="col-md-9 col-sm-9 bottom-part margin-top-2 bordered">
                     <p class="margin-top-half pull-right midnight-blue">
                         Estimated price:
                         <br>
                         <h4 class="pull-right midnight-blue active-bold">&euro; 9.500 - &euro; 10.500</h4>
+                        <span class="pull-right">
+                            <a class="midnight-light-blue underlined active-bold" href="#">Buy now for: &euro; 15.000</a>
+                        </span>
                     </p>
+
+                    <div class="float-left margin-top-1 background-light-grey full-width">
+                        <a class="text-right" href="#">Bid now ></a>
+                        <input type="text">
+                    </div>
                 </div>
 
             </div>
+
+            </div>
+                </div>
 
             </div>
         </div>

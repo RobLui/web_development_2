@@ -2,13 +2,13 @@
     <div class="container negative">
         <div class="row">
             <a class="logo" href="{{ route('home') }}"><img src="{{ asset('images/logo.jpg') }}" alt="logo"></a>
-            <div class="col-md-12">
-                <div class="col-md-10 col-md-offset-2">
+            <div class="col-md-12 col-sm-12">
+                <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
 
                     <ul class="dropdown menu" data-dropdown-menu>
-                        <li><a href="#"> <i class="fa fa-bars"></i> WATCHLIST </a></li>
+                        <li><a href="#"> <i class="fa fa-bars margin-right-half"></i> WATCHLIST </a></li>
                         <li><p class="midnight-blue">|</p></li>
-                        <li><a href="#"> <i class="fa fa-user"></i> PROFILE </a></li>
+                        <li><a href="#"> <i class="fa fa-user margin-right-half"></i> PROFILE </a></li>
                         <li><p class="midnight-blue">|</p></li>
                         @guest
                         <li><a href="{{ route('login') }}">LOGIN</a></li>

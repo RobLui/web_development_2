@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
+                <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-xs-12">
 
                     <ul class="dropdown menu black" data-dropdown-menu>
                         <li><a href="{{ route('home') }}">HOME</a></li>

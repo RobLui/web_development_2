@@ -8,7 +8,7 @@
 
     @include('partials.nav-bottom')
 
-    @include('partials.carousel')
+    @include('partials.no-carousel')
 
     @include('partials.nav-bottom')
 

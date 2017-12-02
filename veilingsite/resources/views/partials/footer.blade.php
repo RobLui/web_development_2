@@ -120,7 +120,7 @@
 
                         <li class="list-unstyled">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <a href="mailto:info@landorettiart.com">info@landorettiart.com</a>
+                            <a class="underlined" href="mailto:info@landorettiart.com">info@landorettiart.com</a>
                         </li>
 
                     </ul>

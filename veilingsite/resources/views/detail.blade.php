@@ -93,8 +93,10 @@
                     </div>
                 </div>
             </div>
-                <div class="background-light-grey">
-        @include('partials.thumbnail-gallery')</div>
+
+            <div class="background-light-grey full-width">
+                @include('partials.thumbnail-gallery')
+            </div>
 
         </div>
     </div>

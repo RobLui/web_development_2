@@ -6,13 +6,21 @@
                 <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
 
                     <ul class="dropdown menu" data-dropdown-menu>
-                        <li><a href="#"> <i class="fa fa-bars margin-right-half"></i> WATCHLIST </a></li>
+                        <li>
+                            <a href="#">
+                                <img class="margin-right-half" src="{{ asset('images/elements/bars.png') }}" alt="user">
+                                {{--<i class="fa fa-bars margin-right-half"></i>--}}
+                                WATCHLIST
+                            </a>
+                        </li>
                         <li><p class="midnight-blue">|</p></li>
-                            <li><a href="#">
+                            <li>
+                                <a href="#">
                                 {{--<i class="fa fa-user margin-right-half"></i>--}}
                                 <img class="margin-right-half" src="{{ asset('images/elements/user.png') }}" alt="user">
                                 PROFILE
-                            </a></li>
+                            </a>
+                            </li>
                         <li><p class="midnight-blue">|</p></li>
                         @guest
                         <li><a href="{{ route('login') }}">LOGIN</a></li>

@@ -1,6 +1,6 @@
 // COLORS
 $midnight-blue: #036;
-$midnight-light-blue: #66cccc;
+$midnight-light-blue: #33cccc;
 
 $light-grey: #e6e6e6;
 $light-dark-grey: grey;
@@ -76,6 +76,10 @@ $vet: 300;
 
 .margin-top-half {
   margin-top: 0.5em;
+}
+
+.margin-top-anderhalf {
+  margin-top: 1.5em;
 }
 
 //RIGHT-LEFT
@@ -259,4 +263,12 @@ $vet: 300;
 
 .hug-top {
   margin-top:-0.7em;
+}
+
+.bordered-top {
+  border-top: 1px solid $light-grey;
+}
+
+.bordered-left {
+  border-left: 1px solid $light-grey;
 }

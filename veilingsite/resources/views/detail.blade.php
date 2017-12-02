@@ -77,14 +77,14 @@
                         <form>
                             <div class="form-group row background-light-blue">
                                 <div class="col-md-6 col-sm-6 margin-top-1">
-                                    <input type="text" class="form-control" placeholder="">
+                                    <input type="text" class="form-control" placeholder="&euro;">
                                 </div>
-                                <div class="col-md-6 col-sm-6 margin-top-1">
-                                    <a class="white active-bold" href="#">BID NOW ></a>
+                                <div class="col-md-6 col-sm-6 margin-top-anderhalf">
+                                    <a class="white active-bold" href="#">BID NOW <img class="margin-left-half" src="{{ asset('images/elements/pijltje.png') }}" alt="arrow"></a>
                                 </div>
                             </div>
                         </form>
-                        <div class="text-center margin-bottom-half">
+                        <div class="text-center margin-bottom-half hug-top">
                             <i class="fa fa-bars"></i>
                             <a class="midnight-blue underlined active-bold" href="#">
                                 add to my watchlist

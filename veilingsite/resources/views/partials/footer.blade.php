@@ -1,8 +1,8 @@
 <div class="container">
-    <div class="row footer-container margin-top-6">
+    <div class="row footer-container margin-top-6 bordered-top">
 
            <div class="col-md-8 col-sm-8">
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4 margin-top-2">
 
                     <ul class="list-group">
                         <li class="list-unstyled"><a class="black" href="#">HELP</a></li>
@@ -27,7 +27,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4 margin-top-2">
 
                     <ul class="list-group">
                         <li class="list-unstyled"><a class="black" href="#">STYLE</a></li>
@@ -57,7 +57,7 @@
 
                 </div>
 
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4 margin-top-2">
 
                     <ul class="list-group">
                         <li class="list-unstyled"><a class="black" href="#">PRICE</a></li>
@@ -88,9 +88,10 @@
 
             </div>
 
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4 col-sm-4 bordered-left">
                     {{--START SEARCH--}}
                     {{--END SEARCH--}}
+                <div class="col-md-12 margin-top-2">
                     <ul class="list-group">
                         <li class="list-unstyled"><a class="black" href="#">FIND WHAT YOU NEED</a></li>
 
@@ -138,6 +139,7 @@
                             </div>
                         </li>
                     </ul>
+                </div>
             </div>
        </div>
 </div>

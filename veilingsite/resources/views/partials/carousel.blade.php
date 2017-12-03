@@ -10,18 +10,22 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
+            <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">
             <img src="{{ asset('images/carousel-images/paintings.png') }}" alt="alt 1">
         </div>
 
         <div class="item">
+            <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">
             <img src="{{ asset('images/carousel-images/cameras.png') }}" alt="alt 2">
         </div>
 
         <div class="item">
+            <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">
             <img src="{{ asset('images/carousel-images/paintings.png') }}" alt="alt 3">
         </div>
 
         <div class="item">
+            <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">
             <img src="{{ asset('images/carousel-images/cameras.png') }}" alt="alt 4">
         </div>
     </div>

@@ -13,6 +13,15 @@
                         <li><a href="{{ route('contact') }}">CONTACT</a></li>
                     </ul>
 
+                    {{--<ul class="col-md-12 dropdown menu black" data-dropdown-menu>--}}
+                        {{--<li class="col-md-1 col-xs-12"><a href="{{ route('home') }}">HOME</a></li>--}}
+                        {{--<li class="col-md-1 margin-left-half col-xs-12"><a href="{{ route('art') }}">ART</a></li>--}}
+                        {{--<li class="col-md-1 margin-left-half col-xs-12"><a href="{{ route('isearch') }}">ISEARCH</a></li>--}}
+                        {{--<li class="col-md-2 margin-left-half col-xs-12"><a href="{{ route('myauctions') }}">MYAUCTIONS</a></li>--}}
+                        {{--<li class="col-md-1 margin-left-half col-xs-12"><a href="{{ route('mybids') }}">MYBIDS</a></li>--}}
+                        {{--<li class="col-md-1 margin-left-half col-xs-12"><a href="{{ route('contact') }}">CONTACT</a></li>--}}
+                    {{--</ul>--}}
+
                     <ul class="menu pull-right">
                         <li><a href="#">NL</a></li>
                         <li><a href="#">FR</a></li>

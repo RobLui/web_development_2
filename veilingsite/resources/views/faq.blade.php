@@ -28,10 +28,151 @@
                         <a class="midnight-light-blue underlined active-bold col-md-3 col-xs-12 margin-bottom-2" href="#">What is a watchlist?</a>
                     </div>
                 </div>
+                    {{--<button class="button background-light-grey pull-right hug-top">I SEARCH ></button>--}}
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="midnight-blue">Q</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <h5 class="midnight-blue active-bold">How to bid?</h5>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="">A</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="midnight-blue">Q</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <h5 class="midnight-blue active-bold">How to sell?</h5>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="">A</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="midnight-blue">Q</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <h5 class="midnight-blue active-bold">How to buy?</h5>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="">A</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="midnight-blue">Q</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <h5 class="midnight-blue active-bold">How to register?</h5>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="">A</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="midnight-blue">Q</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <h5 class="midnight-blue active-bold">How to ask a question?</h5>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="">A</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="midnight-blue">Q</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <h5 class="midnight-blue active-bold">What is a watchlist?</h5>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="">A</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="midnight-blue">Q</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <h5 class="midnight-blue active-bold">How to use a watchlist?</h5>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-1">
+                        <h4 class="">A</h4>
+                    </div>
+                    <div class="col-md-11">
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
     </div>
+</div>
+
+</div>
 
     @include ('partials.footer')
 @endsection

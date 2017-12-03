@@ -33,3 +33,8 @@ Route::get('/contact', 'ContactController@index')
 Route::get('/detail', 'DetailController@index')
     ->name('detail')
 ;
+
+Route::get('/home/faq', 'FaqController@index')
+    ->name('detail')
+;
+

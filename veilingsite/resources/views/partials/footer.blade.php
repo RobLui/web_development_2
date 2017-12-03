@@ -1,7 +1,7 @@
 <div class="container">
-    <div class="row footer-container margin-top-6 bordered-top">
+    <div class="row footer-container margin-top-6">
 
-           <div class="col-md-8 col-sm-8">
+           <div class="col-md-8 col-sm-8 bordered-top">
                 <div class="col-md-4 col-sm-4 margin-top-2">
 
                     <ul class="list-group">
@@ -88,7 +88,7 @@
 
             </div>
 
-            <div class="col-md-4 col-sm-4 bordered-left">
+            <div class="col-md-4 col-sm-4 bordered-left bordered-top">
                     {{--START SEARCH--}}
                     {{--END SEARCH--}}
                 <div class="col-md-12 margin-top-2">

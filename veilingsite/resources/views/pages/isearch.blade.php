@@ -47,12 +47,15 @@
                         <label class="midnight-blue">Information about the artwork
                             <textarea placeholder="enter more info" required></textarea>
                         </label>
-
                     </div>
 
                     <div class="col-md-3 col-sm-3 margin-top-half">
                         <br>
-                        <button class="button secondary">ADMIN REQUEST</button>
+                        <button class="padding-complete background-dark-grey white active-bold full-width">
+                            <form action="#">
+                                <span class="padding-complete">ADMIT REQUEST</span>
+                            </form>
+                        </button>
                     </div>
 
                     <div class="col-md-12 col-sm-12">

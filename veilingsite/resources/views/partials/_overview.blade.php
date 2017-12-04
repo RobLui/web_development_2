@@ -25,7 +25,12 @@
                     </span>
                 </td>
                 <td>
-                    <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
+                    <button class="btn background-light-grey margin-top-2">
+                        <span class="midnight-blue">
+                            I OWN THIS ARTWORK
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                        </span>
+                    </button>
                 </td>
             </tr>
 
@@ -50,7 +55,12 @@
                     </span>
                 </td>
                 <td>
-                    <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
+                    <button class="btn background-light-grey margin-top-2">
+                        <span class="midnight-blue">
+                            I OWN THIS ARTWORK
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                        </span>
+                    </button>
                 </td>
             </tr>
             <tr>
@@ -74,7 +84,12 @@
                     </span>
                 </td>
                 <td>
-                    <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
+                    <button class="btn background-light-grey margin-top-2">
+                        <span class="midnight-blue">
+                            I OWN THIS ARTWORK
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                        </span>
+                    </button>
                 </td>
             </tr>
             <tr>
@@ -98,7 +113,12 @@
                     </span>
                 </td>
                 <td>
-                    <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
+                    <button class="btn background-light-grey margin-top-2">
+                        <span class="midnight-blue">
+                            I OWN THIS ARTWORK
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                        </span>
+                    </button>
                 </td>
             </tr>
             <tr>
@@ -122,7 +142,12 @@
                     </span>
                 </td>
                 <td>
-                    <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
+                    <button class="btn background-light-grey margin-top-2">
+                        <span class="midnight-blue">
+                            I OWN THIS ARTWORK
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                        </span>
+                    </button>
                 </td>
             </tr>
             <tr>
@@ -146,7 +171,12 @@
                     </span>
                 </td>
                 <td>
-                    <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
+                    <button class="btn background-light-grey margin-top-2">
+                        <span class="midnight-blue">
+                            I OWN THIS ARTWORK
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                        </span>
+                    </button>
                 </td>
             </tr>
             <tr>
@@ -170,7 +200,12 @@
                     </span>
                 </td>
                 <td>
-                    <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
+                    <button class="btn background-light-grey margin-top-2">
+                        <span class="midnight-blue">
+                            I OWN THIS ARTWORK
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                        </span>
+                    </button>
                 </td>
             </tr>
             <tr>
@@ -194,7 +229,12 @@
                     </span>
                 </td>
                 <td>
-                    <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
+                    <button class="btn background-light-grey margin-top-2">
+                        <span class="midnight-blue">
+                            I OWN THIS ARTWORK
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                        </span>
+                    </button>
                 </td>
             </tr>
             <tr>
@@ -218,7 +258,12 @@
                     </span>
                 </td>
                 <td>
-                    <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
+                    <button class="btn background-light-grey margin-top-2">
+                        <span class="midnight-blue">
+                            I OWN THIS ARTWORK
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                        </span>
+                    </button>
                 </td>
             </tr>
             <tr>
@@ -242,7 +287,12 @@
                     </span>
                 </td>
                 <td>
-                    <button class="btn background-light-grey margin-top-2"><span class="midnight-blue">I OWN THIS ARTWORK ></span></button>
+                    <button class="btn background-light-grey margin-top-2">
+                        <span class="midnight-blue">
+                            I OWN THIS ARTWORK
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                        </span>
+                    </button>
                 </td>
             </tr>
 

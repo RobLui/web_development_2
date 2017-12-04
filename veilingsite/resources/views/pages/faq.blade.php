@@ -28,7 +28,10 @@
                         <a class="midnight-light-blue underlined active-bold col-md-3 col-xs-12 margin-bottom-2" href="#">What is a watchlist?</a>
                     </div>
                 </div>
-            <button class="background-light-grey midnight-blue pull-right padding-complete">I SEARCH ></button>
+            <button class="background-light-grey midnight-blue pull-right hug-top-full padding-complete">
+                <a href="#" class="midnight-blue active-bold">I SEARCH</a>
+                <img class="margin-left-half" src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+            </button>
             <div class="col-md-12">
                 <div class="col-md-12">
                     <div class="col-md-1">

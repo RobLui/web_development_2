@@ -16,7 +16,7 @@
 
             {{--BREADCRUMBS--}}
             <div class="margin-left-1 margin-top-2">
-                <div class="col-md-12 col-sm-12">
+                <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="col-md-9">
                         <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Home > </a></li>
                         <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Auctions > </a></li>
@@ -39,23 +39,23 @@
                 </div>
 
             {{--LINKER HELFT--}}
-            <div class="col-md-8 margin-bottom-2 margin-top-1">
-                <div class="col-md-12">
+            <div class="col-md-8 col-sm-6 col-xs-6 margin-bottom-2 margin-top-1">
+                <div class="col-md-12 col-sm-12 col-xs-12">
                     <img src="{{ asset("images/mockups/camera.png") }}" class="img bordered ull-width" alt="Responsive image">
                 </div>
-                <div class="col-md-4 col-sm-4 margin-top-1">
+                <div class="col-md-4 col-sm-4 col-xs-12 margin-top-1">
                     <img src="{{ asset("images/mockups/camera_1.png") }}" class="img bordered full-width" alt="Responsive image">
                 </div>
-                <div class="col-md-4 col-sm-4 margin-top-1">
+                <div class="col-md-4 col-sm-4 col-xs-12  margin-top-1">
                     <img src="{{ asset("images/mockups/camera_mid.png") }}" class="img bordered full-width" alt="Responsive image">
                 </div>
-                <div class="col-md-4 col-sm-4 margin-top-1">
+                <div class="col-md-4 col-sm-4 col-xs-12  margin-top-1">
                     <img src="{{ asset("images/mockups/camera_2.png") }}" class="img bordered full-width" alt="Responsive image">
                 </div>
             </div>
 
              {{--RECHTER HELFT--}}
-            <div class="col-md-4 col-sm-12 margin-top-2">
+            <div class="col-md-4 col-sm-6 col-xs-6 margin-top-2">
                 <div class="col-md-9 col-sm-9 top-part">
                     <h4 class="pull-right hug-top">Dance of Time III</h4>
                     <p class="midnight-blue pull-right hug-top">1979, Salvador Dali</p>
@@ -94,11 +94,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="background-light-grey full-width">
-                @include('partials.thumbnail-gallery')
-            </div>
-
+            @include('partials.thumbnail-gallery')
         </div>
     </div>
 </div>

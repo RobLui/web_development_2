@@ -9,7 +9,7 @@ class DetailController extends Controller
 {
 
     public function index() {
-        return view('detail');
+        return view('pages.detail');
     }
 
 }

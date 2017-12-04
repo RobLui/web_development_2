@@ -28,7 +28,7 @@
                         <a class="midnight-light-blue underlined active-bold col-md-3 col-xs-12 margin-bottom-2" href="#">What is a watchlist?</a>
                     </div>
                 </div>
-                    {{--<button class="button background-light-grey pull-right hug-top">I SEARCH ></button>--}}
+            <button class="background-light-grey midnight-blue pull-right padding-complete">I SEARCH ></button>
             <div class="col-md-12">
                 <div class="col-md-12">
                     <div class="col-md-1">

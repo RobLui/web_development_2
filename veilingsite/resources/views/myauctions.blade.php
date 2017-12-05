@@ -10,6 +10,8 @@
 
     @include('partials.no-carousel')
 
+    @include('partials.filter')
+
     @include('partials.nav-bottom')
 
     <div class="line"></div>

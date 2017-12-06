@@ -11,22 +11,22 @@
     <div class="carousel-inner">
         <div class="item active">
             <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">
-            <img src="{{ asset('images/carousel-images/paintings.png') }}" alt="alt 1">
+            <img src="{{ asset('images/carousel-images/paintings.png') }}" alt="paintings">
         </div>
 
         <div class="item">
             <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">
-            <img src="{{ asset('images/carousel-images/cameras.png') }}" alt="alt 2">
+            <img src="{{ asset('images/carousel-images/cameras.png') }}" alt="cameras">
         </div>
 
         <div class="item">
             <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">
-            <img src="{{ asset('images/carousel-images/paintings.png') }}" alt="alt 3">
+            <img src="{{ asset('images/carousel-images/paintings.png') }}" alt="paintings">
         </div>
 
         <div class="item">
             <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">
-            <img src="{{ asset('images/carousel-images/cameras.png') }}" alt="alt 4">
+            <img src="{{ asset('images/carousel-images/cameras.png') }}" alt="cameras">
         </div>
     </div>
 

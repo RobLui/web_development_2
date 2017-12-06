@@ -10,6 +10,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Veilingsite') }}</title>
+    @include('partials.seo')
 
     <!-- Styles -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
@@ -27,8 +28,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css-foundation/app.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css-foundation/foundation.min.css') }}">
 
+    {{--JQUERY--}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 
     {{-- Font awesome --}}
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

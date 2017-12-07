@@ -10,7 +10,7 @@
 
                 <div class="col-md-4 col-sm-6">
                     <div class="col-md-12 col-sm-12">
-                        <img class="img-responsive center-block margin-bottom-1" src="{{ asset('images/elements/kleur.png') }}" alt="sign up">
+                        <img class="img-responsive center-block margin-bottom-1" src="{{ asset('images/elements/kleur.png') }}" alt="sign up" title="sign up">
                         <h5>Sign up</h5>
                         <p class="col-md-10 col-md-offset-1 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                     </div>
@@ -18,7 +18,7 @@
 
                 <div class="col-md-4 col-sm-6">
                     <div class="col-md-12 col-sm-12">
-                        <img class="img-responsive center-block margin-bottom-1" src="{{ asset('images/elements/vink.png') }}" alt="make deals">
+                        <img class="img-responsive center-block margin-bottom-1" src="{{ asset('images/elements/vink.png') }}" alt="make deals" title="make deals">
                         <h5>Make deals</h5>
                         <p class="col-md-10 col-md-offset-1 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                     </div>
@@ -26,7 +26,7 @@
 
                 <div class="col-md-4 col-sm-12">
                     <div class="col-md-12 col-sm-12">
-                        <img class="img-responsive center-block margin-bottom-1" src="{{ asset('images/elements/happy.png') }}" alt="everyone happy">
+                        <img class="img-responsive center-block margin-bottom-1" src="{{ asset('images/elements/happy.png') }}" alt="everyone happy" title="everyone happy">
                         <h5>Everyone happy!</h5>
                         <p class="col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                     </div>

@@ -61,20 +61,20 @@
         <div class="col-md-3 col-sm-4 margin-top-2">
 
             <ul class="list-group">
-                <li class="list-unstyled"><a title="#" class="black" href="#">Style</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Abstract</a></li>
-                <li class="list-unstyled"><a title="#" href="#">African American</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Asian Contemporary</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Conceptual</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Contemporary</a></li>
-                <li class="list-unstyled"><a title="#" href="#"><a href="#">Emerging Artists</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Figurative</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Middle Eastern Contemporary</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Minimalism</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Modern</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Pop</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Urban</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Vintage Photographs</a></li>
+                <li class="list-unstyled"><a href="#style" title="style" class="black">Style</a></li>
+                <li class="list-unstyled"><a href="#abstract" title="abstract">Abstract</a></li>
+                <li class="list-unstyled"><a href="#african-american" title="african american">African American</a></li>
+                <li class="list-unstyled"><a href="#asian-contemporary" title="asian contemporary">Asian Contemporary</a></li>
+                <li class="list-unstyled"><a href="#conceptual" title="conceptual">Conceptual</a></li>
+                <li class="list-unstyled"><a href="#contemporary" title="contemporary">Contemporary</a></li>
+                <li class="list-unstyled"><a href="#" title="#">Emerging Artists</a></li>
+                <li class="list-unstyled"><a href="#" title="#">Figurative</a></li>
+                <li class="list-unstyled"><a href="#" title="#">Middle Eastern Contemporary</a></li>
+                <li class="list-unstyled"><a href="#" title="#">Minimalism</a></li>
+                <li class="list-unstyled"><a href="#" title="#">Modern</a></li>
+                <li class="list-unstyled"><a href="#" title="#">Pop</a></li>
+                <li class="list-unstyled"><a href="#" title="#">Urban</a></li>
+                <li class="list-unstyled"><a href="#" title="#">Vintage Photographs</a></li>
             </ul>
 
 

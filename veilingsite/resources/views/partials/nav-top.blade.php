@@ -1,23 +1,23 @@
 <div class="top-nav">
     <div class="container negative">
         <div class="row">
-            <a class="logo" href="{{ route('home') }}"><img src="{{ asset('images/logo.jpg') }}" alt="logo"></a>
+            <a class="logo" href="{{ route('home') }}"><img src="{{ asset('images/logo.jpg') }}" alt="logo" title="logo"></a>
             <div class="col-md-12 col-sm-12">
                 <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
 
                     <ul class="dropdown menu" data-dropdown-menu>
                         <li>
-                            <a href="#" title="watchlist" >
-                                <img class="margin-right-half" src="{{ asset('images/elements/bars.png') }}" alt="user">
+                            <a href="#watchlist" title="watchlist" >
+                                <img class="margin-right-half" src="{{ asset('images/elements/bars.png') }}" alt="bars" title="bars">
                                 {{--<i class="fa fa-bars margin-right-half"></i>--}}
                                 WATCHLIST
                             </a>
                         </li>
                         <li><p class="midnight-blue">|</p></li>
                             <li>
-                                <a href="#" title="profile" >
+                                <a href="#profile" title="profile" >
                                 {{--<i class="fa fa-user margin-right-half"></i>--}}
-                                <img class="margin-right-half" src="{{ asset('images/elements/user.png') }}" alt="user">
+                                <img class="margin-right-half" src="{{ asset('images/elements/user.png') }}" alt="user" title="user">
                                 PROFILE
                             </a>
                             </li>

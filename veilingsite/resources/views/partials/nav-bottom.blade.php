@@ -5,12 +5,12 @@
                 <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-xs-12">
 
                     <ul class="dropdown menu black" data-dropdown-menu>
-                        <li><a href="{{ route('home') }}">HOME</a></li>
-                        <li><a href="{{ route('art') }}">ART</a></li>
-                        <li><a href="{{ route('isearch') }}">ISEARCH</a></li>
-                        <li><a href="{{ route('myauctions') }}">MYAUCTIONS</a></li>
-                        <li><a href="{{ route('mybids') }}">MYBIDS</a></li>
-                        <li><a href="{{ route('contact') }}">CONTACT</a></li>
+                        <li><a href="{{ route('home') }}" title="home" >HOME</a></li>
+                        <li><a href="{{ route('art') }}" title="art">ART</a></li>
+                        <li><a href="{{ route('isearch') }} title="isearch">ISEARCH</a></li>
+                        <li><a href="{{ route('myauctions') }}" title="myactions">MYAUCTIONS</a></li>
+                        <li><a href="{{ route('mybids') }}" title="mybids">MYBIDS</a></li>
+                        <li><a href="{{ route('contact') }}" title="contact">CONTACT</a></li>
                     </ul>
 
                     {{--<ul class="col-md-12 dropdown menu black" data-dropdown-menu>--}}
@@ -23,9 +23,9 @@
                     {{--</ul>--}}
 
                     <ul class="menu pull-right">
-                        <li><a href="#">NL</a></li>
-                        <li><a href="#">FR</a></li>
-                        <li><a class="active-bold" href="#">EN</a></li>
+                        <li><a href="#" title="nl translation">NL</a></li>
+                        <li><a href="#" title="fr tanslation" >FR</a></li>
+                        <li><a href="#" title="en translation" class="active-bold">EN</a></li>
                     </ul>
                 </div>
             </div>

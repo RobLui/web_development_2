@@ -126,10 +126,10 @@
                     </ul>
                     <ul class="list-group">
                         <li class="list-unstyled">
-                            <a href="#"><i class="fa fa-facebook fa-2x margin-right-1" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter fa-2x margin-right-1" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-youtube fa-2x margin-right-1" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+                            <a title="facebook link" href="#"><i class="fa fa-facebook fa-2x margin-right-1" aria-hidden="true"></i></a>
+                            <a title="twitter link" href="#"><i class="fa fa-twitter fa-2x margin-right-1" aria-hidden="true"></i></a>
+                            <a title="youtube link" href="#"><i class="fa fa-youtube fa-2x margin-right-1" aria-hidden="true"></i></a>
+                            <a title="google link" href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                     <ul class="list-group">

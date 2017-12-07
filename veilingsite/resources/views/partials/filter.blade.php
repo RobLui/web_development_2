@@ -18,19 +18,19 @@
         <div class="col-md-3 col-sm-4 margin-top-2">
 
             <ul class="list-group">
-                <li class="list-unstyled"><a class="black" href="#">Price</a></li>
-                <li class="list-unstyled"><a href="#">Up to 5,000</a></li>
-                <li class="list-unstyled"><a href="#">5,000 - 10,000</a></li>
-                <li class="list-unstyled"><a href="#">25,000 - 50,000</a></li>
-                <li class="list-unstyled"><a href="#">50,000 - 100,000</a></li>
-                <li class="list-unstyled"><a href="#">Above</a></li>
+                <li class="list-unstyled"><a title="#" title="#" class="black" href="#">Price</></li>
+                <li class="list-unstyled"><a title="#" title="#" href="#">Up to 5,000</a></li>
+                <li class="list-unstyled"><a title="#" title="#" href="#">5,000 - 10,000</a></li>
+                <li class="list-unstyled"><a title="#" title="#" href="#">25,000 - 50,000</a></li>
+                <li class="list-unstyled"><a title="#" title="#" href="#">50,000 - 100,000</a></li>
+                <li class="list-unstyled"><a title="#" title="#" href="#">Above</a></li>
             </ul>
 
             <ul class="list-group">
-                <li class="list-unstyled"><a class="black" href="#">Ending</a></li>
-                <li class="list-unstyled"><a href="#">Ending this Week</a></li>
-                <li class="list-unstyled"><a href="#">Newly Listed</a></li>
-                <li class="list-unstyled"><a href="#">Purchase Now</a></li>
+                <li class="list-unstyled"><a title="#" class="black" href="#">Ending</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Ending this Week</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Newly Listed</></li>
+                <li class="list-unstyled"><a title="#" href="#">Purchase Now</></li>
             </ul>
         </div>
 
@@ -39,20 +39,20 @@
         <div class="col-md-3 col-sm-4 margin-top-2">
 
             <ul class="list-group">
-                <li class="list-unstyled"><a class="black" href="#">Era</a></li>
-                <li class="list-unstyled"><a href="#">Pre-War</a></li>
-                <li class="list-unstyled"><a href="#">1940s-1950s</a></li>
-                <li class="list-unstyled"><a href="#">1960s-1980s</a></li>
-                <li class="list-unstyled"><a href="#">1980s-Present</a></li>
+                <li class="list-unstyled"><a title="#" class="black" href="#">Era</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Pre-War</a></li>
+                <li class="list-unstyled"><a title="#" href="#">1940s-1950s</a></li>
+                <li class="list-unstyled"><a title="#" href="#">1960s-1980s</a></li>
+                <li class="list-unstyled"><a title="#" href="#">1980s-Present</a></li>
             </ul>
 
             <ul class="list-group">
-                <li class="list-unstyled"><a class="black" href="#">Media</a></li>
-                <li class="list-unstyled"><a href="#">Design</a></li>
-                <li class="list-unstyled"><a href="#">Paintings and Works on Paper</a>
-                <li class="list-unstyled"><a href="#">Photographs</a>
-                <li class="list-unstyled"><a href="#">Prints and Multiples</a>
-                <li class="list-unstyled"><a href="#">Sculpture</a>
+                <li class="list-unstyled"><a title="#" class="black" href="#">Media</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Design</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Paintings and Works on Paper</a>
+                <li class="list-unstyled"><a title="#" href="#">Photographs</a>
+                <li class="list-unstyled"><a title="#" href="#">Prints and Multiples</a>
+                <li class="list-unstyled"><a title="#" href="#">Sculpture</a>
             </ul>
 
         </div>
@@ -61,20 +61,20 @@
         <div class="col-md-3 col-sm-4 margin-top-2">
 
             <ul class="list-group">
-                <li class="list-unstyled"><a class="black" href="#">Style</a></li>
-                <li class="list-unstyled"><a href="#">Abstract</a></li>
-                <li class="list-unstyled"><a href="#">African American</a></li>
-                <li class="list-unstyled"><a href="#">Asian Contemporary</a></li>
-                <li class="list-unstyled"><a href="#">Conceptual</a></li>
-                <li class="list-unstyled"><a href="#">Contemporary</a></li>
-                <li class="list-unstyled"><a href="#"><a href="#">Emerging Artists</a></li>
-                <li class="list-unstyled"><a href="#">Figurative</a></li>
-                <li class="list-unstyled"><a href="#">Middle Eastern Contemporary</a></li>
-                <li class="list-unstyled"><a href="#">Minimalism</a></li>
-                <li class="list-unstyled"><a href="#">Modern</a></li>
-                <li class="list-unstyled"><a href="#">Pop</a></li>
-                <li class="list-unstyled"><a href="#">Urban</a></li>
-                <li class="list-unstyled"><a href="#">Vintage Photographs</a></li>
+                <li class="list-unstyled"><a title="#" class="black" href="#">Style</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Abstract</a></li>
+                <li class="list-unstyled"><a title="#" href="#">African American</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Asian Contemporary</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Conceptual</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Contemporary</a></li>
+                <li class="list-unstyled"><a title="#" href="#"><a href="#">Emerging Artists</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Figurative</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Middle Eastern Contemporary</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Minimalism</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Modern</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Pop</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Urban</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Vintage Photographs</a></li>
             </ul>
 
 

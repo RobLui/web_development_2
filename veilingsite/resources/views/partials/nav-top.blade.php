@@ -7,7 +7,7 @@
 
                     <ul class="dropdown menu" data-dropdown-menu>
                         <li>
-                            <a href="#">
+                            <a href="#" title="watchlist" >
                                 <img class="margin-right-half" src="{{ asset('images/elements/bars.png') }}" alt="user">
                                 {{--<i class="fa fa-bars margin-right-half"></i>--}}
                                 WATCHLIST
@@ -15,7 +15,7 @@
                         </li>
                         <li><p class="midnight-blue">|</p></li>
                             <li>
-                                <a href="#">
+                                <a href="#" title="profile" >
                                 {{--<i class="fa fa-user margin-right-half"></i>--}}
                                 <img class="margin-right-half" src="{{ asset('images/elements/user.png') }}" alt="user">
                                 PROFILE
@@ -23,13 +23,13 @@
                             </li>
                         <li><p class="midnight-blue">|</p></li>
                         @guest
-                        <li><a href="{{ route('login') }}">LOGIN</a></li>
+                        <li><a href="{{ route('login') }}" title="login">LOGIN</a></li>
                         <li><p class="midnight-blue">|</p></li>
 
-                        <li><a href="{{ route('register') }}">REGISTER</a></li>
+                        <li><a href="{{ route('register') }}" title="register">REGISTER</a></li>
                         @else
                           <li>
-                            <a href="{{ route('logout') }}"
+                            <a href="{{ route('logout') }}" title="logout"
                                onclick="event.preventDefault();
                                          document.getElementById('logout-form').submit();">
                                 LOGOUT

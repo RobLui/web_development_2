@@ -9,7 +9,7 @@
             <div class="col-md-3 col-sm-6 col-xs-6">
                 <div class="col-md-12 col-sm-12 col-xs-12 margin-left-images-minus">
                     <img class="full-width" src="{{ asset('images/mockups/details/perfume_small.png') }}" alt="Perfume small">
-                    <a href="#">
+                    <a title="#" href="#">
                         <div class="caption margin-top-1 margin-left-1">
                             <p class="midnight-blue">1979, Salvador Dali</p>
                         </div>
@@ -28,7 +28,7 @@
             <div class="col-md-3 col-sm-6 col-xs-6">
                 <div class="col-md-12 col-sm-12 col-xs-12 margin-left-images-minus">
                     <img class="full-width" src="{{ asset('images/mockups/details/male_small.png') }}" alt="Male small">
-                    <a href="#">
+                    <a title="#" href="#">
                         <div class="caption margin-top-1 margin-left-1">
                             <p class="midnight-blue">1979, Salvador Dali</p>
                         </div>
@@ -47,7 +47,7 @@
             <div class="col-md-3 col-sm-6 col-xs-6">
                 <div class="col-md-12 col-sm-12 col-xs-12 margin-left-images-minus">
                     <img class="full-width" src="{{ asset('images/mockups/details/painting_small.png') }}" alt="Painting small">
-                    <a href="#">
+                    <a title="#" href="#">
                         <div class="caption margin-top-1 margin-left-1">
                             <p class="midnight-blue">1979, Salvador Dali</p>
                         </div>
@@ -66,7 +66,7 @@
             <div class="col-md-3 col-sm-6 col-xs-6 ">
                 <div class="col-md-12 col-sm-12 col-xs-12 margin-left-images-minus">
                     <img class="full-width" src="{{ asset('images/mockups/details/butt_small.png') }}" alt="Butt small">
-                    <a href="#">
+                    <a title="#" href="#">
                         <div class="caption margin-top-1 margin-left-1">
                             <p class="midnight-blue">1979, Salvador Dali</p>
                         </div>

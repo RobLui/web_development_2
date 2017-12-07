@@ -39,11 +39,11 @@
         <div class="col-md-3 col-sm-4 margin-top-2">
 
             <ul class="list-group">
-                <li class="list-unstyled"><a title="#" class="black" href="#">Era</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Pre-War</a></li>
-                <li class="list-unstyled"><a title="#" href="#">1940s-1950s</a></li>
-                <li class="list-unstyled"><a title="#" href="#">1960s-1980s</a></li>
-                <li class="list-unstyled"><a title="#" href="#">1980s-Present</a></li>
+                <li class="list-unstyled"><a title="era" class="black" href="#era">Era</a></li>
+                <li class="list-unstyled"><a title="pre war" href="#pre-war">Pre-War</a></li>
+                <li class="list-unstyled"><a title="1940s-1950s" href="#1940s-1950s">1940s-1950s</a></li>
+                <li class="list-unstyled"><a title="1960s-1980s" href="#1960s-1980s">1960s-1980s</a></li>
+                <li class="list-unstyled"><a title="1980s-Present" href="#1980s-Present">1980s-Present</a></li>
             </ul>
 
             <ul class="list-group">

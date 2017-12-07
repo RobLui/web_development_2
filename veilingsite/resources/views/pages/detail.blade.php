@@ -22,9 +22,9 @@
             <div class="margin-left-1 margin-top-2">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="col-md-9">
-                        <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Home > </a></li>
-                        <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Auctions > </a></li>
-                        <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}">Salvador Dali > </a></li>
+                        <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}" title="home">Home > </a></li>
+                        <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}" title="auctions">Auctions > </a></li>
+                        <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}" title="salvador dali">Salvador Dali > </a></li>
                         <span class="show-for-sr midnight-blue float-left"></span>
                         <p class="midnight-light-blue active-bold">Dance of Time III </p>
                     </div>
@@ -45,16 +45,16 @@
             {{--LINKER HELFT--}}
             <div class="col-md-8 col-sm-6 col-xs-6 margin-bottom-2 margin-top-1">
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <img src="{{ asset("images/mockups/camera.png") }}" class="img bordered ull-width" alt="Responsive image">
+                    <img src="{{ asset("images/mockups/camera.png") }}" class="img bordered ull-width" title="responsive image"  alt="Responsive image">
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12 margin-top-1">
-                    <img src="{{ asset("images/mockups/camera_1.png") }}" class="img bordered full-width" alt="Responsive image">
+                    <img src="{{ asset("images/mockups/camera_1.png") }}" class="img bordered full-width" title="responsive image" alt="Responsive image">
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12  margin-top-1">
-                    <img src="{{ asset("images/mockups/camera_mid.png") }}" class="img bordered full-width" alt="Responsive image">
+                    <img src="{{ asset("images/mockups/camera_mid.png") }}" class="img bordered full-width" title="responsive image" alt="Responsive image">
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12  margin-top-1">
-                    <img src="{{ asset("images/mockups/camera_2.png") }}" class="img bordered full-width" alt="Responsive image">
+                    <img src="{{ asset("images/mockups/camera_2.png") }}" class="img bordered full-width" title="responsive image" alt="Responsive image">
                 </div>
             </div>
 
@@ -84,13 +84,13 @@
                                         <input type="text" class="form-control" placeholder="&euro;">
                                     </div>
                                     <div class="col-md-6 col-sm-6 margin-top-anderhalf">
-                                        <a class="white active-bold" href="#">BID NOW <img class="margin-left-half" src="{{ asset('images/elements/pijltje.png') }}" alt="arrow"></a>
+                                        <a class="white active-bold" href="#" title="bid-now">BID NOW <img class="margin-left-half" src="{{ asset('images/elements/pijltje.png') }}" alt="arrow"></a>
                                     </div>
                                 </div>
                             </form>
                             <div class="text-center margin-bottom-half hug-top">
                                 <i class="fa fa-bars"></i>
-                                <a class="midnight-blue underlined active-bold" href="#">
+                                <a href="#add-to-my-watchlist" title="add to my watchlist" class="midnight-blue underlined active-bold">
                                     add to my watchlist
                                 </a>
                             </div>

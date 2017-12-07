@@ -1,1 +1,1 @@
-<img src="{{ asset("images/mockups/platenspeler.png") }}" class="img full-width" alt="platenspeler">
+<img src="{{ asset("images/mockups/platenspeler.png") }}" class="img full-width" title="platenspeler" alt="platenspeler">

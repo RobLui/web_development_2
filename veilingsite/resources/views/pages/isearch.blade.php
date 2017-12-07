@@ -17,7 +17,7 @@
             <div class="col-md-12 col-sm-12">
 
                 <div class="margin-top-2 margin-left-1">
-                    <a class="midnight-light-blue float-left margin-right-half" href="{{ route('home') }}">Home > </a></li>
+                    <a class="midnight-light-blue float-left margin-right-half" href="{{ route('home') }}" title="home">Home > </a></li>
                     <span class="show-for-sr midnight-blue float-left">
                     </span><p class="midnight-light-blue active-bold">I search </p>
                 </div>

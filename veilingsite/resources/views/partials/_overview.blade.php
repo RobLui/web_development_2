@@ -28,7 +28,7 @@
                     <button class="padding-complete background-light-grey margin-top-1">
                         <span class="midnight-blue">
                             I OWN THIS ARTWORK
-                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" title="pijltje" alt="pijltje">
                         </span>
                     </button>
                 </td>
@@ -58,7 +58,7 @@
                     <button class="padding-complete background-light-grey margin-top-1">
                         <span class="midnight-blue">
                             I OWN THIS ARTWORK
-                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" title="pijltje" alt="pijltje">
                         </span>
                     </button>
                 </td>
@@ -87,7 +87,7 @@
                     <button class="padding-complete background-light-grey margin-top-1">
                         <span class="midnight-blue">
                             I OWN THIS ARTWORK
-                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" title="pijltje" alt="pijltje">
                         </span>
                     </button>
                 </td>
@@ -116,7 +116,7 @@
                     <button class="padding-complete background-light-grey margin-top-1">
                         <span class="midnight-blue">
                             I OWN THIS ARTWORK
-                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" title="pijltje" alt="pijltje">
                         </span>
                     </button>
                 </td>
@@ -145,7 +145,7 @@
                     <button class="padding-complete background-light-grey margin-top-1">
                         <span class="midnight-blue">
                             I OWN THIS ARTWORK
-                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" title="pijltje" alt="pijltje">
                         </span>
                     </button>
                 </td>
@@ -174,7 +174,7 @@
                     <button class="padding-complete background-light-grey margin-top-1">
                         <span class="midnight-blue">
                             I OWN THIS ARTWORK
-                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" title="pijltje" alt="pijltje">
                         </span>
                     </button>
                 </td>
@@ -203,7 +203,7 @@
                     <button class="padding-complete background-light-grey margin-top-1">
                         <span class="midnight-blue">
                             I OWN THIS ARTWORK
-                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" title="pijltje" alt="pijltje">
                         </span>
                     </button>
                 </td>
@@ -232,7 +232,7 @@
                     <button class="padding-complete background-light-grey margin-top-1">
                         <span class="midnight-blue">
                             I OWN THIS ARTWORK
-                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" title="pijltje" alt="pijltje">
                         </span>
                     </button>
                 </td>
@@ -261,7 +261,7 @@
                     <button class="padding-complete background-light-grey margin-top-1">
                         <span class="midnight-blue">
                             I OWN THIS ARTWORK
-                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" title="pijltje" alt="pijltje">
                         </span>
                     </button>
                 </td>
@@ -290,7 +290,7 @@
                     <button class="padding-complete background-light-grey margin-top-1">
                         <span class="midnight-blue">
                             I OWN THIS ARTWORK
-                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" alt="pijltje">
+                            <img src="{{ asset('images/elements/blauw-pijltje.png') }}" title="pijltje" alt="pijltje">
                         </span>
                     </button>
                 </td>

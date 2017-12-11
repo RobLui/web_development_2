@@ -87,6 +87,7 @@
                             <textarea rows="4" cols="25" name="comment" placeholder="what's the condition of the artwork?"></textarea>
                         </div>
                     </div>
+
                     <div class="col-md-9">
                         <div class="col-md-9">
                             <label class="midnight-blue">Origin
@@ -95,6 +96,37 @@
                         </div>
                     </div>
 
+                    <div class="col-md-9">
+                        <div class="col-md-9">
+                            <label class="midnight-blue">Photos
+                            </label>
+                            Please upload one picture with the signature of the artwork and one picture of the artwork.
+                            You can upload up to 3 pictures with a maximum of 10MB each.
+                        </div>
+                    </div>
+
+                    <div class="col-md-9">
+                        <div class="col-md-12">
+                            <div class="col-md-3">
+                                <div class="upload-btn-wrapper">
+                                    <button class="btn">Upload image of the artwork</button>
+                                    <input type="file" name="myfile" />
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="upload-btn-wrapper">
+                                    <button class="btn">Upload image of the signature</button>
+                                    <input type="file" name="myfile" />
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="upload-btn-wrapper">
+                                    <button class="btn">OPTIONAL IMAGE</button>
+                                    <input type="file" name="myfile" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-md-3 col-sm-3 margin-top-half">
                         <br>

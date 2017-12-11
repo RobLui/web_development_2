@@ -196,5 +196,21 @@
 
   .logo {
     display: block; } }
+.upload-btn-wrapper {
+  position: relative;
+  display: inline-block; }
+
+.btn {
+  border: 2px solid gray;
+  height: 4em;
+  color: gray;
+  background-color: white;
+  font-weight: bold; }
+
+.upload-btn-wrapper input[type=file] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0; }
 
 /*# sourceMappingURL=custom.css.map */

@@ -22,13 +22,14 @@
                         <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}" title="salvador dali">My auctions > </a></li>
                         <span class="show-for-sr midnight-blue float-left"></span>
                         <p class="midnight-light-blue active-bold">New auction</p>
-                            <h2 class="margin-bottom-half light-dark-grey">Add a new auction</h2>
+                        <h2 class="margin-bottom-half light-dark-grey">Add a new auction</h2>
                     </div>
                 </div>
 
                 <form>
+
                     <div class="col-md-6">
-                        <div class="col-md-9">
+                        <div class="col-md-10">
                             <select>
                                 <option value="Style">Style</option>
                                 <option value="Style">Style</option>
@@ -37,7 +38,9 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-9">
+
+                    {{-- TITLE YEAR --}}
+                    <div class="col-md-10">
                         <div class="col-md-6 col-sm-6">
                             <label class="midnight-blue">Auction title
                                 <input type="text" placeholder="Auction title" required />
@@ -51,8 +54,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-9">
-
+                    {{-- WIDTH HEIGHT DEPTH --}}
+                    <div class="col-md-10">
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Width
                                 <input type="text" placeholder="xxxx" required />
@@ -72,7 +75,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-9">
+                    {{-- DESCRIPTION --}}
+                    <div class="col-md-10">
                         <div class="col-md-9">
                             <label class="midnight-blue">Description
                             </label>
@@ -80,7 +84,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-9">
+                    {{-- CONDITION --}}
+                    <div class="col-md-10">
                         <div class="col-md-9">
                             <label class="midnight-blue">Condition
                             </label>
@@ -88,7 +93,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-9">
+                    {{-- ORIGIN --}}
+                    <div class="col-md-10">
                         <div class="col-md-9">
                             <label class="midnight-blue">Origin
                             </label>
@@ -96,7 +102,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-9">
+                    {{-- PHOTOS --}}
+                    <div class="col-md-10">
                         <div class="col-md-9">
                             <label class="midnight-blue">Photos
                             </label>
@@ -105,26 +112,74 @@
                         </div>
                     </div>
 
-                    <div class="col-md-9">
+                    {{-- IMAGES --}}
+                    <div class="col-md-10">
+                        <div class="col-md-4 col-sm-4 margin-top-1">
+                            <div class="upload-btn-wrapper">
+                                <button class="btn">
+                                    <span>UPLOAD IMAGE</span>
+                                    <span>OF THE ARTWORK</span>
+                                </button>
+                                <input type="file" name="artwork_image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 margin-top-1">
+                            <div class="upload-btn-wrapper">
+                                <button class="btn">
+                                    UPLOAD IMAGE OF THE SIGNATURE
+                                </button>
+                                <input type="file" name="signature_image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 margin-top-1">
+                            <div class="upload-btn-wrapper">
+                                <button class="btn background-light-grey">
+                                    <span class="padding-1">
+                                       OPTIONAL IMAGE
+                                    </span>
+                                </button>
+                                <input type="file" name="optional_image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- PRICING --}}
+                    <div class="col-md-10">
                         <div class="col-md-12">
-                            <div class="col-md-3">
-                                <div class="upload-btn-wrapper">
-                                    <button class="btn">Upload image of the artwork</button>
-                                    <input type="file" name="myfile" />
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="upload-btn-wrapper">
-                                    <button class="btn">Upload image of the signature</button>
-                                    <input type="file" name="myfile" />
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="upload-btn-wrapper">
-                                    <button class="btn">OPTIONAL IMAGE</button>
-                                    <input type="file" name="myfile" />
-                                </div>
-                            </div>
+                            <h4 class="margin-top-1 margin-bottom-half light-dark-grey">Pricing</h4>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <label class="midnight-blue">Minimum estimate price
+                                <input type="text" placeholder="xxxx" required />
+                            </label>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3">
+                            <label class="midnight-blue">Maximum estimate price
+                                <input type="text" placeholder="xxxx" required />
+                            </label>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3">
+                            <label class="midnight-blue">Buyout price (optional)
+                                <input type="text" placeholder="xxxx" required />
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-10">
+                        <div class="col-md-3 col-sm-3">
+                            <label class="midnight-blue">End date
+                                <input type="text" placeholder="D D / M M / Y Y" required />
+                            </label>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <label class="midnight-blue">Attention</label>
+                            You cannot change the information after adding the auction.
+                            If you're not certain about the information of your artwork, please ask for help.
+                            We will answer your question as soon as possible.
                         </div>
                     </div>
 

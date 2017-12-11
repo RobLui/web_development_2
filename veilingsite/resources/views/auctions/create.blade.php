@@ -26,42 +26,75 @@
                     </div>
                 </div>
 
-        <form>
+                <form>
+                    <div class="col-md-6">
+                        <div class="col-md-9">
+                            <select>
+                                <option value="Style">Style</option>
+                                <option value="Style">Style</option>
+                                <option value="Style">Style</option>
+                                <option value="Style">Style</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="col-md-6 col-sm-6">
+                            <label class="midnight-blue">Auction title
+                                <input type="text" placeholder="Auction title" required />
+                            </label>
+                        </div>
 
-                <div class="col-md-9">
-                    <div class="col-md-6 col-sm-6">
-                        <label class="midnight-blue">Auction title
-                            <input type="text" placeholder="Auction title" required />
-                        </label>
+                        <div class="col-md-3 col-sm-3">
+                            <label class="midnight-blue">Year
+                                <input type="text" placeholder="xxxx" required />
+                            </label>
+                        </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-3">
-                        <label class="midnight-blue">Year
-                            <input type="text" placeholder="xxxx" required />
-                        </label>
-                    </div>
-                </div>
+                    <div class="col-md-9">
 
-                <div class="col-md-9">
+                        <div class="col-md-3 col-sm-3">
+                            <label class="midnight-blue">Width
+                                <input type="text" placeholder="xxxx" required />
+                            </label>
+                        </div>
 
-                    <div class="col-md-3 col-sm-3">
-                        <label class="midnight-blue">Width
-                            <input type="text" placeholder="xxxx" required />
-                        </label>
+                        <div class="col-md-3 col-sm-3">
+                            <label class="midnight-blue">Height
+                                <input type="text" placeholder="xxxx" required />
+                            </label>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3">
+                            <label class="midnight-blue">Depth (optional)
+                                <input type="text" placeholder="xxxx" required />
+                            </label>
+                        </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-3">
-                        <label class="midnight-blue">Height
-                            <input type="text" placeholder="xxxx" required />
-                        </label>
+                    <div class="col-md-9">
+                        <div class="col-md-9">
+                            <label class="midnight-blue">Description
+                            </label>
+                            <textarea rows="4" cols="25" name="comment" placeholder="describe your auction as thorough as possible."></textarea>
+                        </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-3">
-                        <label class="midnight-blue">Depth (optional)
-                            <input type="text" placeholder="xxxx" required />
-                        </label>
+                    <div class="col-md-9">
+                        <div class="col-md-9">
+                            <label class="midnight-blue">Condition
+                            </label>
+                            <textarea rows="4" cols="25" name="comment" placeholder="what's the condition of the artwork?"></textarea>
+                        </div>
                     </div>
-                </div>
+                    <div class="col-md-9">
+                        <div class="col-md-9">
+                            <label class="midnight-blue">Origin
+                            </label>
+                            <textarea rows="1" cols="25" name="comment" placeholder="what's the origin of the artwork?"></textarea>
+                        </div>
+                    </div>
+
 
                     <div class="col-md-3 col-sm-3 margin-top-half">
                         <br>
@@ -71,12 +104,11 @@
                             </form>
                         </button>
                     </div>
+                </form>
             </div>
-        </form>
         </div>
-        </div>
-
     </div>
+
 
     @include('partials.nav-bottom')
 

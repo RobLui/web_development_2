@@ -38,3 +38,19 @@ Route::get('/home/faq', 'FaqController@index')
     ->name('detail')
 ;
 
+// AUCTIONS
+Route::get('/auction/show/{id}', 'AuctionController@show')
+    ->name('show_auction')
+;
+
+Route::get('/auction/create', 'AuctionController@create')
+    ->name('create_auction')
+;
+
+Route::get('/auction/edit/{id}', 'AuctionController@edit')
+    ->name('edit_auction')
+;
+
+
+
+

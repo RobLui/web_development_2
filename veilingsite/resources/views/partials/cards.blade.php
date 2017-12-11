@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div id="main" class="text-center">
+        <div id="main-content" class="text-center">
 
             <div class="col-md-12 col-sm-12 margin-top-2 margin-bottom-2 ">
                 <h3 class="midnight-blue">How does it work?</h3>

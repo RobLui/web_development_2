@@ -150,23 +150,22 @@
                         </div>
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Minimum estimate price
-                                <input type="text" placeholder="xxxx" required />
+                                <input type="text" placeholder="&euro; xxxx" required />
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Maximum estimate price
-                                <input type="text" placeholder="xxxx" required />
+                                <input type="text" placeholder="&euro; xxxx" required />
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Buyout price (optional)
-                                <input type="text" placeholder="xxxx" required />
+                                <input type="text" placeholder="&euro; xxxx" required />
                             </label>
                         </div>
                     </div>
-
 
                     <div class="col-md-10">
                         <div class="col-md-3 col-sm-3">
@@ -183,15 +182,33 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-3 margin-top-half">
-                        <br>
-                        <button class="padding-complete background-dark-grey white active-bold full-width">
-                            <form action="#">
-                                <span class="padding-complete">ADMIT REQUEST</span>
-                            </form>
-                        </button>
+                    {{-- TERMS AND CONDITIONS--}}
+                    <div class="col-md-10">
+                        <div class="col-md-9 margin-top-2">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> I agree to the <span class="midnight-light-blue underlined">Terms and Conditions</span>
+                                </label>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="col-md-3 col-sm-3 margin-top-half">
+                        <div class="col-md-12">
+                            <button class="padding-complete background-light-blue white active-bold full-width">
+                                <form action="submit">
+                                    <span class="">ADD AUCTION</span>
+                                </form>
+                            </button>
+                        </div>
+                    </div>
+
                 </form>
+                <div class="col-md-10">
+                    <div class="col-md-3 margin-top-1 margin-bottom-3 text-center">
+                        <a href="#ask-a-question" class="midnight-light-blue">ASK A QUESTION ></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

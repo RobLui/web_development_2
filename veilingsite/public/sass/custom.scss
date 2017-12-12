@@ -325,9 +325,8 @@ $vet: 300;
 
 .btn {
   border: 2px solid gray;
-  height:4em;
-  color: gray;
-  background-color: white;
+  background-color: $light-dark-grey;
+  color:white;
   font-weight: bold;
 }
 
@@ -337,6 +336,7 @@ $vet: 300;
   top: 0;
   opacity: 0;
 }
+
 .padding-1 {
   padding:0.5em;
 }

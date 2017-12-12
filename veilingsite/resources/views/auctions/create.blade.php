@@ -13,6 +13,7 @@
     <div class="col-md-12 col-sm-12">
 
         <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+
             {{--BREADCRUMBS--}}
             <div class="margin-left-1 margin-top-2">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -27,11 +28,10 @@
                 </div>
 
                 <form>
-
                     {{-- OPTION VALUE LIST --}}
                     <div class="col-md-6">
                         <div class="col-md-10">
-                            <select>
+                            <select id="mounth" class="select">
                                 <option value="Style">Style</option>
                                 <option value="Abstract">Abstract</option>
                                 <option value="African American">African American</option>
@@ -91,7 +91,7 @@
                         <div class="col-md-9">
                             <label class="midnight-blue">Description
                             </label>
-                            <textarea rows="4" cols="25" name="comment" placeholder="describe your auction as thorough as possible."></textarea>
+                            <textarea rows="4" cols="25" name="description" placeholder="describe your auction as thorough as possible."></textarea>
                         </div>
                     </div>
 
@@ -100,7 +100,7 @@
                         <div class="col-md-9">
                             <label class="midnight-blue">Condition
                             </label>
-                            <textarea rows="4" cols="25" name="comment" placeholder="what's the condition of the artwork?"></textarea>
+                            <textarea rows="4" cols="25" name="condition" placeholder="what's the condition of the artwork?"></textarea>
                         </div>
                     </div>
 
@@ -109,7 +109,7 @@
                         <div class="col-md-9">
                             <label class="midnight-blue">Origin
                             </label>
-                            <textarea rows="1" cols="25" name="comment" placeholder="what's the origin of the artwork?"></textarea>
+                            <textarea rows="1" cols="25" name="origin" placeholder="what's the origin of the artwork?"></textarea>
                         </div>
                     </div>
 
@@ -179,6 +179,7 @@
                         </div>
                     </div>
 
+                    {{-- END DATE --}}
                     <div class="col-md-10">
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">End date
@@ -199,23 +200,24 @@
                         <div class="col-md-9 margin-top-2">
                             <div class="form-check form-check-inline">
                                 <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> I agree to the <span class="midnight-light-blue underlined">Terms and Conditions</span>
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> I agree to <span class="midnight-light-blue underlined">The Terms and Conditions</span>
                                 </label>
                             </div>
                         </div>
                     </div>
 
+                    {{-- ADD AUCTION BUTTON--}}
                     <div class="col-md-3 col-sm-3 margin-top-half">
                         <div class="col-md-12">
-                            <button class="padding-complete background-light-blue white active-bold full-width">
+                            <button type="submit" class="padding-complete background-light-blue white active-bold full-width">
                                 <form action="submit">
                                     <span class="">ADD AUCTION</span>
                                 </form>
                             </button>
                         </div>
                     </div>
-
                 </form>
+
                 <div class="col-md-10">
                     <div class="col-md-3 margin-top-1 margin-bottom-3 text-center">
                         <a href="#ask-a-question" class="midnight-light-blue">ASK A QUESTION ></a>

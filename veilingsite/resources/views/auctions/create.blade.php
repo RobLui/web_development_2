@@ -125,30 +125,34 @@
 
                     {{-- IMAGES --}}
                     <div class="col-md-10">
+
                         <div class="col-md-4 col-sm-4 margin-top-1">
-                            <label class="btn" for="multfile">
-                                <input id="multfile" type="file" multiple="multiple" style="display:none"
-                                       onchange="$('#multfile-label').html(
+                            <label class="btn" for="1">
+                                <input id="1" type="file" style="display:none"
+                                       onchange="$('#artwork_image').html(
                                     (this.files.length == 1) ? this.files[0].name : this.files.length + ' files');">
-                                <span id="multfile-label">UPLOAD IMAGE OF THE ARTWORK</span>
+                                <span id="artwork_image">UPLOAD IMAGE OF THE ARTWORK</span>
                             </label>
                         </div>
+
                         <div class="col-md-4 col-sm-4 margin-top-1">
-                            <label class="btn" for="multfile">
-                                <input id="multfile" type="file" multiple="multiple" style="display:none"
-                                       onchange="$('#multfile-label').html(
-                                    (this.files.length == 1) ? this.files[1].name : this.files.length + ' files');">
-                                <span id="multfile-label">UPLOAD IMAGE OF THE SIGNATURE</span>
+                            <label class="btn" for="2">
+                                <input id="2" type="file" style="display:none"
+                                       onchange="$('#signature_image').html(
+                                    (this.files.length == 1) ? this.files[0].name : this.files.length + ' files');">
+                                <span id="signature_image">UPLOAD IMAGE OF THE SIGNATURE</span>
                             </label>
                         </div>
+
                         <div class="col-md-4 col-sm-4 margin-top-1">
-                            <label class="btn" for="multfile">
-                                <input id="multfile" type="file" multiple="multiple" style="display:none"
-                                       onchange="$('#multfile-label').html(
-                                    (this.files.length == 1) ? this.files[2].name : this.files.length + ' files');">
-                                <span id="multfile-label">OPTIONAL IMAGE</span>
+                            <label class="btn" for="3">
+                                <input id="3" type="file" multiple="multiple" style="display:none"
+                                       onchange="$('#optional_image').html(
+                                    (this.files.length == 1) ? this.files[0].name : this.files.length + ' files');">
+                                <span id="optional_image">OPTIONAL IMAGE</span>
                             </label>
                         </div>
+
                     </div>
 
                     {{-- PRICING --}}

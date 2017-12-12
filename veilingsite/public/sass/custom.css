@@ -235,9 +235,9 @@ p a {
   color: #fff;
   padding: 5px 10px;
   margin: 0 5px;
-  background-color: #e1e1e1; }
+  background-color: #ebebeb; }
   p a:hover {
-    background-color: #d9d9d9; }
+    background-color: #f3f3f3; }
 
 .select-hidden {
   display: none;
@@ -250,7 +250,7 @@ p a {
   position: relative;
   font-size: 16px;
   color: black;
-  width: 400px;
+  width: 26.5em;
   height: 40px; }
 
 .select-styled {
@@ -265,18 +265,18 @@ p a {
     content: "";
     width: 0;
     height: 0;
-    border: 7px solid transparent;
-    border-color: #fff transparent transparent transparent;
+    border: 7px solid black;
+    border-color: black transparent transparent transparent;
     position: absolute;
     top: 16px;
     right: 10px; }
   .select-styled:hover {
-    background-color: #e1e1e1; }
+    background-color: #ebebeb; }
   .select-styled:active, .select-styled.active {
-    background-color: #d9d9d9; }
+    background-color: #f3f3f3; }
     .select-styled:active:after, .select-styled.active:after {
       top: 9px;
-      border-color: transparent transparent #fff transparent; }
+      border-color: transparent transparent black transparent; }
 
 .select-options {
   display: none;
@@ -295,7 +295,7 @@ p a {
     text-indent: 15px;
     border-top: 1px solid #cdcdcd; }
     .select-options li:hover {
-      color: #e6e6e6;
+      color: black;
       background: #fff; }
     .select-options li[rel="hide"] {
       display: none; }

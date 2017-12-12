@@ -29,7 +29,7 @@
 
                 <form>
                     {{-- OPTION VALUE LIST --}}
-                    <div class="col-md-6">
+                    <div class="col-md-6 margin-bottom-2">
                         <div class="col-md-10">
                             <select id="mounth" class="select">
                                 <option value="Style">Style</option>

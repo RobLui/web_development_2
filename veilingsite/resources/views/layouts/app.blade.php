@@ -53,6 +53,5 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
-    <script src="{{ asset('js-foundation/vendor/foundation.js') }}"></script>
 </body>
 </html>

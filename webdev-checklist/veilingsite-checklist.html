@@ -116,31 +116,65 @@
     <!-- USER -->
     <div class="bordered bottom-2">
       <h2 class="">user</h2>
-      <ul>
-      <li>heeft meerdere items</li>
+      <ul> 
+        <li>name (STRING)</li>
+        <li>email (STRING)</li>
+        <li>password (STRING)</li>
+        <li>remember_token (XXX)</li>
+        <li>timestamps (XXX)</li>
+        <li>1 user heeft meerdere items (foreign key in Item)</li>
       </ul>
     </div>
     
     
     <!-- ITEM -->
-    <div class="bordered bottom-2">
+    <div class="height-full bordered bottom-2">
       <h2 class="">Item</h2>
       <ul class="">
-      	<li class="">lot_id (lot nummer -> auto incremented value?)
-      	<li class="">name (naam van het item)</li>
-      	<li class="">remaining_time (hoelang de veiling nog duurt)</li>
+        
+      	<li class="">lot_id (lot nummer -> auto incremented value?) (INTEGER)</li>
+        
+        <li class="">category (STRING)</li>
+        <li class="">auction_title (STRING)</li>
+        <li class="">year (DATE)</li>
+        
+        <li class="">width (in cm) DECIMAL(4,2)</li>
+        <li class="">height (in cm) DECIMAL(4,2)</li>
+        <li class="">depth (in cm) DECIMAL(4,2)</li>
+        
+        <li class="">description (TEXT)</li>
+        <li class="">condition (TEXT)</li>
+        <li class="">origin (STRING)</li>
+        
+        <li class="">artwork_image (BLOB)</li>
+        <li class="">signature_image (BLOB)</li>
+        <li class="">optional_image (BLOB)</li>
+
+        <li class="">minimum_estimated_price (DECIMAL(12,2))</li>
+        <li class="">maximum_estimated_price (DECIMAL(12,2))</li>
+        <li class="">buyout_price (DECIMAL(12,2))</li>
+        
+        <li class="">end_date (DATETIME)</li>
+        <li class="">agreed (BOOLEAN)</li>
+        
+        <!-- NIET ZICHTBAAR -->
+        <li class="">amount_of_bids (standaard 0) (INTEGER)</li> 
+        <li class="">date_placed (DATETIME)</li> 
+
+        <li class="">fk_item_id (INTEGER)</li> 
+      	<!-- <li class="">name (naam van het item) = AUCTION TITLE</li> 
+      	<li class="">remaining_time (hoelang de veiling nog duurt) = BEREKENING OP END_DATE</li> 
       	<li class="">amount_of_bids (hoeveel biedingen er op geplaatst zijn)</li>
       	<li class="">highest_bid (hoogste bieding die op het item is gedaan)</li>
-      	<li class="">picture (afbeelding van het item)</li>
-      	<li class="">estimated_price (geschatte opbrengst van het item)</li>
-      	<li class="">buy_now_price (buy it now prijs van het item)</li>
-      	<li class="">description (beschrijving van het item)</li>
-      	<li class="">date_placed (datum wanneer het item geplaatst is)</li>
+      	<li class="">picture (afbeelding van het item) = ARTWORK_IMAGE</li>
+      	<li class="">estimated_price (geschatte opbrengst van het item) = MAXIMUM_ESTIMATED_PRICE</li>
+      	<li class="">buy_now_price (buy it now prijs van het item) = BUYOUT_PRICE</li>
+      	<li class="">description (beschrijving van het item) = DESCRIPTION</li>
+      	<li class="">date_placed (datum wanneer het item geplaatst is)</li> -->
       </ul>
     </div>
-    <div class="bottom-2">
-      
-    </div>
+  
+
     
   </body>
 </html>

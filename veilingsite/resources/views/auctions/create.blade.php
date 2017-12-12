@@ -27,8 +27,8 @@
                     </div>
                 </div>
 
-                <form>
-                    {{-- OPTION VALUE LIST --}}
+                {{ Form::open(['route' => 'postcreate', 'files' => true, 'method' => 'post']) }}
+                {{-- OPTION VALUE LIST --}}
                     <div class="col-md-6 margin-bottom-2">
                         <div class="col-md-10">
                             <select id="mounth" class="select">
@@ -54,13 +54,13 @@
                     <div class="col-md-10">
                         <div class="col-md-6 col-sm-6">
                             <label class="midnight-blue">Auction title
-                                <input type="text" placeholder="Auction title" required />
+                                <input type="text" placeholder="Auction title"  />
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Year
-                                <input type="text" placeholder="xxxx" required />
+                                <input type="text" placeholder="xxxx"  />
                             </label>
                         </div>
                     </div>
@@ -69,19 +69,19 @@
                     <div class="col-md-10">
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Width
-                                <input type="text" placeholder="xxxx" required />
+                                <input type="text" placeholder="xxxx"  />
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Height
-                                <input type="text" placeholder="xxxx" required />
+                                <input type="text" placeholder="xxxx"  />
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Depth (optional)
-                                <input type="text" placeholder="xxxx" required />
+                                <input type="text" placeholder="xxxx"  />
                             </label>
                         </div>
                     </div>
@@ -162,19 +162,19 @@
                         </div>
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Minimum estimate price
-                                <input type="text" placeholder="&euro; xxxx" required />
+                                <input type="text" placeholder="&euro; xxxx"  />
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Maximum estimate price
-                                <input type="text" placeholder="&euro; xxxx" required />
+                                <input type="text" placeholder="&euro; xxxx"  />
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Buyout price (optional)
-                                <input type="text" placeholder="&euro; xxxx" required />
+                                <input type="text" placeholder="&euro; xxxx"  />
                             </label>
                         </div>
                     </div>
@@ -183,7 +183,7 @@
                     <div class="col-md-10">
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">End date
-                                <input type="text" placeholder="D D / M M / Y Y" required />
+                                <input type="text" placeholder="D D / M M / Y Y"  />
                             </label>
                         </div>
 
@@ -216,7 +216,8 @@
                             </button>
                         </div>
                     </div>
-                </form>
+                {!! Form::close() !!}
+
 
                 <div class="col-md-10">
                     <div class="col-md-3 margin-top-1 margin-bottom-3 text-center">

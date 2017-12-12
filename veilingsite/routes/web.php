@@ -46,6 +46,10 @@ Route::get('/auction/show/{id}', 'AuctionController@show')
 Route::get('/auction/create', 'AuctionController@create')
     ->name('create_auction')
 ;
+// AUCTIONS
+Route::post('/auction/create', 'AuctionController@postcreate')
+    ->name('postcreate')
+;
 
 Route::get('/auction/edit/{id}', 'AuctionController@edit')
     ->name('edit_auction')

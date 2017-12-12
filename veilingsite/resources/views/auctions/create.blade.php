@@ -28,13 +28,24 @@
 
                 <form>
 
+                    {{-- OPTION VALUE LIST --}}
                     <div class="col-md-6">
                         <div class="col-md-10">
                             <select>
                                 <option value="Style">Style</option>
-                                <option value="Style">Style</option>
-                                <option value="Style">Style</option>
-                                <option value="Style">Style</option>
+                                <option value="Abstract">Abstract</option>
+                                <option value="African American">African American</option>
+                                <option value="Asian Contemporary">Asian Contemporary</option>
+                                <option value="Conceptual">Conceptual</option>
+                                <option value="Contemporary">Contemporary</option>
+                                <option value="Emerging Artists">Emerging Artists</option>
+                                <option value="Middle Eastern Contemporary">Middle Eastern Contemporary</option>
+                                <option value="Minimalism">Minimalism</option>
+                                <option value="Modern">Modern</option>
+                                <option value="Abstract">Abstract</option>
+                                <option value="Pop">Pop</option>
+                                <option value="Urban">Urban</option>
+                                <option value="Vintage Photographs">Vintage Photographs</option>
                             </select>
                         </div>
                     </div>
@@ -115,31 +126,28 @@
                     {{-- IMAGES --}}
                     <div class="col-md-10">
                         <div class="col-md-4 col-sm-4 margin-top-1">
-                            <div class="upload-btn-wrapper">
-                                <button class="btn">
-                                    <span>UPLOAD IMAGE</span>
-                                    <span>OF THE ARTWORK</span>
-                                </button>
-                                <input type="file" name="artwork_image" />
-                            </div>
+                            <label class="btn" for="multfile">
+                                <input id="multfile" type="file" multiple="multiple" style="display:none"
+                                       onchange="$('#multfile-label').html(
+                                    (this.files.length == 1) ? this.files[0].name : this.files.length + ' files');">
+                                <span id="multfile-label">UPLOAD IMAGE OF THE ARTWORK</span>
+                            </label>
                         </div>
                         <div class="col-md-4 col-sm-4 margin-top-1">
-                            <div class="upload-btn-wrapper">
-                                <button class="btn">
-                                    UPLOAD IMAGE OF THE SIGNATURE
-                                </button>
-                                <input type="file" name="signature_image" />
-                            </div>
+                            <label class="btn" for="multfile">
+                                <input id="multfile" type="file" multiple="multiple" style="display:none"
+                                       onchange="$('#multfile-label').html(
+                                    (this.files.length == 1) ? this.files[1].name : this.files.length + ' files');">
+                                <span id="multfile-label">UPLOAD IMAGE OF THE SIGNATURE</span>
+                            </label>
                         </div>
                         <div class="col-md-4 col-sm-4 margin-top-1">
-                            <div class="upload-btn-wrapper">
-                                <button class="btn background-light-grey">
-                                    <span class="padding-1">
-                                       OPTIONAL IMAGE
-                                    </span>
-                                </button>
-                                <input type="file" name="optional_image" />
-                            </div>
+                            <label class="btn" for="multfile">
+                                <input id="multfile" type="file" multiple="multiple" style="display:none"
+                                       onchange="$('#multfile-label').html(
+                                    (this.files.length == 1) ? this.files[2].name : this.files.length + ' files');">
+                                <span id="multfile-label">OPTIONAL IMAGE</span>
+                            </label>
                         </div>
                     </div>
 

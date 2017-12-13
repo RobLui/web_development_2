@@ -16,9 +16,9 @@
                                 </div>
                             </div>
 
-                            <div class="imagebtn margin-top-1">
-                                    <img src="{{ asset('images/mockups/vrouw.png') }}" alt="Women" title="women" ></p>
-                                    <div class="ovrly"></div>
+                            <div class="imagebtn">
+                                    <img class="margin-top-1" src="{{ asset('images/mockups/vrouw.png') }}" alt="Women" title="women" ></p>
+                                    <div class="ovrly hug-top-complete"></div>
                                     <div class="buttons">
                                         <a href="#" class="fa fa-search"></a>
                                     </div>

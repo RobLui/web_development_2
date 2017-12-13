@@ -113,25 +113,27 @@
     </div>
 
 
-    <!-- USER -->
+    <!-- USERS -->
     <div class="bordered bottom-2">
-      <h2 class="">user</h2>
+      <h2 class="">Users</h2>
       <ul> 
+        <li>id (INTEGER AUTOINCREMENT)</li>
         <li>name (STRING)</li>
         <li>email (STRING)</li>
         <li>password (STRING)</li>
         <li>remember_token (XXX)</li>
         <li>timestamps (XXX)</li>
-        <li>1 user heeft meerdere items (foreign key in Item)</li>
+        <li>1 user heeft meerdere items (foreign key in Items)</li>
+        <li>1 user heeft meerdere biedingen (foreign key in Biddings)</li>
       </ul>
     </div>
     
     
-    <!-- ITEM -->
+    <!-- ITEMS -->
     <div class="height-full bordered bottom-2">
-      <h2 class="">Item</h2>
+      <h2 class="">Items</h2>
       <ul class="">
-        
+        <li class="">id (INTEGER AUTOINCREMENT)</li>
       	<li class="">lot_id (lot nummer -> auto incremented value?) (INTEGER)</li>
         
         <li class="">category (STRING)</li>
@@ -159,9 +161,13 @@
         
         <!-- NIET ZICHTBAAR -->
         <li class="">amount_of_bids (standaard 0) (INTEGER)</li> 
-        <li class="">date_placed (DATETIME)</li> 
+        <!-- <li class="">date_placed (DATETIME) -> DEZE KOMT MEE MET DE TIMESTAMPS 'CREATED AT'</li>  -->
 
-        <li class="">fk_item_id (INTEGER)</li> 
+        <li></li>
+        <li class="">1 item heeft meerdere biedingen (foreign key in Biddings)</li> 
+        <li class="">fk_user_id (FK INTEGER)</li>
+        <li class="">fk_watchlist_id (FK INTEGER)</li>
+
       	<!-- <li class="">name (naam van het item) = AUCTION TITLE</li> 
       	<li class="">remaining_time (hoelang de veiling nog duurt) = BEREKENING OP END_DATE</li> 
       	<li class="">amount_of_bids (hoeveel biedingen er op geplaatst zijn)</li>
@@ -173,7 +179,30 @@
       	<li class="">date_placed (datum wanneer het item geplaatst is)</li> -->
       </ul>
     </div>
-  
+    
+    
+    <!-- BIDDINGS  -->
+    <div class="bordered bottom-2">
+      <h2 class="">Biedingen (Biddings)</h2>
+      <ul class="">
+        <li class="">id (INTEGER AUTOINCREMENT)</li>
+        <li></li> 
+        <li class="">fk_user_id (FK INTEGER)</li>
+        <li class="">fk_item_id (FK INTEGER)</li>
+      </ul>
+    </div>
+    
+    
+    <!-- WATCHLISTS -->
+    <div class="bordered bottom-2">
+      <h2 class="">Watchlists</h2>
+      <ul class="">
+        <li class="">id (INTEGER AUTOINCREMENT)</li>
+        <li></li> 
+        <li class="">1 watchlist heeft meerdere items (foreign key in items)</li>
+        <li class="">fk_user_id (FK INTEGER)</li>
+      </ul>
+    </div>
 
     
   </body>

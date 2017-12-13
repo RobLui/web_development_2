@@ -24,9 +24,9 @@ class AuctionController extends Controller
             'auction_title'             => 'required|max:255|string',
             'year'                      => 'required|date|date',
 
-            'width'                     => 'required|max:25|integer',
-            'height'                    => 'required|max:255|integer',
-            'depth'                     => 'required|max:255|integer',
+            'width'                     => 'required|max:9999|integer',
+            'height'                    => 'required|max:9999|integer',
+            'depth'                     => 'required|max:9999|integer',
 
             'description'               => 'required|max:255|',
             'condition'                 => 'required|max:255',
@@ -41,13 +41,15 @@ class AuctionController extends Controller
             'buyout_price'              => 'required|max:255|integer',
 
             'end_date'                  => 'required|date',
-            'agreed'                    => 'accepted|boolean',
+            'agreed'                    => 'accepted',
             ]
         );
+
         if (!$validator)
         {
-            return view('auctions.show');
         }
+        return view('auctions.show');
+
 
     }
 

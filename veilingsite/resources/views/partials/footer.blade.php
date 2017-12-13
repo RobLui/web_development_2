@@ -96,7 +96,7 @@
                         <li class="list-unstyled"><a href="#find-what-you-need" title="find what you need" class="black">FIND WHAT YOU NEED</a></li>
 
                         <li class="menu">
-                            {!! Form::open(array('route' => 'home', 'class' => 'form-horizontal')) !!}
+                            {!! Form::open(array('route' => 'search', 'class' => 'form-horizontal')) !!}
                             <div class="input-group margin-top-1">
                                 <input type="text" class="form-control" name="searchtext" placeholder="Search">
                                 <button class="margin-left-half" type="submit"><span class="fa fa-search fa-2x midnight-blue"></span></button>

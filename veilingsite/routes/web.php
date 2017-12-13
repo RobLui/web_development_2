@@ -2,6 +2,10 @@
 
 Auth::routes();
 
+Route::post('/search', 'IsearchController@searchfunction')
+    ->name('search')
+;
+
 Route::get('/', 'WelcomeController@index')
     ->name('welcome')
 ;
@@ -43,7 +47,6 @@ Route::get('/auction/show/{id}', 'AuctionController@show')
     ->name('show_auction')
 ;
 
-// AUCTIONS
 Route::post('/auction/create', 'AuctionController@postcreate')
     ->name('create_auction')
 ;

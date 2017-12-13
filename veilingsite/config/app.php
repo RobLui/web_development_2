@@ -169,7 +169,7 @@ return [
          */
         // Custom
         Collective\Html\HtmlServiceProvider::class,
-
+        AdvanceSearch\AdvanceSearchProvider\AdvanceSearchProvider::class,
 
         /*
          * Application Service Providers...
@@ -232,6 +232,7 @@ return [
         // Custom
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'Search' => AdvanceSearch\AdvanceSearchProvider\Facades\SearchFacades::class,
 
     ],
 

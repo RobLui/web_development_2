@@ -11,4 +11,28 @@ class IsearchController extends Controller
         return view('pages.isearch');
     }
 
+    public function searchFunction(Request $req) {
+        if(!preg_match('#(?<=<)\w+(?=[^<]*?>)#', $req->searchtext) && !preg_match('#<#',$req->searchtext)) {
+            $validator = $req->validate(
+                [
+                    'searchtext' => 'required|max:255',
+                ]
+            );
+            if ($validator) {
+                $i = new Search();
+                // Items
+                $item = $i->search(
+                    'Item',
+                    ['origin', 'description','auction_title','category'],
+                    $req->searchtext,
+                    null,
+                    null,
+                    true,
+                    1000
+                );
+                return view('pages.isearch')->withItem($item);
+            }
+        }
+        return view('pages.isearch');
+    }
 }

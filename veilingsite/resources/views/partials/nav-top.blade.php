@@ -45,7 +45,7 @@
 
                     <ul class="menu pull-right">
                         <li>
-                            {!! Form::open(array('route' => 'home', 'class' => 'form-horizontal')) !!}
+                            {!! Form::open(array('route' => 'search', 'class' => 'form-horizontal')) !!}
                                 <div class="input-group">
                                     <input type="text" class="form-control" name="searchtext" placeholder="Search">
                                     <button class="margin-left-half" type="submit"><span class="fa fa-search fa-2x midnight-blue"></span></button>

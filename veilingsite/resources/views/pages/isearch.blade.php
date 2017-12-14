@@ -77,19 +77,12 @@
                     <ul class="list-group">
                         @foreach($item as $i)
                             <li class="list-group-item">
-{{--                                <p><b>Origin:</b> {{ $i->origin }}</p>--}}
+                                <p><b>Origin:</b> {{ $i->origin }}</p>
+                                <p><b>Auction title:</b> {{ $i->auction_title }}</p>
+                                <p><b>Category:</b> {{ $i->category }}</p>
+                                <p><b>Description:</b> {{ $i->description }}</p>
+                                {{--<p> {{ $i }}</p>--}}
                             </li>
-                            <li class="list-group-item">
-{{--                                <p><b>Category:</b> {{ $i->category }}</p>--}}
-                            </li>
-                            <li class="list-group-item">
-{{--                                <p><b>Description:</b> {{ $i->description }}</p>--}}
-                            </li>
-                            <li class="list-group-item">
-{{--                                <p><b>Auction title:</b> {{ $i->auction_title }}</p>--}}
-                                <p> {{ $i }}</p>
-                            </li>
-                            {{--{{ $u }}--}}
                         @endforeach
                     </ul>
                 @else

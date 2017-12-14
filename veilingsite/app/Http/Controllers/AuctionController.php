@@ -47,8 +47,7 @@ class AuctionController extends Controller
             ]
         );
 
-        if ($validator)
-        {
+        if ($validator) {
 
             $item = new Item();
             $item->lot_id                       = 1;
@@ -85,7 +84,7 @@ class AuctionController extends Controller
             $item->save();
             Session::flash('success','Auction added, good luck!');
         }
-        return view('auctions.show');
+        return view('auctions.create');
     }
 
     public function edit($id) {

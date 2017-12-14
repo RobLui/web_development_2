@@ -83,7 +83,7 @@ class AuctionController extends Controller
             $item->amount_of_bids               = 0 ;
 
             $item->save();
-            Session::flash('success','Auction listing added! Good luck.');
+            Session::flash('success','Auction added, good luck!');
         }
         return view('auctions.show');
     }

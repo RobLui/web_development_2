@@ -11,6 +11,9 @@
     @include('partials.no-carousel')
 
     @include('common.errors')
+    <div class="text-center">
+        @include('common.messages')
+    </div>
     <div class="col-md-12 col-sm-12">
 
         <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">

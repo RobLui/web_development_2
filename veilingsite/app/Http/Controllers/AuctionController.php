@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Item;
 use function dd;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class AuctionController extends Controller
 {
@@ -36,21 +38,54 @@ class AuctionController extends Controller
             'signature_image'           => 'required|image',
             'optional_image'            => 'image',
 
-            'minimum_estimated_price'   => 'required|max:255|integer',
-            'maximum_estimated_price'   => 'required|max:255|integer',
-            'buyout_price'              => 'required|max:255|integer',
+            'minimum_estimated_price'   => 'required|integer',
+            'maximum_estimated_price'   => 'required|integer',
+            'buyout_price'              => 'required|integer',
 
             'end_date'                  => 'required|date',
             'agreed'                    => 'accepted',
             ]
         );
 
-        if (!$validator)
+        if ($validator)
         {
+
+            $item = new Item();
+            $item->lot_id                       = 1;
+            $item->category                     = $req->category;
+            $item->auction_title                = $req->auction_title;
+            $item->year                         = $req->year;
+
+            $item->width                        = $req->width;
+            $item->height                       = $req->height;
+            $item->depth                        = $req->depth;
+
+            $item->description                  = $req->description;
+            $item->condition                    = $req->condition;
+            $item->origin                       = $req->origin;
+
+            $item->artwork_image                = $req->artwork_image;
+            $item->signature_image              = $req->signature_image;
+            $item->optional_image               = $req->optional_image;
+
+            $item->minimum_estimated_price      = $req->minimum_estimated_price;
+            $item->maximum_estimated_price      = $req->maximum_estimated_price;
+            $item->buyout_price                 = $req->buyout_price;
+
+            $item->end_date                     = $req->end_date;
+
+            if ($req->agreed = 'on') {
+                $item->agreed = true;
+            }
+            else {
+                $item->agreed = false;
+            }
+            $item->amount_of_bids               = 0 ;
+
+            $item->save();
+            Session::flash('success','Auction listing added! Good luck.');
         }
         return view('auctions.show');
-
-
     }
 
     public function edit($id) {

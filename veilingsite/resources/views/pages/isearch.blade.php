@@ -70,29 +70,30 @@
         </div>
 
         {{-- ITEM DATA OUTPUT --}}
-        <div class="col-sm-6 col-sm-offset-3">
+            <div class="col-md-12 col-sm-12">
             @if(!empty($item))
                 @if(count($item) > 0)
                     <h4>Zoekresultaten Items:</h4>
                     <ul class="list-group">
                         @foreach($item as $i)
                             <li class="list-group-item">
-                                <p><b>Origin:</b> {{ $i->origin }}</p>
+{{--                                <p><b>Origin:</b> {{ $i->origin }}</p>--}}
                             </li>
                             <li class="list-group-item">
-                                <p><b>Category:</b> {{ $i->category }}</p>
+{{--                                <p><b>Category:</b> {{ $i->category }}</p>--}}
                             </li>
                             <li class="list-group-item">
-                                <p><b>Description:</b> {{ $i->description }}</p>
+{{--                                <p><b>Description:</b> {{ $i->description }}</p>--}}
                             </li>
                             <li class="list-group-item">
-                                <p><b>Auction title:</b> {{ $i->auction_title }}</p>
+{{--                                <p><b>Auction title:</b> {{ $i->auction_title }}</p>--}}
+                                <p> {{ $i }}</p>
                             </li>
                             {{--{{ $u }}--}}
                         @endforeach
                     </ul>
                 @else
-                    <h4>There was nothing found for your search terms in table: Users</h4>
+                    <h4>There was nothing found for your search terms in the database</h4>
                 @endif
 
             @endif

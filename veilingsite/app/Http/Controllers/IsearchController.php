@@ -23,7 +23,7 @@ class IsearchController extends Controller
                 // Items
                 $item = $i->search(
                     'Item',
-                    ['origin', 'description','auction_title','category'],
+                    ['auction_title','origin','description'],
                     $req->searchtext,
                     null,
                     null,

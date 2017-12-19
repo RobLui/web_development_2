@@ -6,11 +6,12 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
+        "5dmatwebsearch/advancesearch": "dev-master",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.5",
-        "5dmatwebsearch/advancesearch": "dev-master"
+        "themsaid/laravel-langman": "^1.3"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.1",

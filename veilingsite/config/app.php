@@ -170,6 +170,7 @@ return [
         // Custom
         Collective\Html\HtmlServiceProvider::class,
         AdvanceSearch\AdvanceSearchProvider\AdvanceSearchProvider::class,
+        Themsaid\Langman\LangmanServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -42,7 +42,7 @@ Route::get('/home/faq', 'FaqController@index')
     ->name('detail')
 ;
 
-// AUCTIONS
+// AUCTIONSq
 Route::get('/auction/show/{id}', 'AuctionController@show')
     ->name('show_auction')
 ;

@@ -1,6 +1,16 @@
 <?php
 
+
+use Illuminate\Support\Facades\Session;
+
 Auth::routes();
+
+//Route::get('setlocale/{locale}', function ($locale) {
+//    if (in_array($locale, \Illuminate\Config\::get('app.locales'))) {
+//        Session::put('locale', $locale);
+//    }
+//    return redirect()->back();
+//});
 
 Route::post('/search', 'IsearchController@searchfunction')
     ->name('search')

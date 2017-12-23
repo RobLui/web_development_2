@@ -12,7 +12,7 @@ Auth::routes();
 //    return redirect()->back();
 //});
 
-Route::post('/search', 'IsearchController@searchfunction')
+Route::post('/search', 'ArtController@searchfunction')
     ->name('search')
 ;
 

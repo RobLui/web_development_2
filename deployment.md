@@ -1,21 +1,23 @@
 # Deploment document Veilingsite
 
+> $ stands for code you have to put into a terminal/command line interface
+
 ## ++ Minimal requirements ++
 
-- php globally installed AND php version >=7.0.0
+- **php** globally installed AND php version >=7.0.0
 
-- composer globally installed
+- **composer** globally installed
 
-- git globally installed
+- **git** globally installed
 
 
 ## ++ Commands to execute ++
 
-- git clone https://github.com/RobLui/web_development_2.git
+- run: $ git clone https://github.com/RobLui/web_development_2.git
 
-- cd web_development_2/veilingsite
+- change directory: $ cd web_development_2/veilingsite
 
-- composer install
+- run: $ composer install
 
 - copy paste .env.example file into .env
 
@@ -26,7 +28,13 @@
 	- DB_USERNAME = **homestead <- change me**
 	- DB_PASSWORD = **secret <- change me**
 
+- run: $ php artisan migrate
+
 ## Next?
+
+- Wanna test if the site works well? run: $ localhost -S localhost:8000
+
+- go to the site on your localhost by putting localhost:8000/public into the browser
 
 - Enjoy the site!
 

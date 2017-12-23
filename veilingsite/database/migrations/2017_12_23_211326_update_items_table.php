@@ -15,14 +15,14 @@ class UpdateItemsTable extends Migration
     {
         Schema::table('items', function (Blueprint $table) {
 
-            // USER
-            $table->foreign('fk_user_id')
-                ->references('id')->on('users')
-                ->onDelete('cascade');
-            // WATCHLIST
-            $table->foreign('fk_watchlist_id')
-                ->references('id')->on('watchlists')
-                ->onDelete('cascade');
+//            // USER
+//            $table->foreign('fk_user_id')
+//                ->references('id')->on('users')
+//                ->onDelete('cascade');
+//            // WATCHLIST
+//            $table->foreign('fk_watchlist_id')
+//                ->references('id')->on('watchlists')
+//                ->onDelete('cascade');
         });
     }
 

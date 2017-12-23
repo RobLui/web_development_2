@@ -27,4 +27,10 @@ class Item extends Model
         'agreed',
         'amount_of_bids',
     ];
+
+    public function biddings() {
+        return $this->hasMany('App\Bidding');
+    }
+
+
 }

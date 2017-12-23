@@ -72,6 +72,8 @@ class AuctionController extends Controller
             $item->buyout_price                 = $req->buyout_price;
 
             $item->end_date                     = $req->end_date;
+//            $item->fk_user_id                   = $req->fk_user_id;
+//            $item->fk_watchlist_id              = 0;
 
             if ($req->agreed = 'on') {
                 $item->agreed = true;
@@ -79,7 +81,8 @@ class AuctionController extends Controller
             else {
                 $item->agreed = false;
             }
-            $item->amount_of_bids               = 0 ;
+
+            $item->amount_of_bids               = 0;
 
             $item->save();
             Session::flash('success','Auction added, good luck!');

@@ -41,8 +41,8 @@ class CreateItemsTable extends Migration
             $table->boolean('agreed');
             $table->integer('amount_of_bids')->default(0);
 
-            $table->integer('fk_user_id')->unsigned();
-            $table->integer('fk_watchlist_id')->unsigned();
+//            $table->integer('fk_user_id')->unsigned();
+//            $table->integer('fk_watchlist_id')->unsigned();
 
             $table->timestamps();
         });

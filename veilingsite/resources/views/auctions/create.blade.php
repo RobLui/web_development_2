@@ -209,6 +209,13 @@
                         </div>
                     </div>
 
+                    {{-- ID --}}
+                    {{--<div class="form-check hidden">--}}
+                        {{--<label class="form-check-label">--}}
+                            {{--<input name="fk_user_id" type="number" value="{{ Auth::id() }}">--}}
+                        {{--</label>--}}
+                    {{--</div>--}}
+
                     {{-- ADD AUCTION BUTTON--}}
                     <div class="col-md-3 col-sm-3 margin-top-half">
                         <div class="col-md-12">

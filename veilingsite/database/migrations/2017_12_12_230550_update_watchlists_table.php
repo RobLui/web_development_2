@@ -11,15 +11,15 @@ class UpdateWatchlistsTable extends Migration
      *
      * @return void
      */
-    public function up()
-    {
-        Schema::table('watchlists', function (Blueprint $table) {
-            // USER
-            $table->foreign('fk_user_id')
-                ->references('id')->on('users')
-                ->onDelete('cascade');
-        });
-    }
+//    public function up()
+//    {
+//        Schema::table('watchlists', function (Blueprint $table) {
+//            // USER
+//            $table->foreign('fk_user_id')
+//                ->references('id')->on('users')
+//                ->onDelete('cascade');
+//        });
+//    }
 
     /**
      * Reverse the migrations.

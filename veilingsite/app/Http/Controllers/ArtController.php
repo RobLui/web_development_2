@@ -23,7 +23,7 @@ class ArtController extends Controller
                 // Items
                 $item = $i->search(
                     'Item',
-                    ['auction_title','origin','description'],
+                    ['auction_title','origin','description','category'],
                     $req->searchtext,
                     null,
                     null,

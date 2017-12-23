@@ -33,10 +33,12 @@ Route::get('/isearch', 'IsearchController@index')
 ;
 
 Route::get('/myauctions', 'myAuctionsController@index')
+    ->middleware('auth')
     ->name('myauctions')
 ;
 
 Route::get('/mybids', 'myBidsController@index')
+    ->middleware('auth')
     ->name('mybids')
 ;
 
@@ -52,24 +54,29 @@ Route::get('/home/faq', 'FaqController@index')
     ->name('detail')
 ;
 
-// AUCTIONSq
+// AUCTIONS
 Route::get('/auction/show/{id}', 'AuctionController@show')
     ->name('show_auction')
 ;
 
 Route::post('/auction/create', 'AuctionController@postcreate')
+    ->middleware('auth')
     ->name('create_auction')
 ;
 
 Route::get('/auction/create', 'AuctionController@create')
+    ->middleware('auth')
     ->name('create_auction')
 ;
 
-
 Route::get('/auction/edit/{id}', 'AuctionController@edit')
+    ->middleware('auth')
     ->name('edit_auction')
 ;
 
 
-
+// PROFILE
+Route::get('/profile', 'ProfileController@index')
+    ->name('profile')
+;
 

@@ -16,7 +16,7 @@
                         </li>
                         <li><p class="midnight-blue">|</p></li>
                             <li>
-                                <a href="#profile" title="profile" >
+                                <a href="{{ route('profile') }}" title="profile" >
                                 {{--<i class="fa fa-user margin-right-half"></i>--}}
                                 <img class="margin-right-half" src="{{ asset('images/elements/user.png') }}" alt="user" title="user">
                                 PROFILE

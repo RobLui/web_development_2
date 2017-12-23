@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+@if(Request::url() === 'your url here')
+    // code
+@endif
 <html lang="{{ app()->getLocale() }}">
+
 <head>
     <script>
         if(navigator.userAgent.indexOf("Speed Insights") == -1) {
@@ -12,7 +16,6 @@
             ga('send', 'pageview');
         }
     </script>
-
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

@@ -58,7 +58,7 @@ $ php artisan migrate
 
 - index search tables for "items":
 ```
-$ php artisan index:table items lot_id,category,auction_title,year,description,condition,origin
+$ php artisan index:table items category,auction_title,description,origin
 ```
 
 

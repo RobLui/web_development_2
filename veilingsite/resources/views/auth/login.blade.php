@@ -18,7 +18,7 @@
                             <li><a href="{{ route('register') }}" title="register">REGISTER</a></li>
 
                             <li>
-                                <form class="form-inline margin-bottom-fourth" method="POST" action="{{ route('login') }}">
+                                <form class="form-inline margin-bottom-fourth no-link" method="POST" action="{{ route('login') }}">
                                     {{ csrf_field() }}
 
                                     <div class="form-group login-form-group{{ $errors->has('email') ? ' has-error' : '' }}">

@@ -8,9 +8,11 @@ $(document).ready(function(){
     // });
 
     //LOGIN TOGGLER
-    $('#login-toggler').click(function() {
+    $('#login-toggler').click(function(e) {
         $('#first-login-view').addClass('hidden');
         $('#second-login-view').removeClass('hidden');
+        e.preventDefault();
+        console.log("clicked");
     });
 
     //SELECT CUSTOM TOGGLER -> CREATE PAGE
@@ -53,10 +55,12 @@ $(document).ready(function(){
             //console.log($this.val());
         });
 
-        $(document).click(function() {
-            $styledSelect.removeClass('active');
-            $list.hide();
-        });
+        // $(document).click(function() {
+        //     $styledSelect.removeClass('active');
+        //     $list.hide();
+        // });
+
+
     });
 
 });

@@ -5,6 +5,11 @@ $(document).ready(function(){
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
+    $('#login-toggler').click(function() {
+        $('#first-login-view').addClass('hidden');
+        $('#second-login-view').removeClass('hidden');
+        console.log('clicked');
+    });
 });
 
 $('select').each(function(){
@@ -50,5 +55,5 @@ $('select').each(function(){
         $styledSelect.removeClass('active');
         $list.hide();
     });
-
 });
+

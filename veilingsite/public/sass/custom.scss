@@ -3,6 +3,7 @@ $midnight-blue: #036;
 $midnight-light-blue: #47A39F;
 
 $light-grey: #e6e6e6;
+$lightest-grey: #F0F0F0;
 $light-dark-grey: grey;
 
 $black: #000;
@@ -53,6 +54,10 @@ $vet: 300;
 
 .background-light-grey {
   background-color: $light-grey;
+}
+
+.background-light-grey-i {
+  background-color: $lightest-grey !important;
 }
 
 .background-dark-grey {

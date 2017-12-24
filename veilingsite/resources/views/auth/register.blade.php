@@ -38,13 +38,13 @@
                 <div class="col-sm-10">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Company or name
-                            <input type="text" name="auction_title">
+                            <input class="background-light-grey-i" type="text" name="auction_title">
                         </label>
                     </div>
 
                     <div class="col-sm-6">
                         <label class="midnight-blue">Email
-                            <input type="email" name="email">
+                            <input class="background-light-grey-i" type="email" name="email">
                         </label>
                     </div>
                 </div>
@@ -53,13 +53,13 @@
                 <div class="col-sm-10">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Password
-                            <input type="password" name="password">
+                            <input class="background-light-grey-i" type="password" name="password">
                         </label>
                     </div>
 
                     <div class="col-sm-6">
                         <label class="midnight-blue">Password Confirmation
-                            <input type="password" name="password_confirmation">
+                            <input class="background-light-grey-i" type="password" name="password_confirmation">
                         </label>
                     </div>
                 </div>
@@ -68,17 +68,17 @@
                 <div class="col-sm-10">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Country
-                            <input type="text" name="country">
+                            <input class="background-light-grey-i" type="text" name="country">
                         </label>
                     </div>
                     <div class="col-sm-3">
                         <label class="midnight-blue">Zip Code
-                            <input type="text" name="zip_code">
+                            <input class="background-light-grey-i" type="text" name="zip_code">
                         </label>
                     </div>
                     <div class="col-sm-3">
                         <label class="midnight-blue">City
-                            <input type="text" name="city">
+                            <input class="background-light-grey-i" type="text" name="city">
                         </label>
                     </div>
                 </div>
@@ -87,13 +87,13 @@
                 <div class="col-sm-10">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Address
-                            <input type="text" name="address">
+                            <input class="background-light-grey-i" type="text" name="address">
                         </label>
                     </div>
 
                     <div class="col-sm-6">
                         <label class="midnight-blue">Phone Number
-                            <input type="text" name="phone_number">
+                            <input class="background-light-grey-i" type="text" name="phone_number">
                         </label>
                     </div>
                 </div>
@@ -102,13 +102,13 @@
                 <div class="col-sm-10">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Account Number
-                            <input type="text" name="account_number">
+                            <input class="background-light-grey-i" type="text" name="account_number">
                         </label>
                     </div>
 
                     <div class="col-sm-6">
                         <label class="midnight-blue">VAT-number
-                            <input type="text" name="vat_number">
+                            <input class="background-light-grey-i" type="text" name="vat_number">
                         </label>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                 <div class="col-sm-10">
                     <div class="col-sm-12">
                         <label class="midnight-blue">Alternative payment methods
-                            <input type="text" name="alternative_payment_methods">
+                            <input class="background-light-grey-i" type="text" name="alternative_payment_methods">
                         </label>
                     </div>
 
@@ -127,7 +127,7 @@
                     <div class="col-md-9 margin-top-2">
                         <div class="form-check form-check-inline">
                             <label class="form-check-label">
-                                <input name="agreed" class="form-check-input" type="checkbox" id="inlineCheckbox1"> I Agree To <span class="midnight-light-blue underlined">The Terms and Conditions</span>
+                                <input name="agreed" class="form-check-input" type="checkbox" id="inlineCheckbox"> I Agree To <span class="midnight-light-blue underlined">The Terms and Conditions</span>
                             </label>
                         </div>
                     </div>

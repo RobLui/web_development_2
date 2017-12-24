@@ -415,7 +415,7 @@ p {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: $select-background;
+  background-color: $light-grey;
   padding: 8px 15px;
   &:after {
     content:"";
@@ -428,10 +428,10 @@ p {
     right: 10px;
   }
   &:hover {
-    background-color: lighten($select-background, 2);
+    background-color: lighten($lightest-grey, 2);
   }
   &:active, &.active {
-    background-color: lighten($select-background, 5);
+    background-color: lighten($lightest-grey, 2);
     &:after {
       top: 9px;
       border-color: transparent transparent black transparent;
@@ -449,7 +449,7 @@ p {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: darken($select-background, 5);
+  background-color: $lightest-grey;
   li {
     margin: 0;
     padding: 12px 0;

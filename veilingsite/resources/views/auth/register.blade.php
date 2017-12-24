@@ -347,7 +347,7 @@
                     </div>
                     <div class="col-sm-4">
                         <label class="midnight-blue">Number
-                            <input class="background-light-grey-i" type="text" name="city" placeholder="xx xxx xx xx">d
+                            <input class="background-light-grey-i" type="text" name="city" placeholder="xx xxx xx xx">
                         </label>
                     </div>
                 </div>
@@ -399,6 +399,7 @@
             </div>
         </div>
     </div>
+
     @include('partials.footer')
     @include('partials.nav-bottom')
     <div class="line"></div>

@@ -282,9 +282,9 @@ p a {
     top: 16px;
     right: 10px; }
   .select-styled:hover {
-    background-color: #ebebeb; }
+    background-color: #fafafa; }
   .select-styled:active, .select-styled.active {
-    background-color: #f3f3f3; }
+    background-color: #fafafa; }
     .select-styled:active:after, .select-styled.active:after {
       top: 9px;
       border-color: transparent transparent black transparent; }
@@ -299,7 +299,7 @@ p a {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #d9d9d9; }
+  background-color: #F5F5F5; }
   .select-options li {
     margin: 0;
     padding: 12px 0;

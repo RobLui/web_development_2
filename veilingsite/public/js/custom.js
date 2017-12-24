@@ -12,11 +12,11 @@ $(document).ready(function(){
         $('#first-login-view').addClass('hidden');
         $('#second-login-view').removeClass('hidden');
         e.preventDefault();
-        console.log("clicked");
+        // console.log("clicked");
     });
 
     //SELECT CUSTOM TOGGLER -> CREATE PAGE
-    $('select').each(function(){
+    $('#mounth').each(function(){
         var $this = $(this), numberOfOptions = $(this).children('option').length;
 
         $this.addClass('select-hidden');

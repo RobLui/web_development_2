@@ -61,7 +61,6 @@ $ php artisan migrate
 $ php artisan index:table items category,auction_title,description,origin
 ```
 
-
 ## Next?
 
 - Wanna test if the site works well? run: 

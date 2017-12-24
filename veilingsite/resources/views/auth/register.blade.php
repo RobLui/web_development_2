@@ -91,9 +91,14 @@
                         </label>
                     </div>
 
-                    <div class="col-sm-6">
-                        <label class="midnight-blue">Phone Number
-                            <input class="background-light-grey-i" type="text" name="phone_number">
+                    <div class="col-sm-2">
+                        <label class="midnight-blue">Phone
+                            <input class="background-light-grey-i" type="text" name="zip_code">
+                        </label>
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="midnight-blue">Number
+                            <input class="background-light-grey-i" type="text" name="city" placeholder="xx xxx xx xx">
                         </label>
                     </div>
                 </div>
@@ -102,13 +107,13 @@
                 <div class="col-sm-10">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Account Number
-                            <input class="background-light-grey-i" type="text" name="account_number">
+                            <input class="background-light-grey-i" type="text" name="account_number" placeholder="xx xxx xx xx">
                         </label>
                     </div>
 
                     <div class="col-sm-6">
                         <label class="midnight-blue">VAT-number
-                            <input class="background-light-grey-i" type="text" name="vat_number">
+                            <input class="background-light-grey-i" type="text" name="vat_number" placeholder="xx xxx xx xx">
                         </label>
                     </div>
                 </div>

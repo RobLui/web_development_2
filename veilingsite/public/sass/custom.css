@@ -25,7 +25,8 @@
   background-color: #e6e6e6; }
 
 .background-light-grey-i {
-  background-color: #F0F0F0 !important; }
+  background-color: #F5F5F5 !important;
+  border: 0px !important; }
 
 .background-dark-grey {
   background-color: grey; }
@@ -367,13 +368,14 @@ p a {
   overflow: hidden; }
 
 .login-form-group {
-  margin-right: 1.25em !important;
   margin-top: 0.35em !important;
+  margin-right: 1.25em !important;
   margin-bottom: 0.53em !important; }
   .login-form-group input {
-    font-style: italic !important;
-    max-height: 1.75em !important;
     padding-top: 0.5em !important;
-    width: 8em; }
+    box-shadow: none !important;
+    max-height: 1.75em !important;
+    width: 8em;
+    font-style: italic !important; }
 
 /*# sourceMappingURL=custom.css.map */

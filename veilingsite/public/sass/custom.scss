@@ -74,6 +74,10 @@ $vet: 300;
   margin-bottom: 0.5em;
 }
 
+.margin-bottom-fourth {
+  margin-bottom: 0.33em;
+}
+
 .margin-top-half {
   margin-top: 0.5em;
 }
@@ -512,4 +516,17 @@ p {
 .imagebtn:hover .ovrly {
   opacity: 1;
   overflow:hidden;
+}
+
+.login-form-group {
+  input{
+    font-style: italic !important;
+    max-height: 1.75em !important;
+    padding-top: 0.5em !important;
+    width: 8em;
+  }
+  margin-right: 1.25em !important;
+  margin-top: 0.35em !important;
+  margin-bottom:0.53em !important;
+
 }

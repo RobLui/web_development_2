@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('#login-toggler').click(function() {
         $('#first-login-view').addClass('hidden');
         $('#second-login-view').removeClass('hidden');
-        console.log('clicked');
+        // console.log('clicked');
     });
 });
 

@@ -36,6 +36,9 @@
 .margin-bottom-half {
   margin-bottom: 0.5em; }
 
+.margin-bottom-fourth {
+  margin-bottom: 0.33em; }
+
 .margin-top-half {
   margin-top: 0.5em; }
 
@@ -355,5 +358,15 @@ p a {
 .imagebtn:hover .ovrly {
   opacity: 1;
   overflow: hidden; }
+
+.login-form-group {
+  margin-right: 1.25em !important;
+  margin-top: 0.35em !important;
+  margin-bottom: 0.53em !important; }
+  .login-form-group input {
+    font-style: italic !important;
+    max-height: 1.75em !important;
+    padding-top: 0.5em !important;
+    width: 8em; }
 
 /*# sourceMappingURL=custom.css.map */

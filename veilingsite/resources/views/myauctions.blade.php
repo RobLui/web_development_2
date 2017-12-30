@@ -12,6 +12,10 @@
 
     @include('partials.filter')
 
+    <div class="col-sm-12 text-center margin-top-3 margin-bottom-3">
+        <a href="{{ route('create_auction') }}" class="btn btn-primary">create auction</a>
+    </div>
+
     @include('partials.nav-bottom')
 
     <div class="line"></div>

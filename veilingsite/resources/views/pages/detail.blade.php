@@ -98,6 +98,7 @@
                     </div>
                 </div>
             </div>
+            @include('partials.detail_description')
             @include('partials.thumbnail-gallery')
         </div>
     </div>

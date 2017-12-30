@@ -8,7 +8,7 @@
             <p class="margin-top-minus-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
 
-        <div class="col-sm-3 margin-top-1">
+        <div class="col-sm-3 margin-top-1 margin-bottom-2">
             <div class="col-sm-12">
                 <p class="active-bold margin-top-1">Artist</p>
                 <p class="margin-top-minus-1">Salvador Dali</p>
@@ -19,12 +19,10 @@
                 <p class="active-bold margin-top-1">Color</p>
                 <p class="margin-top-minus-1">Bronze, patinated bronze and gold</p>
             </div>
-            <div class="col-sm-12">
-                <button class="padding-complete background-dark-grey white active-bold full-width">
-                    ASK A QUESTION
-                    ABOUT THIS AUCTION
-                </button>
-            </div>
+            <button class="padding-complete background-dark-grey white active-bold full-width margin-left-1">
+                <span class="btn-block">ASK A QUESTION</span>
+                <span>ABOUT THIS AUCTION</span>
+            </button>
         </div>
 
     </div>

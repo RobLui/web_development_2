@@ -103,7 +103,7 @@
         </div>
     </div>
 </div>
-
+    @include('partials.footer')
     @include('partials.nav-bottom')
 
     <div class="line"></div>

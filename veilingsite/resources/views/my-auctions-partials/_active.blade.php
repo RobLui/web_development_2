@@ -1,15 +1,15 @@
 <div class="col-sm-12 margin-bottom-3">
     <div class="margin-top-2 margin-left-1">
 
-        <h4 class="light-dark-grey">Pending</h4>
-
+        <h4 class="light-dark-grey">Active</h4>
+        @if(false)
         {{--LINKS--}}
         <div class="percent-50 float-left bordered-left bordered-bottom a-height">
 
             @include('my-auctions-partials.tleft')
 
             {{--BOTTOM--}}
-            <div class="percent-100 bordered-top bordered-left float-left">
+            <div class="percent-100 bordered-top float-left">
                 <div class="percent-33 float-left">
                     <img src="{{ asset('images/mockups/details/male_small.png') }}" alt="img">
                 </div>
@@ -36,13 +36,13 @@
         </div>
 
 
-        {{--RECHTS--}}
-        <div class="percent-50 bordered-right float-left">
+            {{--RECHTS--}}
+            <div class="percent-50 bordered-right float-left">
 
-            @include('my-auctions-partials.tright')
+                @include('my-auctions-partials.tright')
 
             {{--BOTTOM--}}
-            <div class="percent-100 bordered-left float-left bordered-top">
+            <div class="percent-100 float-left bordered-top">
                 <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
                     <h4>&euro; 8900</h4>
                 </div>
@@ -53,7 +53,7 @@
                     25d 14u 44m
                 </div>
             </div>
-            <div class="percent-100 bordered-left float-left bordered-top bordered-bottom">
+            <div class="percent-100 float-left bordered-top bordered-bottom">
                 <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
                     <h4>&euro; 8900</h4>
                 </div>
@@ -65,7 +65,12 @@
                 </div>
             </div>
             {{--EIND BOTTOM--}}
-
         </div>
+            @else
+            <div class="percent-100">
+                <p class="light-dark-grey">You currently have no active blabla auctions. Please add a new auction or wait for approval.</p>
+            </div>
+            @endif
+
     </div>
 </div>

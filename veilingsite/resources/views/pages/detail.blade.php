@@ -76,13 +76,13 @@
                     </span>
                     <p class="full-width margin-top-1 pull-right text-right">bids: 7</p>
 
-                    <div class="float-left margin-top-1 full-width hug-top">
+                    <div class="float-left margin-top-half full-width hug-top">
                         <form>
                             <div class="form-group row background-light-blue">
-                                <div class="col-md-6 col-sm-6 margin-top-1">
+                                <div class="col-md-6 col-sm-6 margin-top-half margin-bottom-minus-half">
                                     <input type="text" class="form-control" placeholder="&euro;">
                                 </div>
-                                <div class="col-md-6 col-sm-6 margin-top-anderhalf">
+                                <div class="col-md-6 col-sm-6 margin-top-1">
                                     <a class="white active-bold" href="#" title="bid-now">BID NOW <img class="margin-left-half" src="{{ asset('images/elements/pijltje.png') }}" alt="arrow"></a>
                                 </div>
                             </div>

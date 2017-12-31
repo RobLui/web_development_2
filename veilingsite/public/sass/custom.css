@@ -387,4 +387,7 @@ p a {
     width: 8em;
     font-style: italic !important; }
 
+.text-right {
+  text-align: right; }
+
 /*# sourceMappingURL=custom.css.map */

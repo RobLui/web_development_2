@@ -77,7 +77,9 @@
                         <span class="pull-right hug-top">
                             <a class="midnight-light-blue underlined active-bold" href="#">Buy now for: &euro; 15.000</a>
                         </span>
-                        <div class="float-left margin-top-1 full-width">
+                        <p class="full-width margin-top-1 pull-right text-right">bids: 7</p>
+
+                        <div class="float-left margin-top-1 full-width hug-top">
                             <form>
                                 <div class="form-group row background-light-blue">
                                     <div class="col-md-6 col-sm-6 margin-top-1">

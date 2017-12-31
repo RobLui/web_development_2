@@ -18,14 +18,17 @@
 .midnight-light-blue {
   color: #47A39F; }
 
-.background-light-blue {
-  background-color: #47A39F; }
-
 .light-grey {
   color: #e6e6e6 !important; }
 
 .light-dark-grey {
   color: grey !important; }
+
+.background-white {
+  background-color: #ffffff; }
+
+.background-light-blue {
+  background-color: #47A39F; }
 
 .background-light-grey {
   background-color: #e6e6e6; }
@@ -75,6 +78,12 @@
 
 .margin-left-1 {
   margin-left: 1em; }
+
+.margin-left-2 {
+  margin-left: 2em; }
+
+.margin-left-3 {
+  margin-left: 3em; }
 
 .margin-left-1-2 {
   margin-left: 1.2em; }
@@ -432,11 +441,25 @@ p a {
   width: 33%;
   display: block; }
 
+.percent-34 {
+  width: 34%;
+  display: block; }
+
+.percent-67 {
+  width: 67%;
+  display: block; }
+
 .percent-25 {
   width: 25%;
   display: block; }
 
 .margin-left-33p {
-  margin-left: 33%; }
+  margin-left: 33%;
+  display: block; }
+
+.margin-top-25p {
+  margin-top: 12.6%;
+  margin-bottom: 12.6%;
+  display: block; }
 
 /*# sourceMappingURL=custom.css.map */

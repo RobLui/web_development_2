@@ -26,31 +26,11 @@
                         <a href="{{ route('create_auction') }}" class="dark-bordered-complete background-light-grey padding-complete pull-right midnight-blue active-bold margin-top-minus-1">
                             ADD NEW AUCTION >
                         </a>
-                    <h4 class="light-dark-grey">Pending</h4>
                 </div>
             </div>
 
-
-
-            <div class="col-sm-12 margin-bottom-3">
-
-                <div class="margin-top-2 margin-left-1">
-                    <div class="percent-50 float-left background-lightest-grey bordered-left bordered-top bordered-bottom">
-                        <div class="margin-left-33p percent-33 float-left text-center padding-top-half">
-                            Auction details
-                        </div>
-                        <div class="percent-33 float-left"></div>
-                    </div>
-                    <div class="percent-50 float-left background-lightest-grey bordered-right bordered-top bordered-bottom">
-                        <div class="percent-33 float-left text-center padding-top-half">Estimated price</div>
-                        <div class="percent-33 float-left text-center padding-top-half">End date</div>
-                        <div class="percent-33 float-left text-center padding-top-half">Remaining time</div>
-                    </div>
-                </div>
-            </div>
-
-
-
+            @include('my-auctions-partials._pending')
+            @include('my-auctions-partials._refused')
         </div>
     </div>
     @include('partials.nav-bottom')

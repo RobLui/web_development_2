@@ -11,7 +11,7 @@
             {{--BOTTOM--}}
             <div class="percent-100 bordered-top bordered-left float-left">
                 <div class="percent-33 float-left">
-                    <img src="{{ asset('images/mockups/details/male_small.png') }}" alt="img">
+                    <img src="{{ asset('images/mockups/details/painting_small.png') }}" alt="img">
                 </div>
                 <div class="percent-67 float-left background-white">
                     <div class="margin-top-25p margin-left-3">

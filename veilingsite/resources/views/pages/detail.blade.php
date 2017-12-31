@@ -14,9 +14,7 @@
 
     @include('partials.no-carousel')
 
-    <div class="col-md-12 col-sm-12">
-
-        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 margin-bottom-2">
 
             {{--BREADCRUMBS--}}
             <div class="margin-left-1 margin-top-2">
@@ -29,8 +27,8 @@
                         <p class="midnight-light-blue active-bold">Dance of Time III </p>
                     </div>
 
-                    <div class="col-md-3 col-sm-12">
-                        <p class="light-dark-grey active-bold"> Lot ID: 84611</p>
+                    <div class="col-md-2 col-sm-12 text-right">
+                        <p class="light-dark-grey active-bold">Lot ID: 84611</p>
                     </div>
 
                     <div class="margin-left-1 full-width">
@@ -59,50 +57,47 @@
             </div>
 
              {{--RECHTER HELFT--}}
-            <div class="col-md-4 col-sm-6 col-xs-6 margin-top-2">
-                <div class="col-md-9 col-sm-9 top-part">
+            <div class="col-md-4 col-sm-12 col-xs-6 margin-top-2">
+                <div class="col-md-9 col-sm-12 top-part margin-left-half">
                     <h4 class="pull-right hug-top">Dance of Time III</h4>
                     <p class="midnight-blue pull-right hug-top">1979, Salvador Dali</p>
                     <hr>
                     <p class="midnight-light-blue active-bold pull-right hug-top">25d 14u 44m left</p>
                     <p class="light-dark-grey pull-right hug-top">September 09, 2013, 13:00 p.m.</p>
                     <hr>
-                    <p class="pull-right text-right">tur adipisicing elit, sed do eiusmod tempor incididunt ut labaliqore et dolore magna incididunt ut labaliqore et dolore magna..</p>
+                    <p class="pull-right text-right text-12">tur adipisicing elit, sed do eiusmod tempor incididunt ut labaliqore et dolore magna incididunt ut labaliqore et dolore magna..</p>
                     <a class="black active-bold underlined pull-right hug-top" href="#">more</a>
                 </div>
-                <div class="col-md-12">
-                    <div class="col-md-9 col-sm-9 bottom-part margin-top-2 bordered">
-                        <p class="margin-top-half pull-right midnight-blue">Estimated price:</p>
-                        <h4 class="pull-right midnight-blue active-bold hug-top">&euro; 9.500 - &euro; 10.500</h4>
-                        <span class="pull-right hug-top">
-                            <a class="midnight-light-blue underlined active-bold" href="#">Buy now for: &euro; 15.000</a>
-                        </span>
-                        <p class="full-width margin-top-1 pull-right text-right">bids: 7</p>
+                <div class="col-md-9 col-sm-9 bottom-part margin-top-2 bordered margin-left-half">
+                    <p class="margin-top-half pull-right midnight-blue">Estimated price:</p>
+                    <h4 class="pull-right midnight-blue active-bold hug-top">&euro; 9.500 - &euro; 10.500</h4>
+                    <span class="pull-right hug-top">
+                        <a class="midnight-light-blue underlined active-bold" href="#">Buy now for: &euro; 15.000</a>
+                    </span>
+                    <p class="full-width margin-top-1 pull-right text-right">bids: 7</p>
 
-                        <div class="float-left margin-top-1 full-width hug-top">
-                            <form>
-                                <div class="form-group row background-light-blue">
-                                    <div class="col-md-6 col-sm-6 margin-top-1">
-                                        <input type="text" class="form-control" placeholder="&euro;">
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 margin-top-anderhalf">
-                                        <a class="white active-bold" href="#" title="bid-now">BID NOW <img class="margin-left-half" src="{{ asset('images/elements/pijltje.png') }}" alt="arrow"></a>
-                                    </div>
+                    <div class="float-left margin-top-1 full-width hug-top">
+                        <form>
+                            <div class="form-group row background-light-blue">
+                                <div class="col-md-6 col-sm-6 margin-top-1">
+                                    <input type="text" class="form-control" placeholder="&euro;">
                                 </div>
-                            </form>
-                            <div class="text-center margin-bottom-half hug-top">
-                                <i class="fa fa-bars"></i>
-                                <a href="#add-to-my-watchlist" title="add to my watchlist" class="midnight-blue underlined active-bold">
-                                    add to my watchlist
-                                </a>
+                                <div class="col-md-6 col-sm-6 margin-top-anderhalf">
+                                    <a class="white active-bold" href="#" title="bid-now">BID NOW <img class="margin-left-half" src="{{ asset('images/elements/pijltje.png') }}" alt="arrow"></a>
+                                </div>
                             </div>
+                        </form>
+                        <div class="text-center margin-bottom-half hug-top">
+                            <i class="fa fa-bars"></i>
+                            <a href="#add-to-my-watchlist" title="add to my watchlist" class="midnight-blue underlined active-bold">
+                                add to my watchlist
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
             @include('partials.detail_description')
             @include('partials.thumbnail-gallery')
-        </div>
     </div>
 </div>
     @include('partials.footer')

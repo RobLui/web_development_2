@@ -17,7 +17,7 @@
         <div class="col-sm-12">
             <div class="bordered-bottom">
                 <span class="light-dark-grey">25d 14u 44m</span>
-                <button class="margin-left-08 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
             </div>
         </div>
     </div>
@@ -36,7 +36,7 @@
         <div class="col-sm-12">
             <div class="bordered-bottom">
                 <span class="light-dark-grey">25d 14u 44m</span>
-                <button class="margin-left-08 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
             </div>
         </div>
     </div>
@@ -55,12 +55,12 @@
         <div class="col-sm-12">
             <div class="bordered-bottom">
                 <span class="light-dark-grey">25d 14u 44m</span>
-                <button class="margin-left-08 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
             </div>
         </div>
     </div>
 
-    <div class="col-sm-3  margin-left-images-minus">
+    <div class="col-sm-3 margin-left-images-minus">
         <img class="full-width" src="{{ asset('images/mockups/details/butt_small.png') }}" alt="Butt small">
         <a title="#" href="#">
             <div class="caption margin-top-1 margin-left-1">
@@ -74,7 +74,7 @@
         <div class="col-sm-12">
             <div class="bordered-bottom">
                 <span class="light-dark-grey">25d 14u 44m</span>
-                <button class="margin-left-08 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
             </div>
         </div>
     </div>

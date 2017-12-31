@@ -64,6 +64,9 @@
 .margin-left-1 {
   margin-left: 1em; }
 
+.margin-left-1-2 {
+  margin-left: 1.2em; }
+
 .margin-left-1-minus {
   margin-left: -1em; }
 
@@ -392,5 +395,8 @@ p a {
 
 .text-right {
   text-align: right; }
+
+.text-12 {
+  font-size: 12px; }
 
 /*# sourceMappingURL=custom.css.map */

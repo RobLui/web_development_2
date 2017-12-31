@@ -358,7 +358,6 @@ p a {
   transform: translate(-50%, -50%); }
 
 .imagebtn .buttons .fa {
-  background: white;
   border-radius: 50%;
   display: inline-block;
   line-height: 40px;
@@ -376,10 +375,13 @@ p a {
 .imagebtn:hover .buttons .fa {
   opacity: 1;
   transform: scale(1);
-  color: rgba(50, 50, 50, 0.9); }
+  color: white; }
 
 .imagebtn:hover .buttons .fa.fa-2x {
   transform: scale(2); }
+
+.imagebtn:hover .buttons .fa.fa-4x {
+  transform: scale(4); }
 
 .imagebtn:hover .ovrly {
   opacity: 1;
@@ -401,5 +403,8 @@ p a {
 
 .text-12 {
   font-size: 12px; }
+
+.fa-custom-search {
+  background-image: url("../images/elements/search.png"); }
 
 /*# sourceMappingURL=custom.css.map */

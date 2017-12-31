@@ -383,7 +383,6 @@ $vet: 300;
   text-align:center;
  }
 
-
 $select-color: #fff;
 $select-background: $light-grey;
 $select-width: 26.5em;
@@ -487,6 +486,8 @@ p {
   }
 }
 
+//HOVER SEARCH ICON
+
 .imagebtn {
   width: 100%;
   overflow: hidden;
@@ -520,7 +521,6 @@ p {
 }
 
 .imagebtn .buttons .fa {
-  background: rgb(256, 256, 256);
   border-radius: 50%;
   display: inline-block;
   line-height: 40px;
@@ -539,11 +539,15 @@ p {
 .imagebtn:hover .buttons .fa {
   opacity: 1;
   transform: scale(1);
-  color: rgba(50, 50, 50, 0.9);
+  color: white;
 }
 
 .imagebtn:hover .buttons .fa.fa-2x {
   transform: scale(2);
+}
+
+.imagebtn:hover .buttons .fa.fa-4x {
+  transform: scale(4);
 }
 
 .imagebtn:hover .ovrly {
@@ -567,6 +571,11 @@ p {
 .text-right {
   text-align: right;
 }
+
 .text-12 {
-  font-size:12px;
+  font-size: 12px;
+}
+
+.fa-custom-search {
+  background-image: url('../images/elements/search.png');
 }

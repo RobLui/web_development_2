@@ -22,7 +22,7 @@
             </div>
             <div class="percent-100 bordered-top float-left">
                 <div class="percent-33 float-left">
-                    <img src="{{ asset('images/mockups/details/male_small.png') }}" alt="img">
+                    <img src="{{ asset('images/mockups/lachend.jpg') }}" alt="img">
                 </div>
                 <div class="percent-67 float-left background-white">
                     <div class="margin-top-25p margin-left-3">
@@ -33,7 +33,7 @@
             </div>
             <div class="percent-100 bordered-top float-left">
                 <div class="percent-33 float-left">
-                    <img src="{{ asset('images/mockups/details/male_small.png') }}" alt="img">
+                    <img src="{{ asset('images/mockups/brug.jpg') }}" alt="img">
                 </div>
                 <div class="percent-67 float-left background-white">
                     <div class="margin-top-25p margin-left-3">

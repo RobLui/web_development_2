@@ -8,7 +8,7 @@
                 <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                     <ul class="dropdown menu" data-dropdown-menu>
                         <li>
-                            <a href="#watchlist" title="watchlist" >
+                            <a href="{{ route('my_watchlist') }}" title="watchlist" >
                                 <img class="margin-right-half" src="{{ asset('images/elements/bars.png') }}" alt="bars" title="bars">
                                 {{--<i class="fa fa-bars margin-right-half"></i>--}}
                                 WATCHLIST

@@ -15,11 +15,11 @@
         <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
 
             <div class="col-md-12 col-sm-12">
-                <div class="margin-top-2 margin-left-1">
+                <div class="margin-top-2">
                     <a class="midnight-light-blue float-left margin-right-half" href="{{ route('home') }}" title="home">Home > </a>
                     <p class="midnight-light-blue margin-right-half bold">Jasper Poppe</p>
                 </div>
-                <div class="margin-top-1 margin-left-1">
+                <div class="margin-top-1">
                     <h2 class="margin-bottom-half light-dark-grey">Profile</h2>
                 </div>
                 <div class="col-sm-12 bordered">
@@ -65,6 +65,90 @@
             </div>
         </div>
     </div>
+
+    {{--ACTIVE AUCTIONS--}}
+    <div class="col-sm-10 col-sm-offset-1 margin-bottom-2 margin-bottom-3 margin-top-2">
+        <div class="col-sm-12">
+        <div class="col-md-12 col-sm-12">
+            <h4 class="light-dark-grey margin-bottom-1">Active auctions</h4>
+        </div>
+
+        <div class="col-sm-3">
+            <img class="full-width" src="{{ asset('images/mockups/lachend.jpg') }}" alt="lachend">
+            <a title="#" href="#">
+                <div class="caption margin-top-1 margin-left-1">
+                    <p class="midnight-blue">1979, Salvador Dali</p>
+                </div>
+            </a>
+            <div class="col-sm-12 col-xs-12">
+                <h5 class="black hug-top-complete">Dance of Time III</h5>
+                <h5 class="hug-top light-dark-grey">&euro; 8.900</h5>
+            </div>
+            <div class="col-sm-12">
+                <div class="bordered-bottom">
+                    <span class="light-dark-grey">25d 14u 44m</span>
+                    <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 margin-left-images-minus">
+            <img class="full-width" src="{{ asset('images/mockups/details/male_small.png') }}" alt="Male small">
+            <a title="#" href="#">
+                <div class="caption margin-top-1 margin-left-1">
+                    <p class="midnight-blue">1979, Salvador Dali</p>
+                </div>
+            </a>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h5 class="black hug-top-complete">Dance of Time III</h5>
+                <h5 class="hug-top light-dark-grey">&euro; 8.900</h5>
+            </div>
+            <div class="col-sm-12">
+                <div class="bordered-bottom">
+                    <span class="light-dark-grey">25d 14u 44m</span>
+                    <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 margin-left-images-minus">
+            <img class="full-width" src="{{ asset('images/mockups/details/perfume_small.png') }}" alt="Painting small">
+            <a title="#" href="#">
+                <div class="caption margin-top-1 margin-left-1">
+                    <p class="midnight-blue">1979, Salvador Dali</p>
+                </div>
+            </a>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h5 class="black hug-top-complete">Dance of Time III</h5>
+                <h5 class="hug-top light-dark-grey">&euro; 8.900</h5>
+            </div>
+            <div class="col-sm-12">
+                <div class="bordered-bottom">
+                    <span class="light-dark-grey">25d 14u 44m</span>
+                    <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3 margin-left-images-minus">
+            <img class="full-width" src="{{ asset('images/mockups/details/male_small.png') }}" alt="Male small">
+            <a title="#" href="#">
+                <div class="caption margin-top-1 margin-left-1">
+                    <p class="midnight-blue">1979, Salvador Dali</p>
+                </div>
+            </a>
+            <div class="col-sm-12 col-xs-12">
+                <h5 class="black hug-top-complete">Dance of Time III</h5>
+                <h5 class="hug-top light-dark-grey">&euro; 8.900</h5>
+            </div>
+            <div class="col-sm-12">
+                <div class="bordered-bottom">
+                    <span class="light-dark-grey">25d 14u 44m</span>
+                    <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                </div>
+            </div>
+        </div>
+    </div></div>
 
     @include('partials.footer')
     @include('partials.nav-bottom')

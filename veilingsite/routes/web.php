@@ -93,6 +93,7 @@ Route::get('/auction/edit/{id}', 'AuctionController@edit')
     ->name('edit_auction')
 ;
 
+// WATCHLIST
 Route::get('/mywatchlist', 'MyWatchlistController@index')
     ->name('my_watchlist')
 ;

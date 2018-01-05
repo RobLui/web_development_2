@@ -106,10 +106,12 @@
 
                         <li class="list-unstyled margin-top-6">
                             <a href="#contact" title="contact" class="black full-width">CONTACT</a>
-                            <span class="light-dark-grey">Landoretti ART</span>
-                            <br>
-                            <span class="light-dark-grey">Straatnaam xxx</span>
-                            <br>
+                            <div class="margin-bottom">
+                                <span class="light-dark-grey">Landoretti ART</span>
+                            </div>
+                            <div class="margin-bottom">
+                                <span class="light-dark-grey margin-bottom-1">Straatnaam xxx</span>
+                            </div>
                             <span class="light-dark-grey">xxxx, Oostende</span>
                         </li>
 

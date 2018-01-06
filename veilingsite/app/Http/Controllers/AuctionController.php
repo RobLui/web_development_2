@@ -89,9 +89,5 @@ class AuctionController extends Controller
         }
         return view('auctions.create');
     }
-
-    public function edit($id) {
-        return view('auctions.edit');
-    }
-
+    
 }

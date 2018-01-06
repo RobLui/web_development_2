@@ -88,10 +88,6 @@ Route::get('/auction/create', 'AuctionController@create')
     ->name('create_auction')
 ;
 
-Route::get('/auction/edit/{id}', 'AuctionController@edit')
-    ->middleware('auth')
-    ->name('edit_auction')
-;
 
 // WATCHLIST
 Route::get('/mywatchlist', 'MyWatchlistController@index')

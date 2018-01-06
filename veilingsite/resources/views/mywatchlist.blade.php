@@ -25,8 +25,7 @@
                     <span class="show-for-sr midnight-blue float-left"></span>
                     <p class="midnight-light-blue active-bold">Dance of Time III </p>
             </div>
-
-            <h4 class="light-dark-grey">My watchlist</h4>
+            <h2 class="margin-top-1 margin-bottom-1 light-dark-grey">My watchlist</h2>
 
             {{--LINKS--}}
 

@@ -10,14 +10,12 @@
                         <li>
                             <a href="{{ route('my_watchlist') }}" title="watchlist" >
                                 <img class="margin-right-half" src="{{ asset('images/elements/bars.png') }}" alt="bars" title="bars">
-                                {{--<i class="fa fa-bars margin-right-half"></i>--}}
                                 WATCHLIST
                             </a>
                         </li>
                         <li><p class="midnight-blue">|</p></li>
                             <li>
                                 <a href="{{ route('profile') }}" title="profile" >
-                                {{--<i class="fa fa-user margin-right-half"></i>--}}
                                 <img class="margin-right-half" src="{{ asset('images/elements/user.png') }}" alt="user" title="user">
                                 PROFILE
                             </a>

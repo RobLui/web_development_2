@@ -456,6 +456,10 @@ p a {
   width: 34%;
   display: block; }
 
+.percent-45 {
+  width: 45%;
+  display: block; }
+
 .percent-50 {
   width: 50%;
   display: block; }
@@ -478,6 +482,11 @@ p a {
 
 .percent-100 {
   width: 100%;
+  display: block; }
+
+.margin-top-20p {
+  margin-top: 11.85%;
+  margin-bottom: 12%;
   display: block; }
 
 .margin-left-33p {

@@ -20,8 +20,8 @@
             {{--BREADCRUMBS--}}
             <div class="margin-top-2">
                     <a class="midnight-light-blue float-left margin-right-half" href="{{ route('home') }}" title="home">Home > </a></li>
-                    <a class="midnight-light-blue float-left margin-right-half" href="{{ route('home') }}" title="auctions">Jasper Poppe > </a></li>
-                    <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}" title="salvador dali">My watchlist > </a></li>
+                    <a class="midnight-light-blue float-left margin-right-half" href="{{ route('profile') }}" title="auctions">Jasper Poppe > </a></li>
+                    <p class="midnight-light-blue float-left margin-right-half active-bold">My watchlist</p></li>
                     <span class="show-for-sr midnight-blue float-left"></span>
             </div>
 
@@ -37,8 +37,7 @@
 
             <h2 class="margin-top-1 margin-bottom-1 light-dark-grey">My watchlist</h2>
 
-            {{--LINKS--}}
-
+            {{--LINKERHELFT--}}
             <div class="percent-50 bordered-bottom float-left">
 
                 {{--TOP GRIJS--}}
@@ -180,7 +179,7 @@
                     </div>
                 </div>
 
-                {{--CUSTOM JIP N JANNEKE--}}
+                {{--CUSTOM OLIFANT--}}
                 <div class="percent-100 float-left">
                     <div class="percent-5 float-left styled-checkbox">
                         <form action="">
@@ -293,113 +292,133 @@
             </div>
 
 
-            {{--RECHTS--}}
-            <div class="percent-50 bordered-right float-left a-height">
+            {{--RECHTERHELFT--}}
+            <div class="percent-50 bordered-right float-left">
 
                 @include('my-auctions-partials.tright')
 
                 {{--BOTTOM--}}
                 <div class="percent-100 float-left bordered-left bordered-top ">
-                    <div class="percent-33 margin-top-27p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         <h4>&euro; 8900</h4>
                     </div>
-                    <div class="percent-33 margin-top-27p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         September 09, 2013 13:00 p.m. (EST)
                     </div>
-                    <div class="percent-33 margin-top-27p margin-bottom-3 float-left text-center">
-                        sold
-                    </div>
-                </div>
-                <div class="percent-100 float-left bordered-left bordered-top">
-                    <div class="percent-33 margin-top-27p margin-bottom-3 float-left text-center">
-                        <h4>&euro; 8900</h4>
-                    </div>
-                    <div class="percent-33 margin-top-27p margin-bottom-3 float-left text-center">
-                        September 09, 2013 13:00 p.m. (EST)
-                    </div>
-                    <div class="percent-33 margin-top-27p margin-bottom-3 float-left text-center">
-                        sold
-                    </div>
-                </div>
-                <div class="percent-100 float-left bordered-left bordered-top">
-                    <div class="percent-33 margin-top-27p margin-bottom-3 float-left text-center">
-                        <h4>&euro; 8900</h4>
-                    </div>
-                    <div class="percent-33 margin-top-27p margin-bottom-3 float-left text-center">
-                        September 09, 2013 13:00 p.m. (EST)
-                    </div>
-                    <div class="percent-33 margin-top-27p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         sold
                     </div>
                 </div>
                 <div class="percent-100 float-left bordered-left bordered-top ">
-                    <div class="percent-33 margin-top-27p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         <h4>&euro; 8900</h4>
                     </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         September 09, 2013 13:00 p.m. (EST)
                     </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
-                        sold
-                    </div>
-                </div>
-                <div class="percent-100 float-left bordered-left bordered-top">
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
-                        <h4>&euro; 8900</h4>
-                    </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
-                        September 09, 2013 13:00 p.m. (EST)
-                    </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
-                        sold
-                    </div>
-                </div>
-                <div class="percent-100 float-left bordered-left bordered-top">
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
-                        <h4>&euro; 8900</h4>
-                    </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
-                        September 09, 2013 13:00 p.m. (EST)
-                    </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         sold
                     </div>
                 </div>
                 <div class="percent-100 float-left bordered-left bordered-top ">
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         <h4>&euro; 8900</h4>
                     </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         September 09, 2013 13:00 p.m. (EST)
                     </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         sold
                     </div>
                 </div>
-                <div class="percent-100 float-left bordered-left bordered-top">
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                <div class="percent-100 float-left bordered-left bordered-top ">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         <h4>&euro; 8900</h4>
                     </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         September 09, 2013 13:00 p.m. (EST)
                     </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         sold
                     </div>
                 </div>
-                <div class="percent-100 float-left bordered-left bordered-top bordered-bottom">
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                <div class="percent-100 float-left bordered-left bordered-top ">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         <h4>&euro; 8900</h4>
                     </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         September 09, 2013 13:00 p.m. (EST)
                     </div>
-                    <div class="percent-33 margin-top-25p margin-bottom-3 float-left text-center">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
                         sold
                     </div>
                 </div>
-
-                {{--EIND BOTTOM--}}
+                <div class="percent-100 float-left bordered-left bordered-top ">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        <h4>&euro; 8900</h4>
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        September 09, 2013 13:00 p.m. (EST)
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        sold
+                    </div>
+                </div>
+                <div class="percent-100 float-left bordered-left bordered-top ">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        <h4>&euro; 8900</h4>
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        September 09, 2013 13:00 p.m. (EST)
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        sold
+                    </div>
+                </div>
+                <div class="percent-100 float-left bordered-left bordered-top ">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        <h4>&euro; 8900</h4>
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        September 09, 2013 13:00 p.m. (EST)
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        sold
+                    </div>
+                </div>
+                <div class="percent-100 float-left bordered-left bordered-top ">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        <h4>&euro; 8900</h4>
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        September 09, 2013 13:00 p.m. (EST)
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        sold
+                    </div>
+                </div>
+                <div class="percent-100 float-left bordered-left bordered-top ">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        <h4>&euro; 8900</h4>
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        September 09, 2013 13:00 p.m. (EST)
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        sold
+                    </div>
+                </div>
+                <div class="percent-100 float-left bordered-left bordered-top bordered-bottom ">
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        <h4>&euro; 8900</h4>
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        September 09, 2013 13:00 p.m. (EST)
+                    </div>
+                    <div class="percent-33 margin-top-20p margin-bottom-3 float-left text-center">
+                        sold
+                    </div>
+                </div>
             </div>
         </div>
     </div>

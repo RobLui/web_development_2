@@ -469,6 +469,10 @@ p a {
   display: block; }
 
 .percent-90 {
+  width: 90%;
+  display: block; }
+
+.percent-95 {
   width: 95%;
   display: block; }
 
@@ -504,8 +508,8 @@ p a {
 /* Create a custom checkbox */
 .checkmark {
   position: absolute;
-  height: 20px;
-  width: 20px;
+  height: 1.5em;
+  width: 1.5em;
   background-color: #fff;
   border: 1px solid grey; }
 

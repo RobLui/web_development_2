@@ -40,7 +40,9 @@
             {{--LINKS--}}
 
             <div class="percent-50 bordered-bottom float-left">
-                <div class="percent-90 bordered-left bordered-bottom pull-right">
+
+                {{--TOP GRIJS--}}
+                <div class="percent-95 bordered-left bordered-bottom pull-right">
                     @include('my-auctions-partials.tleft')
                 </div>
 
@@ -54,7 +56,7 @@
                         </form>
                     </div>
 
-                    <div class="percent-90 bordered-bottom float-left">
+                    <div class="percent-95 bordered-bottom float-left">
                         <div class="percent-33 float-left">
                             <img src="{{ asset('images/mockups/radio.jpg') }}" alt="radio">
                         </div>
@@ -77,9 +79,9 @@
                             <input type="checkbox">
                         </form>
                     </div>
-                    <div class="percent-90 bordered-bottom float-left">
+                    <div class="percent-95 bordered-bottom float-left">
                         <div class="percent-33 float-left">
-                            <img src="{{ asset('images/mockups/details/perfume_small.png') }}" alt="perfume">
+                            <img src="{{ asset('images/mockups/details/perfume_small.png') }}" alt="perfume small">
                         </div>
                         <div class="percent-67 float-left background-white">
                             <div class="margin-top-25p margin-left-3">
@@ -99,7 +101,7 @@
                             <input type="checkbox">
                         </form>
                     </div>
-                    <div class="percent-90 float-left">
+                    <div class="percent-95 bordered-bottom float-left">
                         <div class="percent-33 float-left">
                             <img src="{{ asset('images/mockups/details/male_small.png') }}" alt="male small">
                         </div>
@@ -112,85 +114,181 @@
                     </div>
                 </div>
 
+                {{--SCHILDERIJ--}}
+                <div class="percent-100 float-left">
+                    <div class="percent-5 float-left styled-checkbox">
+                        <form action="">
+                            <span class="checkmark">
+                            </span>
+                            <input type="checkbox">
+                        </form>
+                    </div>
+                    <div class="percent-95 bordered-bottom float-left">
+                        <div class="percent-33 float-left">
+                            <img src="{{ asset('images/mockups/details/painting_small.png') }}" alt="painting small">
+                        </div>
+                        <div class="percent-67 float-left background-white">
+                            <div class="margin-top-25p margin-left-3">
+                                <h4>Dance of Time III</h4>
+                                <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="percent-100 bordered-top float-left">
-                    <div class="percent-33 float-left">
-                        <img src="{{ asset('images/mockups/details/male_small.png') }}" alt="male small">
+                {{--BRUG--}}
+                <div class="percent-100 float-left">
+                    <div class="percent-5 float-left styled-checkbox">
+                        <form action="">
+                            <span class="checkmark">
+                            </span>
+                            <input type="checkbox">
+                        </form>
                     </div>
-                    <div class="percent-67 float-left background-white">
-                        <div class="margin-top-25p margin-left-3">
-                            <h4>Dance of Time III</h4>
-                            <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                    <div class="percent-95 bordered-bottom float-left">
+                        <div class="percent-33 float-left">
+                            <img src="{{ asset('images/mockups/brug.jpg') }}" alt="bridges">
+                        </div>
+                        <div class="percent-67 float-left background-white">
+                            <div class="margin-top-25p margin-left-3">
+                                <h4>Dance of Time III</h4>
+                                <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="percent-100 bordered-top float-left">
-                    <div class="percent-33 float-left">
-                        <img src="{{ asset('images/mockups/details/painting_small.png') }}" alt="painting small">
+
+                {{--BUTT--}}
+                <div class="percent-100 float-left">
+                    <div class="percent-5 float-left styled-checkbox">
+                        <form action="">
+                            <span class="checkmark">
+                            </span>
+                            <input type="checkbox">
+                        </form>
                     </div>
-                    <div class="percent-67 float-left background-white">
-                        <div class="margin-top-25p margin-left-3">
-                            <h4>Dance of Time III</h4>
-                            <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                    <div class="percent-95 bordered-bottom float-left">
+                        <div class="percent-33 float-left">
+                            <img src="{{ asset('images/mockups/details/butt_small.png') }}" alt="butt small">
+                        </div>
+                        <div class="percent-67 float-left background-white">
+                            <div class="margin-top-25p margin-left-3">
+                                <h4>Dance of Time III</h4>
+                                <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="percent-100 bordered-top float-left">
-                    <div class="percent-33 float-left">
-                        <img src="{{ asset('images/mockups/brug.jpg') }}" alt="img">
+
+                {{--CUSTOM JIP N JANNEKE--}}
+                <div class="percent-100 float-left">
+                    <div class="percent-5 float-left styled-checkbox">
+                        <form action="">
+                            <span class="checkmark">
+                            </span>
+                            <input type="checkbox">
+                        </form>
                     </div>
-                    <div class="percent-67 float-left background-white">
-                        <div class="margin-top-25p margin-left-3">
-                            <h4>Dance of Time III</h4>
-                            <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                    <div class="percent-95 bordered-bottom float-left">
+                        <div class="percent-33 float-left">
+                            <img src="{{ asset('images/mockups/custom/olifant.jpg') }}" alt="custom olifant">
+                        </div>
+                        <div class="percent-67 float-left background-white">
+                            <div class="margin-top-25p margin-left-3">
+                                <h4>Dance of Time III</h4>
+                                <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="percent-100 bordered-top float-left">
-                    <div class="percent-33 float-left">
-                        <img src="{{ asset('images/mockups/details/perfume_small.png') }}" alt="img">
+
+                {{--CUSTOM ZEE--}}
+                <div class="percent-100 float-left">
+                    <div class="percent-5 float-left styled-checkbox">
+                        <form action="">
+                            <span class="checkmark">
+                            </span>
+                            <input type="checkbox">
+                        </form>
                     </div>
-                    <div class="percent-67 float-left background-white">
-                        <div class="margin-top-25p margin-left-3">
-                            <h4>Dance of Time III</h4>
-                            <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                    <div class="percent-95 bordered-bottom float-left">
+                        <div class="percent-33 float-left">
+                            <img src="{{ asset('images/mockups/custom/zee.jpg') }}" alt="custom zee">
+                        </div>
+                        <div class="percent-67 float-left background-white">
+                            <div class="margin-top-25p margin-left-3">
+                                <h4>Dance of Time III</h4>
+                                <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="percent-100 bordered-top float-left">
-                    <div class="percent-33 float-left">
-                        <img src="{{ asset('images/mockups/details/perfume_small.png') }}" alt="img">
+
+                {{--LACHEND--}}
+                <div class="percent-100 float-left">
+                    <div class="percent-5 float-left styled-checkbox">
+                        <form action="">
+                            <span class="checkmark">
+                            </span>
+                            <input type="checkbox">
+                        </form>
                     </div>
-                    <div class="percent-67 float-left background-white">
-                        <div class="margin-top-25p margin-left-3">
-                            <h4>Dance of Time III</h4>
-                            <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                    <div class="percent-95 bordered-bottom float-left">
+                        <div class="percent-33 float-left">
+                            <img src="{{ asset('images/mockups/lachend.jpg') }}" alt="butt small">
+                        </div>
+                        <div class="percent-67 float-left background-white">
+                            <div class="margin-top-25p margin-left-3">
+                                <h4>Dance of Time III</h4>
+                                <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="percent-100 bordered-top float-left">
-                    <div class="percent-33 float-left">
-                        <img src="{{ asset('images/mockups/details/perfume_small.png') }}" alt="img">
+
+                {{--CUSTOM PLATENSPELER--}}
+                <div class="percent-100 float-left">
+                    <div class="percent-5 float-left styled-checkbox">
+                        <form action="">
+                            <span class="checkmark">
+                            </span>
+                            <input type="checkbox">
+                        </form>
                     </div>
-                    <div class="percent-67 float-left background-white">
-                        <div class="margin-top-25p margin-left-3">
-                            <h4>Dance of Time III</h4>
-                            <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                    <div class="percent-95 bordered-bottom float-left">
+                        <div class="percent-33 float-left">
+                            <img src="{{ asset('images/mockups/custom/platenspeler.jpg') }}" alt="custom platenspeler">
+                        </div>
+                        <div class="percent-67 float-left background-white">
+                            <div class="margin-top-25p margin-left-3">
+                                <h4>Dance of Time III</h4>
+                                <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="percent-100 bordered-top float-left">
-                    <div class="percent-33 float-left">
-                        <img src="{{ asset('images/mockups/details/perfume_small.png') }}" alt="img">
+
+                {{--CUSTOM JIP N JANNEKE--}}
+                <div class="percent-100 float-left">
+                    <div class="percent-5 float-left styled-checkbox">
+                        <form action="">
+                            <span class="checkmark">
+                            </span>
+                            <input type="checkbox">
+                        </form>
                     </div>
-                    <div class="percent-67 float-left background-white">
-                        <div class="margin-top-25p margin-left-3">
-                            <h4>Dance of Time III</h4>
-                            <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                    <div class="percent-95 bordered-bottom float-left">
+                        <div class="percent-33 float-left">
+                            <img src="{{ asset('images/mockups/custom/jip-n-janneke.jpg') }}" alt="custom jup n janneke">
+                        </div>
+                        <div class="percent-67 float-left background-white">
+                            <div class="margin-top-25p margin-left-3">
+                                <h4>Dance of Time III</h4>
+                                <a href="#" class="midnight-blue">1979, Salvador Dali</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                {{--EIND BOTTOM--}}
 
             </div>
 

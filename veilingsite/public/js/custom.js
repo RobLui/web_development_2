@@ -6,6 +6,7 @@ $(document).ready(function(){
     //         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     //     });
     // });
+    console.log("loaded");
 
     //LOGIN TOGGLER
     $('#login-toggler').click(function(e) {
@@ -13,6 +14,19 @@ $(document).ready(function(){
         $('#second-login-view').removeClass('hidden');
         e.preventDefault();
         // console.log("clicked");
+    });
+
+
+    $('.checkmark').click(function(e) {
+        if($(this).hasClass('blue')) {
+            $(this).removeClass('blue');
+            console.log('removed class')
+        }
+        else {
+            $(this).addClass('blue');
+            console.log('added class')
+        }
+        e.preventDefault();
     });
 
     //SELECT CUSTOM TOGGLER -> CREATE PAGE
@@ -55,14 +69,7 @@ $(document).ready(function(){
             //console.log($this.val());
         });
 
-        // $(document).click(function() {
-        //     $styledSelect.removeClass('active');
-        //     $list.hide();
-        // });
-
-
     });
-
 });
 
 

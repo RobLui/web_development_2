@@ -432,12 +432,20 @@ p a {
 .text-12 {
   font-size: 12px; }
 
-.percent-100 {
-  width: 100%;
+.percent-5 {
+  width: 5%;
   display: block; }
 
-.percent-50 {
-  width: 50%;
+.percent-10 {
+  width: 10%;
+  display: block; }
+
+.percent-25 {
+  width: 25%;
+  display: block; }
+
+.percent-30 {
+  width: 30%;
   display: block; }
 
 .percent-33 {
@@ -448,12 +456,24 @@ p a {
   width: 34%;
   display: block; }
 
+.percent-50 {
+  width: 50%;
+  display: block; }
+
+.percent-60 {
+  width: 60%;
+  display: block; }
+
 .percent-67 {
   width: 67%;
   display: block; }
 
-.percent-25 {
-  width: 25%;
+.percent-90 {
+  width: 95%;
+  display: block; }
+
+.percent-100 {
+  width: 100%;
   display: block; }
 
 .margin-left-33p {
@@ -469,5 +489,27 @@ p a {
   margin-top: 13%;
   margin-bottom: 12.7%;
   display: block; }
+
+.styled-checkbox {
+  margin: auto 0;
+  display: block;
+  margin-top: 5em; }
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer; }
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 1px solid grey; }
+
+.blue {
+  background: black; }
 
 /*# sourceMappingURL=custom.css.map */

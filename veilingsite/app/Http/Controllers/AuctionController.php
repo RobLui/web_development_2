@@ -89,5 +89,5 @@ class AuctionController extends Controller
         }
         return view('auctions.create');
     }
-    
+
 }

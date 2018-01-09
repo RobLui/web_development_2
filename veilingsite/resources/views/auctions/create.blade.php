@@ -76,19 +76,22 @@
                     <div class="col-md-10">
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Width
-                                <input name="width" type="text" placeholder="xxxx" />
+                                <input name="width" type="number" id="create_width" placeholder="xxxx" />
+                                <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Height
-                                <input name="height" type="text" placeholder="xxxx" />
+                                <input name="height" type="number" id="create_height" placeholder="xxxx" />
+                                <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Depth (optional)
-                                <input name="depth" type="text" placeholder="xxxx" />
+                                <input name="depth" type="number" id="create_depth" placeholder="xxxx" />
+                                <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
                     </div>

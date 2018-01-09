@@ -71,16 +71,53 @@ $(document).ready(function(){
 
     });
 
+    //-------------------
     // AUCTION VALIDATION
-    $('#create_auction_title').change(function(e) {
+    //-------------------
 
-        // niet leeg
-        $(this).val().trim() !== "" ?
-        // dan errspan toevoegen
-        $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') :
-        // anders verwijderen en hiden
-        $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
-    });
+        //TITLE
+        $('#create_auction_title').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+            // dan errspan toevoegen
+            $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') :
+            // anders verwijderen en hiden
+            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
+        });
+
+        //WIDTH
+        $('#create_width').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+            // dan errspan toevoegen
+            $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') :
+            // anders verwijderen en hiden
+            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
+        });
+
+        //HEIGHT
+        $('#create_height').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+            // dan errspan toevoegen
+            $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') :
+            // anders verwijderen en hiden
+            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
+        });
+
+        //DEPTH
+        $('#create_depth').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+            // dan errspan toevoegen
+            $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') :
+            // anders verwijderen en hiden
+            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
+        });
 
 });
 

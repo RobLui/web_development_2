@@ -730,3 +730,12 @@ p {
 .valid {
   background: green !important;
 }
+
+.errspan {
+  float: right;
+  margin-right: 6px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 2;
+  color: $midnight-light-blue;
+}

@@ -74,19 +74,12 @@ $(document).ready(function(){
     // AUCTION VALIDATION
     $('#create_auction_title').change(function(e) {
 
-        if ($(this).val().trim() !== "") {
-            console.log("ok");
-            $(this).addClass("valid");
-            $(this).removeClass("invalid");
-        }
-
-        else {
-            console.log("not ok");
-            $(this).addClass("invalid");
-            $(this).removeClass("valid");
-        }
-
-        // e.preventDefault();
+        // niet leeg
+        $(this).val().trim() !== "" ?
+        // dan errspan toevoegen
+        $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') :
+        // anders verwijderen en hiden
+        $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
     });
 
 });

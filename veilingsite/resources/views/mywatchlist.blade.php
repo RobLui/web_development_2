@@ -19,10 +19,10 @@
 
             {{--BREADCRUMBS--}}
             <div class="margin-top-2">
-                    <a class="midnight-light-blue float-left margin-right-half" href="{{ route('home') }}" title="home">Home > </a></li>
-                    <a class="midnight-light-blue float-left margin-right-half" href="{{ route('profile') }}" title="auctions">Jasper Poppe > </a></li>
-                    <p class="midnight-light-blue float-left margin-right-half active-bold">My watchlist</p></li>
-                    <span class="show-for-sr midnight-blue float-left"></span>
+                <a class="midnight-light-blue float-left margin-right-half" href="{{ route('home') }}" title="home">Home > </a></li>
+                <a class="midnight-light-blue float-left margin-right-half" href="{{ route('profile') }}" title="auctions">Jasper Poppe > </a></li>
+                <p class="midnight-light-blue float-left margin-right-half active-bold">My watchlist</p></li>
+                <span class="show-for-sr midnight-blue float-left"></span>
             </div>
 
             {{-- BUTTONS --}}
@@ -36,6 +36,16 @@
             </div>
 
             <h2 class="margin-top-1 margin-bottom-1 light-dark-grey">My watchlist</h2>
+
+            <div class="percent-100">
+                <div class="margin-left-2 margin-bottom-1 width-100 block">
+                    <a href="#" class="black bold ">all(11)</a>
+                    <span class="light-dark-grey">|</span>
+                    <a href="#" class="light-dark-grey"> active(8)</a>
+                    <span class="light-dark-grey">|</span>
+                    <a href="#" class="light-dark-grey"> ended(3)</a>
+                </div>
+            </div>
 
             {{--LINKERHELFT--}}
             <div class="percent-50 bordered-bottom float-left">

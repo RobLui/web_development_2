@@ -73,6 +73,7 @@
 
         </div>
     </div>
+    @include('partials.footer')
 
     @include('partials.nav-bottom')
 

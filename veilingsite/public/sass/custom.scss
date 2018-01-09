@@ -711,14 +711,6 @@ p {
   margin-top: 5em;
 }
 
-///* Hide the browser's default checkbox */
-//.container input {
-//  position: absolute;
-//  opacity: 0;
-//  cursor: pointer;
-//}
-
-/* Create a custom checkbox */
 .checkmark {
   position: absolute;
   height: 1.5em;
@@ -729,4 +721,12 @@ p {
 
 .blue {
   background: black;
+}
+
+.invalid {
+  background: red !important;
+}
+
+.valid {
+  background: green !important;
 }

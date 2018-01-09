@@ -508,7 +508,6 @@ p a {
   display: block;
   margin-top: 5em; }
 
-/* Create a custom checkbox */
 .checkmark {
   position: absolute;
   height: 1.5em;
@@ -518,5 +517,11 @@ p a {
 
 .blue {
   background: black; }
+
+.invalid {
+  background: red !important; }
+
+.valid {
+  background: green !important; }
 
 /*# sourceMappingURL=custom.css.map */

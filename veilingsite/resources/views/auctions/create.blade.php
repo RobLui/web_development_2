@@ -60,7 +60,7 @@
                     <div class="col-md-10">
                         <div class="col-md-6 col-sm-6">
                             <label class="midnight-blue">Auction title
-                                <input type="text" name="auction_title" placeholder="Auction title" />
+                                <input type="text" name="auction_title" id="create_auction_title" placeholder="Auction title" />
                             </label>
                         </div>
 

@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-@if(Request::url() === 'your url here')
-    // code
-@endif
 <html lang="{{ app()->getLocale() }}">
 
 <head>
@@ -21,12 +18,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    {{--@yield('seo')--}}
+    @yield('seo')
 
     <title>{{ config('app.name', 'Veilingsite') }}</title>
 
     <!-- Styles -->
-    <link async href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <!-- Fonts -->
@@ -43,7 +40,7 @@
 
     {{--JQUERY--}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="{{ asset('js/custom.js') }}"></script>
+    <script src="{{ asset('js/custom.min.js') }}"></script>
 
     {{-- Font awesome --}}
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

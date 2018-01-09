@@ -173,6 +173,7 @@ return [
         AdvanceSearch\AdvanceSearchProvider\AdvanceSearchProvider::class,
         Themsaid\Langman\LangmanServiceProvider::class,
 
+
         /*
          * Application Service Providers...
          */
@@ -235,6 +236,7 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'Search' => AdvanceSearch\AdvanceSearchProvider\Facades\SearchFacades::class,
+        'HTMLMin' => HTMLMin\HTMLMin\Facades\HTMLMin::class,
 
     ],
 

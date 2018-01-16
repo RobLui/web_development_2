@@ -4,6 +4,8 @@
 
     <div class="line"></div>
 
+    @include('common.errors')
+
     @include('partials.nav-top')
 
     @include('partials.nav-bottom')

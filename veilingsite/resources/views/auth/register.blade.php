@@ -40,7 +40,7 @@
                 <div class="col-sm-10 col-sm-offset-1">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Company or name
-                            <input class="background-light-grey-i" type="text" name="auction_title">
+                            <input class="background-light-grey-i" type="text" id="register_title" name="auction_title">
                         </label>
                     </div>
 
@@ -55,13 +55,13 @@
                 <div class="col-sm-10 col-sm-offset-1">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Password
-                            <input class="background-light-grey-i" type="password" name="password">
+                            <input class="background-light-grey-i" type="password" id="name">
                         </label>
                     </div>
 
                     <div class="col-sm-6">
                         <label class="midnight-blue">Password Confirmation
-                            <input class="background-light-grey-i" type="password" name="password_confirmation">
+                            <input class="background-light-grey-i" id="register_pwd_confirmation" type="password" name="password_confirmation">
                         </label>
                     </div>
                 </div>
@@ -324,12 +324,12 @@
                     </div>
                     <div class="col-sm-3">
                         <label class="midnight-blue">Zip Code
-                            <input class="background-light-grey-i" type="text" name="zip_code">
+                            <input class="background-light-grey-i" id="register_zip" type="text" name="zip_code">
                         </label>
                     </div>
                     <div class="col-sm-3">
                         <label class="midnight-blue">City
-                            <input class="background-light-grey-i" type="text" name="city">
+                            <input class="background-light-grey-i" id="register_city" type="text" name="city">
                         </label>
                     </div>
                 </div>
@@ -338,18 +338,18 @@
                 <div class="col-sm-10 col-sm-offset-1">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Address
-                            <input class="background-light-grey-i" type="text" name="address">
+                            <input class="background-light-grey-i" id="register_address" type="text" name="address">
                         </label>
                     </div>
 
                     <div class="col-sm-2">
                         <label class="midnight-blue">Phone
-                            <input class="background-light-grey-i" type="text" name="zip_code">
+                            <input class="background-light-grey-i" id="register_phone" type="text" name="zip_code">
                         </label>
                     </div>
                     <div class="col-sm-4">
                         <label class="midnight-blue">Number
-                            <input class="background-light-grey-i" type="text" name="city" placeholder="xx xxx xx xx">
+                            <input class="background-light-grey-i" id="register_number" type="text" name="city" placeholder="xx xxx xx xx">
                         </label>
                     </div>
                 </div>
@@ -358,13 +358,13 @@
                 <div class="col-sm-10 col-sm-offset-1">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Account Number
-                            <input class="background-light-grey-i" type="text" name="account_number" placeholder="xx xxx xx xx">
+                            <input class="background-light-grey-i" id="register_account_number" type="text" name="account_number" placeholder="xx xxx xx xx">
                         </label>
                     </div>
 
                     <div class="col-sm-6">
                         <label class="midnight-blue">VAT-number
-                            <input class="background-light-grey-i" type="text" name="vat_number" placeholder="xx xxx xx xx">
+                            <input class="background-light-grey-i" id="register_vat_number" type="text" name="vat_number" placeholder="xx xxx xx xx">
                         </label>
                     </div>
                 </div>

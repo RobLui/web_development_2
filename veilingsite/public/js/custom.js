@@ -119,6 +119,9 @@ $(document).ready(function(){
             $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
         });
 
+    //-------------------
+    // REGISTER VALIDATION
+    //-------------------
 
         //REGISTER EMAIL
         $('#register_email').change(function(e) {
@@ -130,7 +133,106 @@ $(document).ready(function(){
                 // anders verwijderen
                 $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
         });
+        //REGISTER AUCTION TITLE
+        $('#register_title').change(function(e) {
 
+            // niet leeg
+            $(this).val().trim() !== "" ?
+                // dan errcomplete toevoegen
+                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
+                // anders verwijderen
+                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
+        });
+
+        //REGISTER PWD CONF
+        $('#register_pwd_confirmation').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+                // dan errcomplete toevoegen
+                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
+                // anders verwijderen
+                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
+        });
+
+
+        //REGISTER ZIP
+        $('#register_zip').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+                // dan errcomplete toevoegen
+                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
+                // anders verwijderen
+                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
+        });
+
+        //REGISTER CITY
+        $('#register_city').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+                // dan errcomplete toevoegen
+                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
+                // anders verwijderen
+                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
+        });
+
+        //REGISTER ADDRESS
+        $('#register_address').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+                // dan errcomplete toevoegen
+                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
+                // anders verwijderen
+                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
+        });
+
+        //REGISTER PHONE
+        $('#register_phone').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+                // dan errcomplete toevoegen
+                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
+                // anders verwijderen
+                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
+        });
+
+        //REGISTER NUMBER
+        $('#register_number').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+                // dan errcomplete toevoegen
+                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
+                // anders verwijderen
+                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
+        });
+
+        //REGISTER ACCOUNT NUMBER
+        $('#register_account_number').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+                // dan errcomplete toevoegen
+                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
+                // anders verwijderen
+                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
+        });
+
+
+        //REGISTER ACCOUNT NUMBER
+        $('#register_vat_number').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+                // dan errcomplete toevoegen
+                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
+                // anders verwijderen
+                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
+        });
 
 });
 

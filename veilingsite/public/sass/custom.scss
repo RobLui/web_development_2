@@ -1,6 +1,7 @@
 // COLORS
 $midnight-blue: #036;
 $midnight-light-blue: #47A39F;
+$light-red: lighten(lightpink,10%);
 
 $light-grey: #e6e6e6;
 $lightest-grey: #F5F5F5;
@@ -738,4 +739,9 @@ p {
   position: relative;
   z-index: 2;
   color: $midnight-light-blue;
+}
+
+.errcomplete {
+  border: 1px solid red !important;
+  background-color: $light-red !important;
 }

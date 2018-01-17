@@ -119,6 +119,20 @@ $(document).ready(function(){
             $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
         });
 
+
+        //REGISTER EMAIL
+        $('#register_email').change(function(e) {
+
+            // niet leeg
+            $(this).val().trim() !== "" ?
+                // dan errcomplete toevoegen
+                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
+                // anders verwijderen
+                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
+        });
+
+
 });
+
 
 

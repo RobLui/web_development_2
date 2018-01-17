@@ -532,4 +532,8 @@ p a {
   z-index: 2;
   color: #47A39F; }
 
+.errcomplete {
+  border: 1px solid red !important;
+  background-color: #ffe9ec !important; }
+
 /*# sourceMappingURL=custom.css.map */

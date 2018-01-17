@@ -46,7 +46,7 @@
 
                     <div class="col-sm-6">
                         <label class="midnight-blue">Email
-                            <input class="background-light-grey-i" type="email" name="email">
+                            <input class="background-light-grey-i" id="register_email" type="email" name="email">
                         </label>
                     </div>
                 </div>

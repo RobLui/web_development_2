@@ -10,7 +10,6 @@
 
     @include('partials.no-carousel')
 
-    @include('common.errors')
     <div class="text-center">
         @include('common.messages')
     </div>
@@ -30,6 +29,12 @@
                         <h2 class="margin-bottom-half light-dark-grey">Add a new auction</h2>
                     </div>
                 </div>
+
+            <div class="col-md-10 col-sm-10 ">
+                <div class="col-md-9">
+                    @include('common.errors')
+                </div>
+            </div>
 
                 {!!  Form::open(['route' => 'create_auction','method' => 'post', 'files' => true]) !!}
                 {{ csrf_field() }}
@@ -67,7 +72,8 @@
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Year
-                                <input type="date" name="year" placeholder="xxxx" />
+                                <input type="number" name="year" id="create_year" placeholder="x x x x" />
+                                <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
                     </div>
@@ -76,21 +82,21 @@
                     <div class="col-md-10">
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Width
-                                <input name="width" type="number" id="create_width" placeholder="xxxx" />
+                                <input name="width" type="number" id="create_width" placeholder="x x x x" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Height
-                                <input name="height" type="number" id="create_height" placeholder="xxxx" />
+                                <input name="height" type="number" id="create_height" placeholder="x x x x" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Depth (optional)
-                                <input name="depth" type="number" id="create_depth" placeholder="xxxx" />
+                                <input name="depth" type="number" id="create_depth" placeholder="x x x x" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
@@ -101,7 +107,8 @@
                         <div class="col-md-9">
                             <label class="midnight-blue">Description
                             </label>
-                            <textarea rows="4" cols="25" name="description" placeholder="describe your auction as thorough as possible."></textarea>
+                            <textarea rows="4" cols="25" name="description" id="create_description" placeholder="describe your auction as thorough as possible."></textarea>
+                            <span class="fa fa-check hidden"></span>
                         </div>
                     </div>
 
@@ -109,7 +116,8 @@
                     <div class="col-md-10">
                         <div class="col-md-9">
                             <label class="midnight-blue">Condition</label>
-                            <textarea rows="4" cols="25" name="condition" placeholder="what's the condition of the artwork?"></textarea>
+                            <textarea rows="4" cols="25" name="condition" id="create_condition" placeholder="what's the condition of the artwork?"></textarea>
+                            <span class="fa fa-check hidden"></span>
                         </div>
                     </div>
 
@@ -117,7 +125,8 @@
                     <div class="col-md-10">
                         <div class="col-md-9">
                             <label class="midnight-blue">Origin</label>
-                            <textarea rows="1" cols="25" name="origin" placeholder="what's the origin of the artwork?"></textarea>
+                            <textarea rows="1" cols="25" name="origin" id="create_origin" placeholder="what's the origin of the artwork?"></textarea>
+                            <span class="fa fa-check hidden margin-right-3"></span>
                         </div>
                     </div>
 
@@ -138,6 +147,7 @@
                                 <input name="artwork_image" id="1" type="file" style="display:none"
                                        onchange="$('#artwork_image').html(
                                     (this.files.length == 1) ? this.files[0].name : this.files.length + ' files');">
+                                <span class="fa fa-check hidden"></span>
                                 <span id="artwork_image">UPLOAD IMAGE <br><span class="padding-1">OF THE ARTWORK</span></span>
                             </label>
                         </div>
@@ -147,6 +157,7 @@
                                 <input name="signature_image"  id="2" type="file" style="display:none"
                                        onchange="$('#signature_image').html(
                                     (this.files.length == 1) ? this.files[0].name : this.files.length + ' files');">
+                                <span class="fa fa-check hidden"></span>
                                 <span id="signature_image">UPLOAD IMAGE <br><span class="padding-1">OF THE SIGNATURE</span> </span>
                             </label>
                         </div>
@@ -156,6 +167,7 @@
                                 <input name="optional_image"  id="3" type="file" multiple="multiple" style="display:none"
                                        onchange="$('#optional_image').html(
                                     (this.files.length == 1) ? this.files[0].name : this.files.length + ' files');">
+                                <span class="fa fa-check hidden"></span>
                                 <span id="optional_image"><span class="padding-2">OPTIONAL</span> IMAGE</span>
                             </label>
                         </div>
@@ -169,19 +181,22 @@
                         </div>
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Minimum estimate price
-                                <input name="minimum_estimated_price" type="number" placeholder="&euro; xxxx" />
+                                <input id="minimum_estimate_price" name="minimum_estimated_price" type="number" placeholder="&euro; xxxx" />
+                                <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Maximum estimate price
-                                <input name="maximum_estimated_price" type="number" placeholder="&euro; xxxx" />
+                                <input name="maximum_estimated_price" id="maximum_estimate_price" type="number" placeholder="&euro; xxxx" />
+                                <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Buyout price (optional)
-                                <input name="buyout_price" type="number" placeholder="&euro; xxxx" />
+                                <input id="buyout_price" name="buyout_price" type="text" placeholder="&euro; xxxx" />
+                                <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
                     </div>

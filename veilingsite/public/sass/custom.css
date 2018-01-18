@@ -134,10 +134,6 @@
   padding-top: 0.5em;
   padding-bottom: 0.5em; }
 
-.full-width {
-  width: 100%;
-  display: block; }
-
 .top-nav {
   margin-top: 1em; }
 
@@ -290,7 +286,6 @@ p a {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  padding: 5px 10px;
   margin: 0 5px;
   background-color: #ebebeb; }
   p a:hover {

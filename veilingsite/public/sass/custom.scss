@@ -210,10 +210,10 @@ $vet: 300;
   padding-bottom: 0.5em;
 }
 
-.full-width {
-  width: $full-width;
-  display: block;
-}
+//.full-width {
+//  width: $full-width;
+//  display: block;
+//}
 
 .top-nav {
   margin-top: 1em;
@@ -298,9 +298,9 @@ $vet: 300;
   }
 
   input {
-    height: 2rem;
-    width: 2em;
-  }
+       height: 2rem;
+       width: 2em;
+     }
 
 }
 .underlined {
@@ -447,7 +447,7 @@ p {
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    padding: 5px 10px;
+    //padding: 5px 10px;
     margin: 0 5px;
     background-color: lighten($select-background, 2);
     &:hover {

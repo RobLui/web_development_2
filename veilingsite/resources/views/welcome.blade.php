@@ -21,17 +21,17 @@
     <meta property="og:site_name" content="Landoretti" />
     <meta property="og:description" content="Landoretti auctions unique and rare pieces from all over the world" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="{{ asset("images/mockups/logo.png") }}" />
-    <meta property="og:url" content="{{ asset("images/mockups/logo.png") }}" />
+    <meta property="og:image" content="{{ asset("images/logo.png") }}" />
+    <meta property="og:url" content="{{ asset("images/logo.png") }}" />
 
     {{--TWITTER--}}
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:title" content="Landoretti auctions" />
     <meta property="twitter:description" content="Landoretti auctions unique and rare pieces from all over the world" />
-    <meta property="twitter:image" content="{{ asset("images/mockups/logo.png") }}" />
-    <meta property="twitter:url" content="{{ asset("images/mockups/logo.png") }}" />
+    <meta property="twitter:image" content="{{ asset("images/logo.png") }}" />
+    <meta property="twitter:url" content="{{ asset("images/logo.png") }}" />
 
-    <link rel="icon" type="image/png" href="{{asset("images/mockups/logo.png")}}">
+    <link rel="icon" type="image/png" href="{{asset("images/logo.png")}}">
     <link rel="canonical" href="https://landoretti.robbertluit.be">
 
 @endsection

@@ -75,15 +75,25 @@ $(document).ready(function(){
     // AUCTION VALIDATION
     //-------------------
 
-    //Check for numbers
-    function isInt(n) {
-        return n % 1 === 0;
-    }
+    // //Check for numbers
+    // function isInt(n) {
+    //     return n % 1 === 0;
+    // }
 
     //Check on input if not empty
     function validator(id) {
         // niet leeg
         $(id).val().trim() !== "" ?
+        // dan errspan toevoegen
+        $(id).next('span').removeClass('hidden') && $(id).next().addClass('errspan') && $(id).removeClass('errcomplete') :
+        // anders verwijderen en hiden
+        $(id).next('span').addClass('hidden') && $(id).next('span').removeClass('errspan') && $(id).addClass('errcomplete');
+    }
+
+    //Check on input if not empty
+    function nr_validator(id) {
+        // niet leeg
+        Number($(id).val().trim()) ?
         // dan errspan toevoegen
         $(id).next('span').removeClass('hidden') && $(id).next().addClass('errspan') && $(id).removeClass('errcomplete') :
         // anders verwijderen en hiden
@@ -97,22 +107,34 @@ $(document).ready(function(){
 
         //YEAR
         $('#create_year').change(function(e) {
-            validator(this);
+            nr_validator(this);
         });
 
         //WIDTH
         $('#create_width').change(function(e) {
-            validator(this);
+            nr_validator(this);
         });
 
         //HEIGHT
         $('#create_height').change(function(e) {
-            validator(this);
+            nr_validator(this);
         });
 
         //DEPTH
         $('#create_depth').change(function(e) {
-            validator(this);
+            $(this).val().trim() !== "" ?
+            // dan errspan toevoegen
+                (
+                    //nummer?
+                    Number($(this).val().trim())  ?
+                    //ok!
+                    $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete')
+                    //geen nummer? niet ok!
+                    : $(this).next('span').addClass('hidden') && $(this).addClass('errcomplete')
+                )
+                :
+            // anders verwijderen en hiden
+            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).removeClass('errcomplete');
         });
 
         //ORIGIN
@@ -132,17 +154,21 @@ $(document).ready(function(){
 
         //MIN EST PRICE
         $('#minimum_estimate_price').change(function(e) {
-            validator(this);
+            nr_validator(this);
         });
 
         //MAX EST PRICE
         $('#maximum_estimate_price').change(function(e) {
-            validator(this);
+            nr_validator(this);
         });
 
         //BUYOUT PRICE
         $('#buyout_price').change(function(e) {
-            validator(this);
+            $(this).val().trim() !== "" ?
+            // dan errspan toevoegen
+            $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') :
+            // anders verwijderen en hiden
+            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
         });
 
     //-------------------

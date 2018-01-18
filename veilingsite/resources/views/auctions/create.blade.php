@@ -65,14 +65,14 @@
                     <div class="col-md-10">
                         <div class="col-md-6 col-sm-6">
                             <label class="midnight-blue">Auction title
-                                <input type="text" name="auction_title" id="create_auction_title" placeholder="Auction title" />
+                                <input class="background-light-grey-i" type="text" name="auction_title" id="create_auction_title" placeholder="Auction title" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Year
-                                <input type="number" name="year" id="create_year" placeholder="x x x x" />
+                                <input class="background-light-grey-i" type="text" name="year" id="create_year" placeholder="x x x x" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
@@ -82,21 +82,21 @@
                     <div class="col-md-10">
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Width
-                                <input name="width" type="number" id="create_width" placeholder="x x x x" />
+                                <input class="background-light-grey-i" type="text" name="width" id="create_width" placeholder="x x x x" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Height
-                                <input name="height" type="number" id="create_height" placeholder="x x x x" />
+                                <input class="background-light-grey-i" type="text" name="height" id="create_height" placeholder="x x x x" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Depth (optional)
-                                <input name="depth" type="number" id="create_depth" placeholder="x x x x" />
+                                <input class="background-light-grey-i" type="text" name="depth" id="create_depth" placeholder="x x x x" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
@@ -107,7 +107,7 @@
                         <div class="col-md-9">
                             <label class="midnight-blue">Description
                             </label>
-                            <textarea rows="4" cols="25" name="description" id="create_description" placeholder="describe your auction as thorough as possible."></textarea>
+                            <textarea class="background-light-grey-i" rows="4" cols="25" name="description" id="create_description" placeholder="describe your auction as thorough as possible."></textarea>
                             <span class="fa fa-check hidden"></span>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                     <div class="col-md-10">
                         <div class="col-md-9">
                             <label class="midnight-blue">Condition</label>
-                            <textarea rows="4" cols="25" name="condition" id="create_condition" placeholder="what's the condition of the artwork?"></textarea>
+                            <textarea class="background-light-grey-i" rows="4" cols="25" name="condition" id="create_condition" placeholder="what's the condition of the artwork?"></textarea>
                             <span class="fa fa-check hidden"></span>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                     <div class="col-md-10">
                         <div class="col-md-9">
                             <label class="midnight-blue">Origin</label>
-                            <textarea rows="1" cols="25" name="origin" id="create_origin" placeholder="what's the origin of the artwork?"></textarea>
+                            <textarea class="background-light-grey-i" rows="1" cols="25" name="origin" id="create_origin" placeholder="what's the origin of the artwork?"></textarea>
                             <span class="fa fa-check hidden margin-right-3"></span>
                         </div>
                     </div>
@@ -181,21 +181,21 @@
                         </div>
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Minimum estimate price
-                                <input id="minimum_estimate_price" name="minimum_estimated_price" type="number" placeholder="&euro; xxxx" />
+                                <input class="background-light-grey-i" id="minimum_estimate_price" name="minimum_estimated_price" type="text" placeholder="&euro; xxxx" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Maximum estimate price
-                                <input name="maximum_estimated_price" id="maximum_estimate_price" type="number" placeholder="&euro; xxxx" />
+                                <input class="background-light-grey-i" name="maximum_estimated_price" id="maximum_estimate_price" type="text" placeholder="&euro; xxxx" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
 
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">Buyout price (optional)
-                                <input id="buyout_price" name="buyout_price" type="text" placeholder="&euro; xxxx" />
+                                <input class="background-light-grey-i" id="buyout_price" name="buyout_price" type="text" placeholder="&euro; xxxx" />
                                 <span class="fa fa-check hidden"></span>
                             </label>
                         </div>
@@ -205,7 +205,7 @@
                     <div class="col-md-10">
                         <div class="col-md-3 col-sm-3">
                             <label class="midnight-blue">End date
-                                <input name="end_date" type="date" placeholder="D D / M M / Y Y" />
+                                <input class="background-light-grey-i" name="end_date" type="date" placeholder="D D / M M / Y Y" />
                             </label>
                         </div>
 

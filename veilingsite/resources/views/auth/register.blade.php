@@ -4,13 +4,12 @@
 
     <div class="line"></div>
 
-    @include('common.errors')
-
     @include('partials.nav-top')
 
     @include('partials.nav-bottom')
 
     @include('partials.no-carousel')
+
 
     {{--BREADCRUMBS--}}
 
@@ -26,6 +25,13 @@
                         <span class="show-for-sr midnight-blue float-left"></span>
                         <p class="midnight-light-blue active-bold">Dance of Time III </p>
                         <h2 class="margin-bottom-half light-dark-grey">Register</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="col-sm-12">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        @include('common.errors')
                     </div>
                 </div>
             </div>

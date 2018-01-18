@@ -2,6 +2,7 @@
 $midnight-blue: #036;
 $midnight-light-blue: #47A39F;
 $light-red: lighten(lightpink,10%);
+$red: lighten(red,10%);;
 
 $light-grey: #e6e6e6;
 $lightest-grey: #F5F5F5;
@@ -744,4 +745,14 @@ p {
 .errcomplete {
   border: 1px solid red !important;
   background-color: $light-red !important;
+}
+
+.err-errors {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 2em;
+  background-color: $light-red !important;
+  border: none;
+  font-weight: $bold;
+  color: $red;
 }

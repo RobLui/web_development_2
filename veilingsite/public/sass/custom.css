@@ -536,4 +536,13 @@ p a {
   border: 1px solid red !important;
   background-color: #ffe9ec !important; }
 
+.err-errors {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 2em;
+  background-color: #ffe9ec !important;
+  border: none;
+  font-weight: 500;
+  color: #ff3333; }
+
 /*# sourceMappingURL=custom.css.map */

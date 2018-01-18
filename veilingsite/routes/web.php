@@ -1,10 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\Config;
-use Illuminate\Support\Facades\Lang;
-use Illuminate\Support\Facades\Session;
-
 // Authentication Routes...
 $this->get('login', 'Auth\LoginController@showLoginForm')
     ->name('login');
@@ -23,13 +18,7 @@ $this->post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail'
 $this->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
 $this->post('password/reset', 'Auth\ResetPasswordController@reset');
 
-Route::get('setlocale/{locale}', function ($locale) {
-    if(in_array($locale, Config::get('app'))) {
-        App::setLocale($locale);
-        Session::put('locale', $locale);
-    }
-        return redirect()->back();
-    })
+Route::get('setlocale/{locale}','LanguageController@setLanguage')
     ->name("set-language")
 ;
 

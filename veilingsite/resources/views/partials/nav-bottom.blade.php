@@ -14,9 +14,9 @@
                     </ul>
 
                     <ul class="menu pull-right">
-                        <li><a href="#nl-translation" title="nl translation">NL</a></li>
-                        <li><a href="#fr-translation" title="fr tanslation">FR</a></li>
-                        <li><a href="#en-translation" title="en translation" class="active-bold">EN</a></li>
+                        <li><a href="{{ route('set-language','nl') }}" title="nl translation">NL</a></li>
+                        <li><a href="{{ route('set-language','fr') }}" title="fr tanslation">FR</a></li>
+                        <li><a href="{{ route('set-language','en') }}" title="en translation" class="active-bold">EN</a></li>
                     </ul>
                 </div>
             </div>

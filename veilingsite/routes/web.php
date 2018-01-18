@@ -1,10 +1,7 @@
 <?php
 
-
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
-
-//Auth::routes();
-
 
 // Authentication Routes...
 $this->get('login', 'Auth\LoginController@showLoginForm')
@@ -24,12 +21,13 @@ $this->post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail'
 $this->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
 $this->post('password/reset', 'Auth\ResetPasswordController@reset');
 
-//Route::get('setlocale/{locale}', function ($locale) {
-//    if (in_array($locale, \Illuminate\Config\::get('app.locales'))) {
-//        Session::put('locale', $locale);
-//    }
-//    return redirect()->back();
-//});
+Route::get('setlocale/{locale}', function ($locale) {
+        App::setLocale($locale);
+        Session::put('locale', $locale);
+        return redirect()->back();
+    })
+    ->name("set-language")
+;
 
 Route::post('/search', 'ArtController@searchfunction')
     ->name('search')
@@ -70,7 +68,7 @@ Route::get('/detail', 'DetailController@index')
 ;
 
 Route::get('/home/faq', 'FaqController@index')
-    ->name('detail')
+    ->name('faq')
 ;
 
 // AUCTIONS
@@ -88,14 +86,15 @@ Route::get('/auction/create', 'AuctionController@create')
     ->name('create_auction')
 ;
 
-
 // WATCHLIST
 Route::get('/mywatchlist', 'MyWatchlistController@index')
+    ->middleware('auth')
     ->name('my_watchlist')
 ;
 
 // PROFILE
 Route::get('/profile', 'ProfileController@index')
+    ->middleware('auth')
     ->name('profile')
 ;
 

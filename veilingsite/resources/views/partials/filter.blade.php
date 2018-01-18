@@ -18,7 +18,7 @@
         <div class="col-md-3 col-sm-4 margin-top-2">
 
             <ul class="list-group">
-                <li class="list-unstyled"><a title="#" title="#" class="black" href="#">Price</></li>
+                <li class="list-unstyled"><a title="#" title="#" class="black" href="#">Price</a></li>
                 <li class="list-unstyled"><a title="#" title="#" href="#">Up to 5,000</a></li>
                 <li class="list-unstyled"><a title="#" title="#" href="#">5,000 - 10,000</a></li>
                 <li class="list-unstyled"><a title="#" title="#" href="#">25,000 - 50,000</a></li>
@@ -29,8 +29,8 @@
             <ul class="list-group">
                 <li class="list-unstyled"><a title="#" class="black" href="#">Ending</a></li>
                 <li class="list-unstyled"><a title="#" href="#">Ending this Week</a></li>
-                <li class="list-unstyled"><a title="#" href="#">Newly Listed</></li>
-                <li class="list-unstyled"><a title="#" href="#">Purchase Now</></li>
+                <li class="list-unstyled"><a title="#" href="#">Newly Listed</a></li>
+                <li class="list-unstyled"><a title="#" href="#">Purchase Now</a></li>
             </ul>
         </div>
 

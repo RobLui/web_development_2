@@ -14,15 +14,15 @@
                         <li class="list-unstyled"><a href="#help" title="help"  class="black">HELP</a></li>
                         <li class="list-unstyled"><a href="#terms-of-service" title="terms of service" >Terms of Service</a></li>
                         <li class="list-unstyled"><a href="#privacy-policy" title="privacy policy" >Privacy Policy</a></li>
-                        <li class="list-unstyled"><a href="#faq" title="frequently asked questions" >FAQ</a></li>
+                        <li class="list-unstyled"><a href="{{ route('faq') }}" title="frequently asked questions" >FAQ</a></li>
                         <li class="list-unstyled"><a href="#contact-us" title="contact us" >Contact Us</a></li>
                         <li class="list-unstyled"><a href="#about-us" title="about us" >About Us</a></li>
                     </ul>
 
                     <ul class="list-group">
                         <li class="list-unstyled"><a href="#languages" title="languages" class="black" >LANGUAGES</a></li>
-                        <li class="list-unstyled"><a href="#nederlands" title="nederlands">Nederlands</a></li>
-                        <li class="list-unstyled"><a href="#francais" title="francais">Francais</a></li>
+                        <li class="list-unstyled"><a href="{{ route('set-language','nl') }}" title="nederlands">Nederlands</a></li>
+                        <li class="list-unstyled"><a href="{{ route('set-language','fr') }}" title="francais">Francais</a></li>
                         <li class="list-unstyled"><a href="#terms-of-service" title="terms of service">Terms of Service</a></li>
                     </ul>
                 </div>

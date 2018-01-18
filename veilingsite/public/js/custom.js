@@ -182,6 +182,7 @@ $(document).ready(function(){
         //REGISTER VAT NUMBER
         $('#register_vat_number').change(function(e) { nr_validator(this); });
 
+        $('#artwork_image').html().change(function(e) { validator(this); });
 });
 
 

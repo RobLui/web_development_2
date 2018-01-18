@@ -28,7 +28,7 @@ class AuctionController extends Controller
 
             'width'                     => 'required|max:9999|integer',
             'height'                    => 'required|max:9999|integer',
-            'depth'                     => 'required|max:9999|integer',
+            'depth'                     => 'max:9999',
 
             'description'               => 'required|max:255|',
             'condition'                 => 'required|max:255',
@@ -40,7 +40,7 @@ class AuctionController extends Controller
 
             'minimum_estimated_price'   => 'required|integer',
             'maximum_estimated_price'   => 'required|integer',
-            'buyout_price'              => 'required|integer',
+            'buyout_price'              => '',
 
             'end_date'                  => 'required|date',
             'agreed'                    => 'accepted',
@@ -57,7 +57,7 @@ class AuctionController extends Controller
 
             $item->width                        = $req->width;
             $item->height                       = $req->height;
-            $item->depth                        = $req->depth;
+            !(empty($req->depth)) ? $item->depth = $req->depth : $req->depth = null;
 
             $item->description                  = $req->description;
             $item->condition                    = $req->condition;
@@ -69,7 +69,8 @@ class AuctionController extends Controller
 
             $item->minimum_estimated_price      = $req->minimum_estimated_price;
             $item->maximum_estimated_price      = $req->maximum_estimated_price;
-            $item->buyout_price                 = $req->buyout_price;
+            !(empty($req->buyout_price)) ? $item->buyout_price = $req->buyout_price : null;
+
 
             $item->end_date                     = $req->end_date;
 //            $item->fk_user_id                   = $req->fk_user_id;

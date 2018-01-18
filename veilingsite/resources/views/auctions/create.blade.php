@@ -22,8 +22,8 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="col-md-9">
                         <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}" title="home">Home > </a></li>
-                        <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}" title="auctions">Jasper Poppe > </a></li>
-                        <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('home') }}" title="salvador dali">My auctions > </a></li>
+                        <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('profile') }}" title="profile">Jasper Poppe > </a></li>
+                        <a class="midnight-light-blue float-left margin-right-half active-bold" href="{{ route('myauctions') }}" title="auctions">My auctions > </a></li>
                         <span class="show-for-sr midnight-blue float-left"></span>
                         <p class="midnight-light-blue active-bold">New auction</p>
                         <h2 class="margin-bottom-half light-dark-grey">Add a new auction</h2>

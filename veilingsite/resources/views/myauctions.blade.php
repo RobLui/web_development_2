@@ -16,7 +16,7 @@
             <div class="col-md-12 col-sm-12">
                 <div class="margin-top-2 margin-left-1">
                     <a class="midnight-light-blue float-left margin-right-half" href="{{ route('home') }}" title="home">Home > </a>
-                    <p class="midnight-light-blue float-left  margin-right-half">Jasper Poppe ></p>
+                    <a class="midnight-light-blue float-left margin-right-half" href="{{ route('profile') }}">Jasper Poppe ></a>
                     <p class="midnight-light-blue active-bold">My auctions</p>
                 </div>
                 <div class="margin-top-1 margin-left-1">

@@ -61,7 +61,7 @@
                 <div class="col-sm-10 col-sm-offset-1">
                     <div class="col-sm-6">
                         <label class="midnight-blue">Password
-                            <input class="background-light-grey-i" type="password" id="name">
+                            <input class="background-light-grey-i" id="register_pwd" type="password" name="name">
                         </label>
                     </div>
 

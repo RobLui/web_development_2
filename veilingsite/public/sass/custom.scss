@@ -76,7 +76,7 @@ $vet: 300;
 
 .background-light-grey-i {
   background-color: $lightest-grey !important;
-  border: 0px !important;
+  border: 1px solid $light-grey !important;
 }
 
 .background-dark-grey {

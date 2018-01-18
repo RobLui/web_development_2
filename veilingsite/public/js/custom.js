@@ -1,12 +1,13 @@
 $(document).ready(function(){
-    //
+
+    // console.log("loaded");
+
     // $("#myInput").on("keyup", function() {
     //     var value = $(this).val().toLowerCase();
     //     $("#myList li").filter(function() {
     //         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     //     });
     // });
-    console.log("loaded");
 
     //LOGIN TOGGLER
     $('#login-toggler').click(function(e) {
@@ -75,216 +76,111 @@ $(document).ready(function(){
     // AUCTION VALIDATION
     //-------------------
 
-    // //Check for numbers
-    // function isInt(n) {
-    //     return n % 1 === 0;
-    // }
+        //Check on input if not empty
+        function validator(id) {
+            // niet leeg
+            $(id).val().trim() !== "" ?
+            // dan errspan toevoegen
+            $(id).next('span').removeClass('hidden') && $(id).next().addClass('errspan') && $(id).removeClass('errcomplete') :
+            // anders verwijderen en hiden
+            $(id).next('span').addClass('hidden') && $(id).next('span').removeClass('errspan') && $(id).addClass('errcomplete');
+        }
 
-    //Check on input if not empty
-    function validator(id) {
-        // niet leeg
-        $(id).val().trim() !== "" ?
-        // dan errspan toevoegen
-        $(id).next('span').removeClass('hidden') && $(id).next().addClass('errspan') && $(id).removeClass('errcomplete') :
-        // anders verwijderen en hiden
-        $(id).next('span').addClass('hidden') && $(id).next('span').removeClass('errspan') && $(id).addClass('errcomplete');
-    }
+        //Check on input if not empty -> bij de requireds
+        function nr_validator(id) {
+            // niet leeg
+            Number($(id).val().trim()) && Number($(id).val().trim()) > 0 ?
+            // dan errspan toevoegen
+            $(id).next('span').removeClass('hidden') && $(id).next().addClass('errspan') && $(id).removeClass('errcomplete') :
+            // anders verwijderen en hiden
+            $(id).next('span').addClass('hidden') && $(id).next('span').removeClass('errspan') && $(id).addClass('errcomplete');
+        }
 
-    //Check on input if not empty
-    function nr_validator(id) {
-        // niet leeg
-        Number($(id).val().trim()) ?
-        // dan errspan toevoegen
-        $(id).next('span').removeClass('hidden') && $(id).next().addClass('errspan') && $(id).removeClass('errcomplete') :
-        // anders verwijderen en hiden
-        $(id).next('span').addClass('hidden') && $(id).next('span').removeClass('errspan') && $(id).addClass('errcomplete');
-    }
+        //Check on input if not empty -> bij de optionals
+        function optional_nr_validator(opt_id) {
+            $(opt_id).val().trim() !== "" ?
+            // dan errspan toevoegen
+            (
+                //nummer?
+                Number($(opt_id).val().trim()) && Number($(opt_id).val().trim()) > 0  ?
+                //ok!
+                $(opt_id).next('span').removeClass('hidden') && $(opt_id).next().addClass('errspan') && $(opt_id).removeClass('errcomplete')
+                //geen nummer? niet ok!
+                : $(opt_id).next('span').addClass('hidden') && $(opt_id).addClass('errcomplete')
+            ) :
+            // anders verwijderen en hiden
+            $(opt_id).next('span').addClass('hidden') && $(opt_id).next('span').removeClass('errspan') && $(opt_id).removeClass('errcomplete');
+        }
 
         //TITLE
-        $('#create_auction_title').change(function(e) {
-            validator(this);
-        });
+        $('#create_auction_title').change(function(e) { validator(this); });
 
         //YEAR
-        $('#create_year').change(function(e) {
-            nr_validator(this);
-        });
+        $('#create_year').change(function(e) { nr_validator(this); });
 
         //WIDTH
-        $('#create_width').change(function(e) {
-            nr_validator(this);
-        });
+        $('#create_width').change(function(e) { nr_validator(this); });
 
         //HEIGHT
-        $('#create_height').change(function(e) {
-            nr_validator(this);
-        });
+        $('#create_height').change(function(e) { nr_validator(this); });
 
         //DEPTH
-        $('#create_depth').change(function(e) {
-            $(this).val().trim() !== "" ?
-            // dan errspan toevoegen
-                (
-                    //nummer?
-                    Number($(this).val().trim())  ?
-                    //ok!
-                    $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete')
-                    //geen nummer? niet ok!
-                    : $(this).next('span').addClass('hidden') && $(this).addClass('errcomplete')
-                )
-                :
-            // anders verwijderen en hiden
-            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).removeClass('errcomplete');
-        });
+        $('#create_depth').change(function(e) { optional_nr_validator(this) });
 
         //ORIGIN
-        $('#create_origin').change(function(e) {
-            validator(this);
-        });
+        $('#create_origin').change(function(e) { validator(this); });
 
         //DESCRIPTION
-        $('#create_description').change(function(e) {
-            validator(this);
-        });
+        $('#create_description').change(function(e) { validator(this); });
 
         //ORIGIN
-        $('#create_condition').change(function(e) {
-            validator(this);
-        });
+        $('#create_condition').change(function(e) { validator(this); });
 
         //MIN EST PRICE
-        $('#minimum_estimate_price').change(function(e) {
-            nr_validator(this);
-        });
+        $('#minimum_estimate_price').change(function(e) { nr_validator(this); });
 
         //MAX EST PRICE
-        $('#maximum_estimate_price').change(function(e) {
-            nr_validator(this);
-        });
+        $('#maximum_estimate_price').change(function(e) { nr_validator(this); });
 
         //BUYOUT PRICE
-        $('#buyout_price').change(function(e) {
-            $(this).val().trim() !== "" ?
-            // dan errspan toevoegen
-            $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') :
-            // anders verwijderen en hiden
-            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
-        });
+        $('#buyout_price').change(function(e) { optional_nr_validator(this) });
 
     //-------------------
     // REGISTER VALIDATION
     //-------------------
 
         //REGISTER EMAIL
-        $('#register_email').change(function(e) {
+        $('#register_email').change(function(e) { validator(this); });
 
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errcomplete toevoegen
-                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
-                // anders verwijderen
-                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
-        });
         //REGISTER AUCTION TITLE
-        $('#register_title').change(function(e) {
+        $('#register_title').change(function(e) { validator(this); });
 
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errcomplete toevoegen
-                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
-                // anders verwijderen
-                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
-        });
+        //REGISTER PWD
+        $('#register_pwd').change(function(e) { validator(this); });
 
         //REGISTER PWD CONF
-        $('#register_pwd_confirmation').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errcomplete toevoegen
-                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
-                // anders verwijderen
-                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
-        });
-
+        $('#register_pwd_confirmation').change(function(e) { validator(this); });
 
         //REGISTER ZIP
-        $('#register_zip').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errcomplete toevoegen
-                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
-                // anders verwijderen
-                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
-        });
+        $('#register_zip').change(function(e) { nr_validator(this); });
 
         //REGISTER CITY
-        $('#register_city').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errcomplete toevoegen
-                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
-                // anders verwijderen
-                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
-        });
+        $('#register_city').change(function(e) { validator(this); });
 
         //REGISTER ADDRESS
-        $('#register_address').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errcomplete toevoegen
-                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
-                // anders verwijderen
-                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
-        });
+        $('#register_address').change(function(e) { validator(this); });
 
         //REGISTER PHONE
-        $('#register_phone').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errcomplete toevoegen
-                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
-                // anders verwijderen
-                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
-        });
+        $('#register_phone').change(function(e) { validator(this); });
 
         //REGISTER NUMBER
-        $('#register_number').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errcomplete toevoegen
-                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
-                // anders verwijderen
-                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
-        });
+        $('#register_number').change(function(e) { nr_validator(this); });
 
         //REGISTER ACCOUNT NUMBER
-        $('#register_account_number').change(function(e) {
+        $('#register_account_number').change(function(e) { nr_validator(this); });
 
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errcomplete toevoegen
-                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
-                // anders verwijderen
-                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
-        });
-
-
-        //REGISTER ACCOUNT NUMBER
-        $('#register_vat_number').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errcomplete toevoegen
-                $(this).removeClass('errcomplete') && $(this).next().addClass('errcomplete') :
-                // anders verwijderen
-                $(this).addClass('errcomplete') && $(this).next('span').removeClass('errcomplete');
-        });
+        //REGISTER VAT NUMBER
+        $('#register_vat_number').change(function(e) { nr_validator(this); });
 
 });
 

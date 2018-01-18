@@ -71,133 +71,78 @@ $(document).ready(function(){
 
     });
 
-    function isInt(n) {
-        return n % 1 === 0;
-    }
-
     //-------------------
     // AUCTION VALIDATION
     //-------------------
 
+    //Check for numbers
+    function isInt(n) {
+        return n % 1 === 0;
+    }
+
+    //Check on input if not empty
+    function validator(id) {
+        // niet leeg
+        $(id).val().trim() !== "" ?
+        // dan errspan toevoegen
+        $(id).next('span').removeClass('hidden') && $(id).next().addClass('errspan') && $(id).removeClass('errcomplete') :
+        // anders verwijderen en hiden
+        $(id).next('span').addClass('hidden') && $(id).next('span').removeClass('errspan') && $(id).addClass('errcomplete');
+    }
+
         //TITLE
         $('#create_auction_title').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-            // dan errspan toevoegen
-            $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete') :
-            // anders verwijderen en hiden
-            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).addClass('errcomplete');
+            validator(this);
         });
 
         //YEAR
         $('#create_year').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errspan toevoegen
-                $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete') :
-                // anders verwijderen en hiden
-                $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).addClass('errcomplete');
+            validator(this);
         });
 
         //WIDTH
         $('#create_width').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-            // dan errspan toevoegen
-            $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete') :
-            // anders verwijderen en hiden
-            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).addClass('errcomplete');
+            validator(this);
         });
 
         //HEIGHT
         $('#create_height').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-            // dan errspan toevoegen
-            $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete') :
-            // anders verwijderen en hiden
-            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).addClass('errcomplete');
+            validator(this);
         });
 
         //DEPTH
         $('#create_depth').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-            // dan errspan toevoegen
-            $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete') :
-            // anders verwijderen en hiden
-            $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).addClass('errcomplete');
+            validator(this);
         });
 
         //ORIGIN
         $('#create_origin').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errspan toevoegen
-                $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete') :
-                // anders verwijderen en hiden
-                $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).addClass('errcomplete');
+            validator(this);
         });
 
         //DESCRIPTION
         $('#create_description').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errspan toevoegen
-                $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete') :
-                // anders verwijderen en hiden
-                $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).addClass('errcomplete');
+            validator(this);
         });
 
         //ORIGIN
         $('#create_condition').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errspan toevoegen
-                $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete') :
-                // anders verwijderen en hiden
-                $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).addClass('errcomplete');
+            validator(this);
         });
 
         //MIN EST PRICE
         $('#minimum_estimate_price').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errspan toevoegen
-                $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete') :
-                // anders verwijderen en hiden
-                $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).addClass('errcomplete');
+            validator(this);
         });
 
         //MAX EST PRICE
         $('#maximum_estimate_price').change(function(e) {
-
-            // niet leeg
-            $(this).val().trim() !== "" ?
-                // dan errspan toevoegen
-                $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') && $(this).removeClass('errcomplete') :
-                // anders verwijderen en hiden
-                $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan') && $(this).addClass('errcomplete');
+            validator(this);
         });
 
         //BUYOUT PRICE
         $('#buyout_price').change(function(e) {
-
-            // als leeg of geen getal
-            ($(this).val().trim() !== "" && isInt($(this).val().trim()))  ?
-                // dan errspan toevoegen
-                $(this).next('span').removeClass('hidden') && $(this).next().addClass('errspan') :
-                // anders verwijderen en hiden
-                $(this).next('span').addClass('hidden') && $(this).next('span').removeClass('errspan');
+            validator(this);
         });
 
     //-------------------

@@ -31,19 +31,19 @@
     <meta property="twitter:image" content="{{ asset("images/logo.png") }}" />
     <meta property="twitter:url" content="{{ asset("images/logo.png") }}" />
 
-    <link rel="icon" type="image/png" href="{{asset("images/logo.png")}}">
-    <link rel="canonical" href="https://landoretti.robbertluit.be">
+    <link rel="icon" type="image/png" href="{{asset("favicon.ico")}}">
+    <link rel="canonical" href="https://www.landoretti.robbertluit.be">
 
 @endsection
 
 @section('content')
 
     <div class="line"></div>
+    <div class="nav-collapse">
+        @include('partials.nav-top')
 
-    @include('partials.nav-top')
-
-    @include('partials.nav-bottom')
-
+        @include('partials.nav-bottom')
+    </div>
     @include('partials.carousel')
 
     @include('partials.cards')

@@ -7,6 +7,7 @@
     "require": {
         "php": ">=7.0.0",
         "5dmatwebsearch/advancesearch": "dev-master",
+        "doctrine/dbal": "^2.6",
         "fideloper/proxy": "~3.3",
         "htmlmin/htmlmin": "^5.0",
         "laravel/framework": "5.5.*",

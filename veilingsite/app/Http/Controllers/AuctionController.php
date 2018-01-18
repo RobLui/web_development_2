@@ -24,7 +24,7 @@ class AuctionController extends Controller
             [
             'category'                  => 'required|max:255|string',
             'auction_title'             => 'required|max:255|string',
-            'year'                      => 'required|date|date',
+            'year'                      => 'required|integer',
 
             'width'                     => 'required|max:9999|integer',
             'height'                    => 'required|max:9999|integer',

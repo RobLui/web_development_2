@@ -47,12 +47,18 @@ Route::get('/myauctions', 'myAuctionsController@index')
     ->name('myauctions')
 ;
 
-Route::get('/mybids', 'myBidsController@index')
+//Route::get('/mybids', 'myBidsController@index')
+Route::get('/mybids', function() {
+        return Redirect(url()->previous());
+    })
     ->middleware('auth')
     ->name('mybids')
 ;
 
-Route::get('/contact', 'ContactController@index')
+//Route::get('/contact', 'ContactController@index')
+Route::get('/contact', function() {
+    return Redirect(url()->previous());
+    })
     ->name('contact')
 ;
 

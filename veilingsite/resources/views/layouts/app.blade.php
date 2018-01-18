@@ -44,6 +44,9 @@
     {{-- Font awesome --}}
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" type="text/css" href="{{ asset('responsive-nav/responsive-nav.css') }}">
+{{--    <script src="{{ asset('responsive-nav/responsive-nav.js') }}"></script>--}}
+
 </head>
 <body>
     <div id="app">
@@ -52,5 +55,18 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    {{--<script>--}}
+        {{--// This will fire when document is ready:--}}
+        {{--$(window).resize(function() {--}}
+            {{--// This will fire each time the window is resized:--}}
+            {{--if ($(window).width() < 1024) {--}}
+                {{--var nav = responsiveNav(".nav-collapse");--}}
+            {{--}--}}
+            {{--if ($(window).width() > 1024) {--}}
+                {{--var nav = responsiveNav().removeEvent('.nav-collapse');--}}
+            {{--}--}}
+
+        {{--}).resize(); // This will simulate a resize to trigger the initial run.--}}
+    {{--</script>--}}
 </body>
 </html>

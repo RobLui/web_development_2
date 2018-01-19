@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('seo')
-
+@section('title')
+    Landoretti Item detail
 @endsection
 
 @section('content')

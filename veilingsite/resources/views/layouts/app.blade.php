@@ -18,27 +18,19 @@
             ga('send', 'pageview');
         }
     </script>
-    <meta name="google-site-verification" content="ZaFsvkTeS7woY0uD7ZYCpMCxNlu3PDeQgmr0BAR1KDY" />
 
+    <meta name="google-site-verification" content="ZaFsvkTeS7woY0uD7ZYCpMCxNlu3PDeQgmr0BAR1KDY" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     @yield('seo')
 
-    <!-- Styles -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="none" onload="if(media!='all')media='all'">
-
-    {{-- Custom css --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('sass/custom.css') }}">
-
-    {{-- Foundation --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('css-foundation/foundation.min.css') }}">
-
-    {{-- Font awesome --}}
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>

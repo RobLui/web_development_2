@@ -14,9 +14,9 @@
                     </ul>
 
                     <ul class="menu pull-right">
-                        <li><a href="{{ route('set-language','nl') }}" title="nl translation">NL</a></li>
-                        <li><a href="{{ route('set-language','fr') }}" title="fr tanslation">FR</a></li>
-                        <li><a href="{{ route('set-language','en') }}" title="en translation" class="active-bold">EN</a></li>
+                        <li><a href="{{ route('set-language','nl') }}" title="nl translation" class="{{ Config::get('app.locale') == "nl" ? 'active-bold' : '' }}">NL</a></li>
+                        <li><a href="{{ route('set-language','fr') }}" title="fr tanslation" class="{{ Config::get('app.locale') == "fr" ? 'active-bold' : '' }}">FR</a></li>
+                        <li><a href="{{ route('set-language','en') }}" title="en translation" class="{{ Config::get('app.locale') == "en" ? 'active-bold' : '' }}">EN</a></li>
                     </ul>
                 </div>
             </div>

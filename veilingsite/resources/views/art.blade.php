@@ -35,8 +35,8 @@
 
 
 
-        <div class="col-sm-12 margin-bottom-3">
-            <div class="col-sm-10 col-sm-offset-1 margin-bottom-2">
+        <div class="col-sm-12 col-md-12 margin-bottom-3">
+            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 margin-bottom-2">
 
                 {{--BREADCRUMBS--}}
                 <div class="col-sm-12">
@@ -48,7 +48,7 @@
                 </div>
 
             {{-- TOP --}}
-                <div class="col-sm-12 margin-bottom-3">
+                <div class="col-sm-12 col-sm-offset-0 margin-bottom-3">
                     {{--linkse afbeelding--}}
                     <div class="col-sm-6 margin-left-1-minus">
                         <img class="imghover percent-99" src="{{ asset('images/mockups/groot_hoofd.jpg') }}" alt="groot hoofd">

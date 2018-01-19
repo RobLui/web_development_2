@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    Landoretti Home
+    Landoretti - Modern Auction Platform
 @endsection
 
 @section('seo')
@@ -12,7 +12,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     {{--GENERAL--}}
-    <meta name="description" content="Robbert Luit Landoretti auctions" />
+    <meta name="description" content="Landoretti. An auction platform where people can buy inspiring artwork to enjoy. Find your piece of art at the rhythm of your heart." />
     <meta name="title" content="Landoretti">
     <meta name="locale" content="en">
     <meta name="keywords" content="Landoretti, Art, Drinks, Unique artwork, abstract">

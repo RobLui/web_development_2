@@ -20,6 +20,18 @@ $active-bold: 700;
 $bold: 500;
 $vet: 300;
 
+
+h1 {
+  display: block;
+  font-size: 2.5em !important;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  text-transform: none !important;
+}
+
+
 .test-bg-blue {
   background: blue;
 }

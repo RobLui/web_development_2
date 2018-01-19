@@ -134,10 +134,10 @@
                             </a>
                             <a href="#twitter" title="twitter link">
                                 {{--<i class="fa fa-twitter fa-2x margin-right-1" aria-hidden="true"></i>--}}
-                                <img src="{{ asset('images/elements/twitter-logo.png') }}" alt="twitter icon" class="margin-right-1">
+                                <img src="{{ asset('images/elements/twitter-logo.png') }}" title="twitter icon" alt="twitter icon" class="margin-right-1">
                             </a>
                             <a href="#youtube" title="youtube link">
-                                <img src="{{ asset('images/elements/youtube-logo.png') }}" alt="youtube icon" class="margin-right-1">
+                                <img src="{{ asset('images/elements/youtube-logo.png') }}" title="youtube icon" alt="youtube icon" class="margin-right-1">
                                 {{--<i class="fa fa-youtube fa-2x margin-right-1" aria-hidden="true"></i>--}}
                             </a>
                             <a href="#google" title="google link">

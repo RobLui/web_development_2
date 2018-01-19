@@ -4,7 +4,7 @@
             <div class="grid-x grid-margin-x text-center">
                 <div class="col-md-12 col-sm-12">
                     <div class="col-md-12 col-sm-12 margin-top-2 margin-bottom-2">
-                        <h3 class="midnight-blue margin-bottom-1">Most popular this week <img class="rotate-90" src="{{ asset('images/elements/arrow-down.png') }}" alt="arrow-down" title="arrow down"></h3>
+                        <h1 class="midnight-blue margin-bottom-1">Most popular this week <img class="rotate-90" src="{{ asset('images/elements/arrow-down.png') }}" alt="arrow-down" title="arrow down"></h1>
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="col-md-4 col-sm-4 col-xs-12">
 

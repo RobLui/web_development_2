@@ -10,7 +10,10 @@
                 </p>
             </div>
             <div class="col-md-4 midnight-blue">
-                <h5>Advanced Options</h5>
+                <h5 class="float-left">Advanced Options</h5>
+                <a class="show-filter" href="#">
+                    <img class="float-left margin-left-1" src="{{asset('images/elements/arrow-light-grey.png')}}" alt="pijltje">
+                </a>
             </div>
         </div>
 

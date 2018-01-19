@@ -40,7 +40,6 @@
 
     {{--JQUERY--}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="{{ asset('js/custom.js') }}"></script>
 
     {{-- Font awesome --}}
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -56,6 +55,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/custom.min.js') }}"></script>
     {{--<script>--}}
         {{--// This will fire when document is ready:--}}
         {{--$(window).resize(function() {--}}

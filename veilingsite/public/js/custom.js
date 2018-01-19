@@ -172,6 +172,10 @@ $(document).ready(function(){
         $('#register_vat_number').change(function(e) { nr_validator(this); });
 
         $('#artwork_image').change(function(e) { validator(this); });
+
+        $('.show-filter').click(function(e) {
+            console.log('make active');
+        });
 });
 
 

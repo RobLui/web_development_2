@@ -543,14 +543,21 @@ p a {
 .full-width {
   width: 100%; }
 
-.carousel-inner img {
-  width: 100%; }
-
-.carousel-inner li {
-  border-radius: 50% !important; }
+.carousel-inner {
+  height: 520px !important; }
+  .carousel-inner img {
+    width: 100%; }
 
 .rotated {
   transform: rotate(90deg);
   transform-origin: 65% 50%; }
+
+.adapted {
+  background-color: white;
+  max-height: 10px !important;
+  max-width: 10px !important; }
+
+.carousel-indicators li {
+  padding: 0px !important; }
 
 /*# sourceMappingURL=custom.css.map */

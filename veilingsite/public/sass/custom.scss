@@ -762,17 +762,24 @@ p {
 }
 
 .carousel-inner  {
+  height: 520px !important;
+
   img {
     width:100%;
   }
-}
-.carousel-inner {
-  li {
-      border-radius: 50% !important;
-    }
 }
 
 .rotated {
   transform: rotate(90deg);
   transform-origin: 65% 50%;
+}
+
+.adapted {
+  background-color: white;
+  max-height: 10px !important;
+  max-width: 10px !important;
+}
+
+.carousel-indicators li {
+  padding:0px !important;
 }

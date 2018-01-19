@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Landoretti Home
+@endsection
+
 @section('seo')
 
     {{--APPLE--}}

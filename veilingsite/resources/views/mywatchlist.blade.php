@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('seo')
-
+@section('title')
+    Landoretti MyWatchlist
 @endsection
 
 @section('content')

@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Landoretti MyBids
+@endsection
+
 @section('content')
 
     <div class="line"></div>

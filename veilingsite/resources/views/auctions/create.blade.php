@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+   Create Auction
+@endsection
+
 @section('content')
 
     <div class="line"></div>
@@ -227,13 +231,6 @@
                             </div>
                         </div>
                     </div>
-
-                    {{-- ID --}}
-                    {{--<div class="form-check hidden">--}}
-                        {{--<label class="form-check-label">--}}
-                            {{--<input name="fk_user_id" type="number" value="{{ Auth::id() }}">--}}
-                        {{--</label>--}}
-                    {{--</div>--}}
 
                     {{-- ADD AUCTION BUTTON--}}
                     <div class="col-md-3 col-sm-3 margin-top-half">

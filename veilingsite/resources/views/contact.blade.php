@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Landoretti Contact
+@endsection
+
 @section('content')
 
     <div class="line"></div>

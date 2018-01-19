@@ -18,7 +18,7 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <img src="{{ asset('images/carousel-images/paintings.png') }}" title="paintings" alt="paintings">
+            <img src="{{ asset('images/carousel-images/paintings.jpg') }}" title="paintings" alt="paintings">
         </div>
 
         <div class="item">
@@ -31,7 +31,7 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <img src="{{ asset('images/carousel-images/cameras.png') }}" title="cameras" alt="cameras">
+            <img src="{{ asset('images/carousel-images/cameras.jpg') }}" title="cameras" alt="cameras">
         </div>
 
         <div class="item">
@@ -43,7 +43,7 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <img src="{{ asset('images/carousel-images/paintings.png') }}" title="paintings" alt="paintings">
+            <img src="{{ asset('images/carousel-images/paintings.jpg') }}" title="paintings" alt="paintings">
         </div>
 
         <div class="item">
@@ -55,7 +55,7 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <img src="{{ asset('images/carousel-images/cameras.png') }}" title="cameras" alt="cameras">
+            <img src="{{ asset('images/carousel-images/cameras.jpg') }}" title="cameras" alt="cameras">
         </div>
     </div>
 

@@ -130,18 +130,18 @@
                         <li class="list-unstyled">
                             <a href="#facebook" title="facebook link">
                                 {{--<i class="fa fa-facebook fa-2x margin-right-1" aria-hidden="true"></i>--}}
-                                <img src="{{ asset('images/elements/facebook-logo.png') }}" class="margin-right-1">
+                                <img src="{{ asset('images/elements/facebook-logo.png') }}" alt="facebook icon" class="margin-right-1">
                             </a>
                             <a href="#twitter" title="twitter link">
                                 {{--<i class="fa fa-twitter fa-2x margin-right-1" aria-hidden="true"></i>--}}
-                                <img src="{{ asset('images/elements/twitter-logo.png') }}" class="margin-right-1">
+                                <img src="{{ asset('images/elements/twitter-logo.png') }}" alt="twitter icon" class="margin-right-1">
                             </a>
                             <a href="#youtube" title="youtube link">
-                                <img src="{{ asset('images/elements/youtube-logo.png') }}" class="margin-right-1">
+                                <img src="{{ asset('images/elements/youtube-logo.png') }}" alt="youtube icon" class="margin-right-1">
                                 {{--<i class="fa fa-youtube fa-2x margin-right-1" aria-hidden="true"></i>--}}
                             </a>
                             <a href="#google" title="google link">
-                                <img src="{{ asset('images/elements/google-plus-logo.png') }}" class="margin-right-1">
+                                <img src="{{ asset('images/elements/google-plus-logo.png') }}" alt="google icon" class="margin-right-1">
                                 {{--<i class="fa fa-google fa-2x" aria-hidden="true"></i>--}}
                             </a>
                         </li>

@@ -26,9 +26,10 @@ $vet: 300;
   background: orange;
 }
 
-//* {
-//  font-family: Arial, Helvetica, sans-serif
-//}
+a {
+  text-decoration:none !important;
+}
+
 
 .background-none {
   background: none;
@@ -152,6 +153,10 @@ $vet: 300;
 }
 
 .margin-left-1half-minus {
+  margin-left: -2em;
+}
+
+.margin-left-images-minus-2 {
   margin-left: -2em;
 }
 
@@ -566,6 +571,10 @@ p {
   transition: all 0.3s;
 }
 
+.ovrly:hover, .fa {
+  cursor: pointer;
+}
+
 .imagebtn .buttons {
   position: absolute;
   top: 50%;
@@ -689,6 +698,11 @@ p {
   display: block;
 }
 
+.percent-99 {
+  width: 99%;
+  display: block;
+}
+
 .percent-100 {
   width: 100%;
   display: block;
@@ -792,4 +806,9 @@ p {
 
 .carousel-indicators li {
   padding:0px !important;
+}
+
+.hoverbtn:hover {
+  cursor: pointer;
+  background: $light-grey;
 }

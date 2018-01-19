@@ -1,7 +1,7 @@
 <div class="col-md-12">
     <div class="col-sm-10 col-sm-offset-1 bordered-top">
         <div class="col-sm-12 margin-top-2">
-            <div class="col-sm-8">
+            <div class="col-sm-9">
                 <p>
                     <span class="black">SORT BY</span>
                     ending soonest | ending latest |
@@ -9,7 +9,7 @@
                     | popular auctions
                 </p>
             </div>
-            <div class="margin-left-6 midnight-blue float-left">
+            <div class="margin-left-4 midnight-blue float-left">
                 <a class="pull-right show-filter" href="#">
                     <img class="float-left margin-left-1" src="{{asset('images/elements/arrow-light-grey.png')}}" alt="pijltje">
                 </a>

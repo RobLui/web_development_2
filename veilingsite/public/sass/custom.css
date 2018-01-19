@@ -4,6 +4,9 @@
 .test-bg-orange {
   background: orange; }
 
+a {
+  text-decoration: none !important; }
+
 .background-none {
   background: none; }
   .background-none li + li::before {
@@ -92,6 +95,9 @@
   margin-left: -1em; }
 
 .margin-left-1half-minus {
+  margin-left: -2em; }
+
+.margin-left-images-minus-2 {
   margin-left: -2em; }
 
 .margin-left-images-minus {
@@ -380,6 +386,9 @@ p a {
   opacity: 0;
   transition: all 0.3s; }
 
+.ovrly:hover, .fa {
+  cursor: pointer; }
+
 .imagebtn .buttons {
   position: absolute;
   top: 50%;
@@ -481,6 +490,10 @@ p a {
   width: 95%;
   display: block; }
 
+.percent-99 {
+  width: 99%;
+  display: block; }
+
 .percent-100 {
   width: 100%;
   display: block; }
@@ -565,5 +578,9 @@ p a {
 
 .carousel-indicators li {
   padding: 0px !important; }
+
+.hoverbtn:hover {
+  cursor: pointer;
+  background: #e6e6e6; }
 
 /*# sourceMappingURL=custom.css.map */

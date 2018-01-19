@@ -549,4 +549,8 @@ p a {
 .carousel-inner li {
   border-radius: 50% !important; }
 
+.rotated {
+  transform: rotate(-90deg);
+  transform-origin: 65% 50%; }
+
 /*# sourceMappingURL=custom.css.map */

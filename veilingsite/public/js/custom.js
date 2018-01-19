@@ -174,7 +174,10 @@ $(document).ready(function(){
         $('#artwork_image').change(function(e) { validator(this); });
 
         $('.show-filter').click(function(e) {
-            console.log('make active');
+            e.preventDefault();
+            $('.filter').hasClass('hidden') ?
+            $('.filter').removeClass('hidden') && $(this).addClass('rotated') :
+            $('.filter').addClass('hidden') && $(this).removeClass('rotated');
         });
 });
 

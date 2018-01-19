@@ -31,7 +31,6 @@
             @else
                 <h4>There was nothing found for your search terms in the database</h4>
             @endif
-
         @endif
 
             <div class="col-sm-12 margin-bottom-3">
@@ -46,7 +45,7 @@
                     </div>
 
                     <div class="col-sm-3">
-                        <img class="full-width" src="{{ asset('images/mockups/details/perfume_small.png') }}" alt="Perfume small">
+                        <img class="full-width" src="{{ asset('images/mockups/lachend.jpg') }}" alt="lachend">
                         <a title="#" href="#">
                             <div class="caption margin-top-1 margin-left-1">
                                 <p class="midnight-blue">1979, Salvador Dali</p>
@@ -65,7 +64,7 @@
                     </div>
 
                     <div class="col-sm-3 margin-left-images-minus">
-                        <img class="full-width" src="{{ asset('images/mockups/details/male_small.png') }}" alt="Male small">
+                        <img class="full-width" src="{{ asset('images/mockups/brug.jpg') }}" alt="brug">
                         <a title="#" href="#">
                             <div class="caption margin-top-1 margin-left-1">
                                 <p class="midnight-blue">1979, Salvador Dali</p>
@@ -84,7 +83,7 @@
                     </div>
 
                     <div class="col-sm-3 margin-left-images-minus">
-                        <img class="full-width" src="{{ asset('images/mockups/details/painting_small.png') }}" alt="Painting small">
+                        <img class="full-width" src="{{ asset('images/mockups/custom/olifant.jpg') }}" alt="Painting small">
                         <a title="#" href="#">
                             <div class="caption margin-top-1 margin-left-1">
                                 <p class="midnight-blue">1979, Salvador Dali</p>
@@ -103,7 +102,7 @@
                     </div>
 
                     <div class="col-sm-3 margin-left-images-minus">
-                        <img class="full-width" src="{{ asset('images/mockups/details/butt_small.png') }}" alt="Butt small">
+                        <img class="full-width" src="{{ asset('images/mockups/radio.jpg') }}" alt="radio">
                         <a title="#" href="#">
                             <div class="caption margin-top-1 margin-left-1">
                                 <p class="midnight-blue">1979, Salvador Dali</p>
@@ -123,6 +122,7 @@
                 </div>
             </div>
         </div>
+    @include('partials.footer')
     @include('partials.nav-bottom')
 
     <div class="line"></div>

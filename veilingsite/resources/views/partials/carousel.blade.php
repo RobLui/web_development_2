@@ -10,34 +10,51 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-{{--            <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" title="bol" class="bol">--}}
             <div class="shiny col-sm-8 col-sm-offset-2 absolutes">
+                <div class="col-sm-1 absolutes">
+                    <div class="col-sm-3">
+                        <img src="{{ asset('images/elements/groen-bolleke.png') }}" title="bol" alt="bol" class="bol-home">
+                    </div>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <img src="{{ asset('images/carousel-images/paintings.png') }}" title="paintings" alt="paintings">
         </div>
 
         <div class="item">
+
             <div class="shiny col-sm-8 col-sm-offset-2 absolutes">
+                <div class="col-sm-1 absolutes">
+                    <div class="col-sm-3">
+                        <img src="{{ asset('images/elements/groen-bolleke.png') }}" title="bol" alt="bol" class="bol-home">
+                    </div>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-{{--            <img src="{{ asset('images/elements/groen-bolleke.png') }}" title="bol" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">--}}
             <img src="{{ asset('images/carousel-images/cameras.png') }}" title="cameras" alt="cameras">
         </div>
 
         <div class="item">
             <div class="shiny col-sm-8 col-sm-offset-2 absolutes">
+                <div class="col-sm-1 absolutes">
+                    <div class="col-sm-3">
+                        <img src="{{ asset('images/elements/groen-bolleke.png') }}" title="bol" alt="bol" class="bol-home">
+                    </div>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-{{--            <img src="{{ asset('images/elements/groen-bolleke.png') }}" title="bol" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">--}}
             <img src="{{ asset('images/carousel-images/paintings.png') }}" title="paintings" alt="paintings">
         </div>
 
         <div class="item">
             <div class="shiny col-sm-8 col-sm-offset-2 absolutes">
+                <div class="col-sm-1 absolutes">
+                    <div class="col-sm-3">
+                        <img src="{{ asset('images/elements/groen-bolleke.png') }}" title="bol" alt="bol" class="bol-home">
+                    </div>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-{{--            <img src="{{ asset('images/elements/groen-bolleke.png') }}" title="bol" alt="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">--}}
             <img src="{{ asset('images/carousel-images/cameras.png') }}" title="cameras" alt="cameras">
         </div>
     </div>

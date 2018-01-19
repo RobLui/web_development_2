@@ -592,6 +592,15 @@ p a {
   position: absolute;
   z-index: 100; }
 
+.bol-home {
+  height: 2em;
+  width: 2em;
+  display: block;
+  margin-left: -4.4em;
+  margin-top: -2.4em;
+  position: absolute;
+  z-index: 100; }
+
 .absolutes {
   position: absolute; }
 

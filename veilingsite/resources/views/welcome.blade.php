@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     {{--GENERAL--}}
-    <meta name="description" content="Landoretti auctions" />
+    <meta name="description" content="Robbert Luit Landoretti auctions" />
     <meta name="title" content="Landoretti">
     <meta name="locale" content="en">
     <meta name="keywords" content="Landoretti, Art, Drinks, Unique artwork, abstract">
@@ -41,7 +41,6 @@
     <div class="line"></div>
     <div class="nav-collapse">
         @include('partials.nav-top')
-
         @include('partials.nav-bottom')
     </div>
     @include('partials.carousel')

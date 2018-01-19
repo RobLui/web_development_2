@@ -10,8 +10,6 @@
 
     @include('partials.no-carousel')
 
-
-
     {{-- ITEM DATA OUTPUT --}}
     <div class="col-md-12 col-sm-12">
         @if(!empty($item))

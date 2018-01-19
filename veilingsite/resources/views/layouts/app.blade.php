@@ -13,6 +13,7 @@
             ga('send', 'pageview');
         }
     </script>
+    <meta name="google-site-verification" content="ZaFsvkTeS7woY0uD7ZYCpMCxNlu3PDeQgmr0BAR1KDY" />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

@@ -543,4 +543,10 @@ p a {
 .full-width {
   width: 100%; }
 
+.carousel-inner img {
+  width: 100%; }
+
+.carousel-inner li {
+  border-radius: 50% !important; }
+
 /*# sourceMappingURL=custom.css.map */

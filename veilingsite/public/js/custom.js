@@ -1,22 +1,11 @@
 $(document).ready(function(){
 
-    // console.log("loaded");
-
-    // $("#myInput").on("keyup", function() {
-    //     var value = $(this).val().toLowerCase();
-    //     $("#myList li").filter(function() {
-    //         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    //     });
-    // });
-
     //LOGIN TOGGLER
     $('#login-toggler').click(function(e) {
         $('#first-login-view').addClass('hidden');
         $('#second-login-view').removeClass('hidden');
         e.preventDefault();
-        // console.log("clicked");
     });
-
 
     $('.checkmark').click(function(e) {
         if($(this).hasClass('blue')) {
@@ -101,14 +90,14 @@ $(document).ready(function(){
             $(opt_id).val().trim() !== "" ?
             // dan errspan toevoegen
             (
-                //nummer?
+                // nummer?
                 Number($(opt_id).val().trim()) && Number($(opt_id).val().trim()) > 0  ?
-                //ok!
+                // ok!
                 $(opt_id).next('span').removeClass('hidden') && $(opt_id).next().addClass('errspan') && $(opt_id).removeClass('errcomplete')
-                //geen nummer? niet ok!
+                // geen nummer? niet ok!
                 : $(opt_id).next('span').addClass('hidden') && $(opt_id).addClass('errcomplete')
             ) :
-            // anders verwijderen en hiden
+            // anders verwijderen en verbergen
             $(opt_id).next('span').addClass('hidden') && $(opt_id).next('span').removeClass('errspan') && $(opt_id).removeClass('errcomplete');
         }
 

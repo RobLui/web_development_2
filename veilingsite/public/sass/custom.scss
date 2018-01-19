@@ -7,6 +7,8 @@ $red: lighten(red,10%);;
 $light-grey: #e6e6e6;
 $lightest-grey: #F5F5F5;
 $light-dark-grey: grey;
+$shiny-blue: #3a57ab;
+
 
 $black: #000;
 $white: #fff;
@@ -831,7 +833,7 @@ p {
   h5 {
     color: white;
   }
-  background: #3a57ab;
+  background: $shiny-blue;
   opacity: 0.85;
   height: 16em;
   width: 17rem;
@@ -851,4 +853,34 @@ p {
 .right-10 {
   right: 10%;
   position: absolute;
+}
+
+.shiny {
+  background: $shiny-blue;
+  opacity: 0.85;
+  color:white;
+  padding: 1.5em;
+  bottom: 300px;
+}
+
+@media(max-width:980px) {
+
+  .shiny {
+    background: $shiny-blue;
+    opacity: 0.85;
+    color:white;
+    padding: 1.5em;
+    bottom: 300px;
+  }
+}
+
+@media(min-width:1500px) {
+
+  .shiny {
+    background: $shiny-blue;
+    opacity: 0.85;
+    color:white;
+    padding: 1.5em;
+    bottom: 600px;
+  }
 }

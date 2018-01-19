@@ -41,7 +41,7 @@
                             @endguest
                       </ul>
 
-                    <ul class="menu pull-right">
+                    <ul class="menu pull-right searcher">
                         <li>
                             {!! Form::open(array('route' => 'search', 'class' => 'form-horizontal')) !!}
                                 <div class="input-group">

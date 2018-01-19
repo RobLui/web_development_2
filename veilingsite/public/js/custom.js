@@ -181,7 +181,12 @@ $(document).ready(function(){
             $('.filter').removeClass('hidden') && $(this).addClass('rotated') :
             $('.filter').addClass('hidden') && $(this).removeClass('rotated');
         });
+        $('.responsive-nav').click(function(e) {
+            e.preventDefault();
+            $('.responsive-nav').hasClass('topnav') ?
+            $('.responsive-nav').removeClass('topnav') && $(this).addClass('topnav') :
+            $('.responsive-nav').addClass('topnav') && $(this).removeClass('topnav');
+        });
 });
-
 
 

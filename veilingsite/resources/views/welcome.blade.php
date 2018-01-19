@@ -39,10 +39,11 @@
 @section('content')
 
     <div class="line"></div>
-    <div class="nav-collapse">
+    <a class="responsive-nav" id="responsive-nav">
         @include('partials.nav-top')
         @include('partials.nav-bottom')
-    </div>
+    </a>
+
     @include('partials.carousel')
 
     @include('partials.cards')

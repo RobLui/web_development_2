@@ -21,7 +21,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @yield('seo')
 
-    <title>{{ config('app.name', 'Veilingsite') }}</title>
+    <title>{{ config('app.name', 'Landoretti') }}</title>
 
     <!-- Styles -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
@@ -42,9 +42,7 @@
 
     {{-- Font awesome --}}
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-{{--    <link rel="stylesheet" type="text/css" href="{{ asset('responsive-nav/responsive-nav.css') }}">--}}
-{{--    <script src="{{ asset('responsive-nav/responsive-nav.js') }}"></script>--}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive-nav.css') }}">
 
 </head>
 <body>
@@ -53,22 +51,9 @@
     </div>
 
     <!-- Scripts -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/custom.min.js') }}"></script>
-{{--    <script src="{{ asset('js/custom.js') }}"></script>--}}
-    {{--<script>--}}
-        {{--// This will fire when document is ready:--}}
-        {{--$(window).resize(function() {--}}
-            {{--// This will fire each time the window is resized:--}}
-            {{--if ($(window).width() < 1024) {--}}
-                {{--var nav = responsiveNav(".nav-collapse");--}}
-            {{--}--}}
-            {{--if ($(window).width() > 1024) {--}}
-                {{--var nav = responsiveNav().removeEvent('.nav-collapse');--}}
-            {{--}--}}
-
-        {{--}).resize(); // This will simulate a resize to trigger the initial run.--}}
-    {{--</script>--}}
 </body>
 </html>

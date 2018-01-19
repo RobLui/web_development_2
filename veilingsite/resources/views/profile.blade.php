@@ -87,7 +87,7 @@
             <div class="col-sm-12">
                 <div class="bordered-bottom">
                     <span class="light-dark-grey">25d 14u 44m</span>
-                    <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                    <button class="hoverbtn margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
                 </div>
             </div>
         </div>
@@ -106,7 +106,7 @@
             <div class="col-sm-12">
                 <div class="bordered-bottom">
                     <span class="light-dark-grey">25d 14u 44m</span>
-                    <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                    <button class="hoverbtn margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@
             <div class="col-sm-12">
                 <div class="bordered-bottom">
                     <span class="light-dark-grey">25d 14u 44m</span>
-                    <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                    <button class="hoverbtn margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
                 </div>
             </div>
         </div>
@@ -144,7 +144,7 @@
             <div class="col-sm-12">
                 <div class="bordered-bottom">
                     <span class="light-dark-grey">25d 14u 44m</span>
-                    <button class="margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                    <button class="hoverbtn margin-left-1-2 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
                 </div>
             </div>
         </div>

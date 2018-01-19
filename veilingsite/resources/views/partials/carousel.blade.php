@@ -10,7 +10,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-{{--            <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" title="bol" style="position:absolute; margin-left:2em; margin-top:3em; z-index:100;">--}}
+            <img src="{{ asset('images/elements/groen-bolleke.png') }}" alt="bol" title="bol" class="bol">
             <img src="{{ asset('images/carousel-images/paintings.png') }}" title="paintings" alt="paintings">
         </div>
 

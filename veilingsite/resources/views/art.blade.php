@@ -68,7 +68,7 @@
                         <div class="col-sm-12">
                             <div class="bordered-bottom">
                                 <span class="light-dark-grey">25d 14u 44m</span>
-                                <button class="hoverbtn margin-left-half padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                                <button class="hoverbtn margin-top-minus-half padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                         <div class="col-sm-12">
                             <div class="bordered-bottom">
                                 <span class="light-dark-grey">25d 14u 44m</span>
-                                <button class="hoverbtn margin-left-half padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                                <button class="hoverbtn margin-top-minus-half padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                         <div class="col-sm-12">
                             <div class="bordered-bottom">
                                 <span class="light-dark-grey">25d 14u 44m</span>
-                                <button class="hoverbtn margin-left-half padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                                <button class="hoverbtn margin-top-minus-1 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                         <div class="col-sm-12">
                             <div class="bordered-bottom">
                                 <span class="light-dark-grey">25d 14u 44m</span>
-                                <button class="hoverbtn margin-left-half padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
+                                <button class="hoverbtn margin-top-minus-1 padding-complete midnight-blue bordered-left bordered-right bordered-top">visit auction ></button>
                             </div>
                         </div>
                     </div>

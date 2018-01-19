@@ -583,4 +583,33 @@ p a {
   cursor: pointer;
   background: #e6e6e6; }
 
+img.bol {
+  height: 2em;
+  position: absolute;
+  width: 2em;
+  margin-left: 2em;
+  margin-top: 3em;
+  z-index: 100; }
+
+.absolutes {
+  position: absolute; }
+
+.blue-visit {
+  background: #3a57ab;
+  opacity: 0.85;
+  height: 18em;
+  width: 17rem;
+  display: block;
+  color: white;
+  padding: 1.5em; }
+  .blue-visit h5 {
+    color: white; }
+
+.white-visit {
+  display: block;
+  padding: 1.5em;
+  width: 17rem;
+  background: white;
+  color: #47A39F; }
+
 /*# sourceMappingURL=custom.css.map */

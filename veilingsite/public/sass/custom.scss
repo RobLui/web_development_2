@@ -812,3 +812,37 @@ p {
   cursor: pointer;
   background: $light-grey;
 }
+
+img.bol {
+  height:2em;
+  position:absolute;
+  width:2em;
+  margin-left:2em;
+  margin-top:3em;
+  z-index:100;
+}
+
+.absolutes {
+  position: absolute;
+}
+
+.blue-visit {
+  h5 {
+    color: white;
+  }
+  background: #3a57ab;
+  opacity: 0.85;
+  height: 18em;
+  width: 17rem;
+  display: block;
+  color: white;
+  padding:1.5em;
+}
+
+.white-visit {
+  display: block;
+  padding:1.5em;
+  width: 17rem;
+  background: white;
+  color: $midnight-light-blue;
+}

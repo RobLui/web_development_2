@@ -583,12 +583,13 @@ p a {
   cursor: pointer;
   background: #e6e6e6; }
 
-img.bol {
+.bol {
   height: 2em;
-  position: absolute;
   width: 2em;
-  margin-left: 2em;
-  margin-top: 3em;
+  display: block;
+  margin-top: 2em;
+  margin-left: -0.5em;
+  position: absolute;
   z-index: 100; }
 
 .absolutes {
@@ -597,7 +598,7 @@ img.bol {
 .blue-visit {
   background: #3a57ab;
   opacity: 0.85;
-  height: 18em;
+  height: 16em;
   width: 17rem;
   display: block;
   color: white;
@@ -611,5 +612,9 @@ img.bol {
   width: 17rem;
   background: white;
   color: #47A39F; }
+
+.right-10 {
+  right: 10%;
+  position: absolute; }
 
 /*# sourceMappingURL=custom.css.map */

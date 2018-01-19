@@ -813,12 +813,13 @@ p {
   background: $light-grey;
 }
 
-img.bol {
+.bol {
   height:2em;
-  position:absolute;
   width:2em;
-  margin-left:2em;
-  margin-top:3em;
+  display: block;
+  margin-top:2em;
+  margin-left: -0.5em;
+  position: absolute;
   z-index:100;
 }
 
@@ -832,7 +833,7 @@ img.bol {
   }
   background: #3a57ab;
   opacity: 0.85;
-  height: 18em;
+  height: 16em;
   width: 17rem;
   display: block;
   color: white;
@@ -845,4 +846,9 @@ img.bol {
   width: 17rem;
   background: white;
   color: $midnight-light-blue;
+}
+
+.right-10 {
+  right: 10%;
+  position: absolute;
 }

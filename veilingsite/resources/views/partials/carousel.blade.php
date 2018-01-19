@@ -32,12 +32,12 @@
 
     <!-- Left and right controls -->
     <a href="#myCarousel" title="#myCarousel prev" class="left carousel-control" data-slide="prev">
-        <span><img src="{{ asset('images/elements/arrow-left-home.png') }}" alt="left-arrow"></span>
+        <span class="pull-left margin-top-15"><img src="{{ asset('images/elements/arrow-left-home.png') }}" alt="left-arrow"></span>
         <span class="sr-only">Previous</span>
     </a>
 
     <a href="#myCarousel" title="#myCarousel next" class="right carousel-control" data-slide="next">
-        <span><img src="{{ asset('images/elements/arrow-right-home.png') }}" alt="left-arrow"></span>
+        <span class="pull-right margin-top-15"><img src="{{ asset('images/elements/arrow-right-home.png') }}" alt="left-arrow"></span>
         <span class="sr-only">Next</span>
     </a>
 

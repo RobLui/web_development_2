@@ -130,6 +130,12 @@
 .margin-top-12 {
   margin-top: 12em; }
 
+@media (min-width: 960px) {
+  .margin-top-15 {
+    margin-top: 15em; } }
+@media (max-width: 960px) {
+  .margin-top-15 {
+    margin-top: 7.5em; } }
 .padding-top-half {
   padding-top: 0.5em;
   padding-bottom: 0.5em; }
@@ -544,7 +550,7 @@ p a {
   width: 100%; }
 
 .carousel-inner {
-  height: 520px !important; }
+  height: 700px !important; }
   .carousel-inner img {
     width: 100%; }
 

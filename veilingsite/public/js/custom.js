@@ -101,6 +101,8 @@ $(document).ready(function(){
             $(opt_id).next('span').addClass('hidden') && $(opt_id).next('span').removeClass('errspan') && $(opt_id).removeClass('errcomplete');
         }
 
+        var global_count = 0;
+
         //TITLE
         $('#create_auction_title').change(function(e) { validator(this); });
 

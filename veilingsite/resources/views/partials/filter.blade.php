@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="filter">
+        <div class="filter hidden">
             <div class="col-md-3 col-sm-4 margin-top-2">
 
                 <ul class="list-group">
